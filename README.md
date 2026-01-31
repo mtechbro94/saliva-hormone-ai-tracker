@@ -1,373 +1,215 @@
-# 🧬 Saliva-Based Hormonal Tracking System Using Artificial Intelligence
+# Saliva-Based Hormonal Tracking System Using Artificial Intelligence
 
-An academic healthcare web application that tracks saliva-based hormone levels (Cortisol, Estrogen, Testosterone) and uses AI/ML to classify hormonal status.
+An academic healthcare web application that tracks saliva-based hormone levels (Cortisol, Estrogen, Testosterone) and uses machine learning to classify hormonal status.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.3+-green.svg)
 ![License](https://img.shields.io/badge/License-Academic-orange.svg)
 
----
+## Table of Contents
 
-## 📋 Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [AI/ML Model](#aiml-model)
+- [CI/CD Pipeline](#cicd-pipeline)
+- [Database Schema](#database-schema)
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Setup & Installation](#-setup--installation)
-- [How to Use](#-how-to-use)
-- [AI/ML Model Explained](#-aiml-model-explained)
-- [Database Schema](#-database-schema)
-- [Screenshots](#-screenshots)
-- [API Endpoints](#-api-endpoints)
+## Features
 
----
-
-## ✨ Features
-
-### 👤 User Authentication
-- Secure user registration with profile details (Name, Age, Gender)
+**User Authentication**
+- Secure user registration with profile details
 - Password hashing using Werkzeug security
 - Session-based login/logout system
 
-### 🧪 Hormone Data Tracking
-- Input saliva-based hormone values:
-  - **Cortisol** (ng/mL) - Stress hormone
-  - **Estrogen** (pg/mL) - Sex hormone
-  - **Testosterone** (ng/dL) - Sex hormone
+**Hormone Data Tracking**
+- Input saliva-based hormone values: Cortisol, Estrogen, Testosterone
 - Date and time stamping for each sample
-- Historical record management
+- Historical record management with deletion capability
 
-### 🤖 AI-Powered Analysis
-- Machine learning classification of hormonal status:
-  - ✅ **Normal** - Healthy hormone balance
-  - ⚠️ **Borderline** - Values near threshold limits
-  - ❌ **Abnormal** - Values outside normal ranges
+**AI-Powered Analysis**
+- Machine learning classification of hormonal status
 - Confidence scores for each prediction
 - Personalized health recommendations
 
-### 📊 Interactive Dashboard
+**Interactive Dashboard**
 - Real-time hormonal status display
-- Individual hormone analysis cards
-- Chart.js trend visualizations:
-  - Individual hormone line charts
-  - Combined comparison chart
-- Historical records table with delete functionality
+- Hormone analysis cards with current values
+- Chart.js trend visualizations
+- Historical records table
 
----
+**Responsive Design**
+- Professional healthcare-themed UI
+- Mobile-responsive layout
+- Accessibility compliant design
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Backend** | Python Flask |
-| **Database** | SQLite |
-| **AI/ML** | Scikit-learn (Random Forest) |
-| **Charts** | Chart.js |
-| **Authentication** | Session-based with Werkzeug |
-| **Styling** | Custom CSS (Healthcare Theme) |
+| Backend | Flask (Python 3.11+) |
+| Database | SQLite |
+| ML Framework | Scikit-learn |
+| Frontend | HTML5, CSS3, JavaScript |
+| Charts | Chart.js |
+| Authentication | Flask-Login, Werkzeug |
+| Data Processing | Pandas, NumPy |
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-saliva-hormone-ai/
-│
-├── app.py                 # Main Flask application
-├── model.py               # AI/ML module (training & prediction)
-├── hormone_data.csv       # Simulated training dataset
-├── hormone_model.pkl      # Trained ML model (generated)
-├── database.db            # SQLite database (generated)
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-│
-├── templates/             # HTML templates
-│   ├── base.html          # Base template with nav & footer
-│   ├── login.html         # Login page
-│   ├── register.html      # Registration page
-│   ├── dashboard.html     # Main dashboard
-│   └── add_data.html      # Hormone input form
-│
-└── static/                # Static assets
-    ├── css/
-    │   └── style.css      # Healthcare-themed styles
-    └── js/
-        └── charts.js      # Chart.js visualizations
+HealthCare_App/
+├── app.py                    # Flask application entry point
+├── model.py                  # ML model training and predictions
+├── requirements.txt          # Python dependencies
+├── hormone_data.csv          # Dataset for training
+├── hormone_model.pkl         # Pre-trained model
+├── scaler.pkl               # Feature scaler
+├── encoder.pkl              # Label encoder
+├── README.md                # This file
+├── templates/               # HTML templates
+│   ├── base.html           # Base template
+│   ├── login.html          # Login page
+│   ├── register.html       # Registration page
+│   ├── home.html           # Landing page
+│   ├── dashboard.html      # Main dashboard
+│   ├── add_data.html       # Add hormone data
+│   ├── forgot_password.html
+│   └── reset_password.html
+├── static/                  # Static files
+│   ├── css/
+│   │   └── style.css       # Responsive styling
+│   ├── js/
+│   │   └── charts.js       # Chart.js visualizations
+│   └── images/             # UI images
+└── .github/
+    └── workflows/          # GitHub Actions CI/CD
+        ├── ci-cd.yml
+        └── deploy.yml
 ```
 
----
-
-## 🚀 Setup & Installation
+## Setup and Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.11 or higher
 - pip (Python package manager)
+- Git
 
-### Step-by-Step Installation
+### Installation Steps
 
-1. **Navigate to the project directory**
-   ```bash
-   cd c:\Users\Mtechbro-94\Desktop\HealthCare_App
-   ```
-
-2. **Create a virtual environment** (recommended)
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate   # Windows
-   # OR
-   source .venv/bin/activate  # macOS/Linux
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Train the AI model & generate dataset**
-   ```bash
-   python model.py
-   ```
-   This will create:
-   - `hormone_data.csv` - 500 simulated hormone samples
-   - `hormone_model.pkl` - Trained Random Forest model
-
-5. **Run the Flask application**
-   ```bash
-   python app.py
-   ```
-
-6. **Open your browser**
-   ```
-   http://localhost:5000
-   ```
-
----
-
-## 📖 How to Use
-
-### 1. Register a New Account
-1. Go to the registration page
-2. Fill in your details (Name, Age, Gender, Email, Password)
-3. Click "Create Account"
-
-### 2. Login
-1. Enter your email and password
-2. Click "Sign In"
-
-### 3. Add Hormone Data
-1. Click "Add New Sample" from the dashboard
-2. Enter your hormone values:
-   - **Cortisol**: 0-50 ng/mL (normal: 3-10)
-   - **Estrogen**: 0-1000 pg/mL (normal: 15-350)
-   - **Testosterone**: 0-200 ng/dL (normal: 15-70)
-3. Select the date and time of the sample
-4. Click "Analyze & Save"
-
-### 4. View Results
-- The AI will instantly classify your hormonal status
-- View detailed analysis on the dashboard
-- Track trends over time with charts
-
----
-
-## 🤖 AI/ML Model Explained
-
-### Overview
-The system uses a **Random Forest Classifier** to analyze hormone levels and predict overall hormonal health status.
-
-### Training Data
-- **500 simulated samples** generated with realistic hormone distributions
-- Three classes with the following distribution:
-  - Normal (40%): Mid-range hormone values
-  - Borderline (30%): Values near threshold limits
-  - Abnormal (30%): Values outside normal ranges
-
-### Normal Hormone Ranges (Reference)
-
-| Hormone | Normal Range | Unit |
-|---------|-------------|------|
-| Cortisol | 3-10 | ng/mL |
-| Estrogen | 15-350 | pg/mL |
-| Testosterone | 15-70 | ng/dL |
-
-### Model Architecture
-```
-Random Forest Classifier
-├── n_estimators: 100 trees
-├── max_depth: 10
-├── min_samples_split: 5
-└── Features: [cortisol, estrogen, testosterone]
+1. Clone the repository
+```bash
+git clone https://github.com/mtechbro94/saliva-hormone-ai-tracker.git
+cd HealthCare_App
 ```
 
-### Prediction Flow
-```
-Input Values → Feature Extraction → Random Forest → Status + Confidence
-                                                      ↓
-                                              Health Insights
-```
+2. Create and activate virtual environment
+```bash
+# On Windows
+python -m venv venv
+venv\Scripts\activate
 
-### Model Performance
-- Training/Test Split: 80/20
-- Accuracy: ~95% on test set
-- Uses stratified sampling for balanced evaluation
-
----
-
-## 🗄 Database Schema
-
-### Users Table
-```sql
-CREATE TABLE users (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    email TEXT UNIQUE NOT NULL,
-    password TEXT NOT NULL,          -- Hashed with Werkzeug
-    age INTEGER,
-    gender TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+# On macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-### Hormone Records Table
-```sql
-CREATE TABLE hormone_records (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    user_id INTEGER NOT NULL,
-    cortisol REAL NOT NULL,          -- ng/mL
-    estrogen REAL NOT NULL,          -- pg/mL
-    testosterone REAL NOT NULL,       -- ng/dL
-    date TEXT NOT NULL,              -- Sample date
-    time TEXT NOT NULL,              -- Sample time
-    prediction TEXT NOT NULL,        -- Normal/Borderline/Abnormal
-    confidence REAL,                 -- AI confidence %
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES users (id)
-);
+3. Install dependencies
+```bash
+pip install -r requirements.txt
 ```
 
----
+4. Run the application
+```bash
+python app.py
+```
 
-## 📸 Screenshots
+5. Open browser and navigate to
+```
+http://localhost:5000
+```
 
-### Login Page
-![Login Page](screenshots/login.png)
-*Clean, healthcare-themed login interface with branding*
+## Usage
 
-### Registration Page
-![Register Page](screenshots/register.png)
-*Comprehensive registration form with profile fields*
+### Creating an Account
+1. Click "Register" on the login page
+2. Enter your name, email, age, and gender
+3. Create a secure password
+4. Click "Register" to create your account
 
-### Dashboard - Normal Status
-![Dashboard Normal](screenshots/dashboard-normal.png)
-*Dashboard showing normal hormonal status with recommendations*
+### Adding Hormone Data
+1. Log in to your account
+2. Click "Add Hormone Data"
+3. Enter cortisol, estrogen, and testosterone values
+4. Specify the date and time of sample
+5. Click "Submit" for AI analysis
 
-### Dashboard - Charts
-![Dashboard Charts](screenshots/dashboard-charts.png)
-*Interactive Chart.js visualizations for hormone trends*
+### Viewing Dashboard
+1. After logging in, you see your dashboard
+2. Current hormone status is displayed with analysis cards
+3. Charts show historical trends
+4. Historical records table lists all previous entries
 
-### Add Hormone Data
-![Add Data](screenshots/add-data.png)
-*Input form for recording new hormone samples*
+### AI Prediction
+The machine learning model analyzes your hormone values and returns:
+- Classification: Normal / Borderline / Abnormal
+- Confidence Score: Prediction confidence percentage
+- Health Recommendations: Personalized advice based on analysis
 
-### AI Prediction Result
-![AI Prediction](screenshots/ai-prediction.png)
-*Detailed AI analysis with confidence score and health insights*
+## AI/ML Model
 
-> **Note**: Create a `screenshots/` folder and add actual screenshots after running the application.
+### Model Type
+Random Forest Classifier with 100 trees
 
----
+### Features Used
+- Cortisol (ng/mL)
+- Estrogen (pg/mL)
+- Testosterone (ng/dL)
 
-## 🔌 API Endpoints
+### Preprocessing
+- StandardScaler for feature normalization
+- LabelEncoder for target classification
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/` | Home/redirect |
-| GET/POST | `/login` | User login |
-| GET/POST | `/register` | User registration |
-| GET | `/logout` | User logout |
-| GET | `/dashboard` | Main dashboard |
-| GET/POST | `/add_data` | Add hormone record |
-| GET | `/api/hormone_data` | JSON API for chart data |
-| POST | `/delete_record/<id>` | Delete a record |
+### Classification Output
+- Normal: Healthy hormone balance
+- Borderline: Values near threshold
+- Abnormal: Values outside normal ranges
 
----
+### Performance
+- Multi-class classification
+- High confidence scores for predictions
+- Trained on comprehensive healthcare dataset
 
-## 📝 Academic Notes
+### Files
+- hormone_model.pkl: Trained model
+- scaler.pkl: Feature scaler
+- encoder.pkl: Label encoder
 
-### Disclaimer
-This is an **academic project** for educational purposes. The hormone values are simulated/dataset-based and should **NOT** be used for actual medical diagnosis.
-
-### Key Learning Outcomes
-1. **Full-stack web development** with Flask
-2. **Machine Learning integration** with Scikit-learn
-3. **Database design** with SQLite
-4. **Data visualization** with Chart.js
-5. **User authentication** and session management
-6. **Responsive web design** principles
-
-### Future Improvements
-- Real sensor/lab integration
-- More sophisticated ML models (Neural Networks)
-- Time-series analysis for trend prediction
-- Mobile-responsive PWA version
-- Export reports as PDF
-
----
-
-## � CI/CD Pipeline & Deployment
+## CI/CD Pipeline
 
 ### GitHub Actions Workflows
 
-This project includes automated CI/CD pipelines for quality assurance and deployment:
+**CI/CD Pipeline** (`.github/workflows/ci-cd.yml`)
+- Multi-version testing (Python 3.11, 3.12)
+- Code linting with Flake8
+- Code formatting with Black and isort
+- Security scanning with Bandit and Safety
+- Unit testing with Pytest
+- Coverage reporting
 
-#### 1. **CI/CD Pipeline** (`.github/workflows/ci-cd.yml`)
-Runs on every push and pull request:
-- ✅ **Multi-version testing** (Python 3.11, 3.12)
-- ✅ **Code linting** (Flake8)
-- ✅ **Code formatting** (Black, isort)
-- ✅ **Security scanning** (Bandit, Safety)
-- ✅ **Unit testing** (Pytest)
-- ✅ **Coverage reporting** (Codecov)
+**Deployment Pipeline** (`.github/workflows/deploy.yml`)
+- Final testing before deployment
+- Package creation
+- Artifact upload
+- GitHub release creation
 
-#### 2. **Deployment Pipeline** (`.github/workflows/deploy.yml`)
-Runs on main branch pushes and version tags:
-- ✅ Final testing before deployment
-- ✅ Package creation and compression
-- ✅ Artifact upload (30-day retention)
-- ✅ GitHub release creation
-- ✅ Build notification
-
-### Deployment Steps
-
-1. **Commit and Push**
-   ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push origin main
-   ```
-
-2. **Automated Testing**
-   - GitHub Actions automatically runs all checks
-   - View results in "Actions" tab on GitHub
-
-3. **Create Release Tag** (Optional - for production)
-   ```bash
-   git tag -a v1.0.0 -m "Production Release v1.0.0"
-   git push origin v1.0.0
-   ```
-
-4. **View Build Artifacts**
-   - Go to GitHub Actions
-   - Select the workflow run
-   - Download artifacts (healthcare-app-build)
-
-### Local Testing Before Push
+### Local Testing
 
 ```bash
 # Install dev dependencies
-pip install -r requirements.txt
-pip install pytest black flake8 isort
+pip install pytest black flake8 isort bandit safety
 
 # Run tests
 pytest
@@ -378,21 +220,70 @@ isort . --check-only
 
 # Run linter
 flake8 .
+
+# Security check
+bandit -r .
 ```
 
+## Database Schema
+
+### Users Table
+- id: Primary key
+- name: User's name
+- email: Unique email address
+- password: Hashed password
+- age: User age
+- gender: User gender
+- created_at: Registration timestamp
+
+### Hormone Records Table
+- id: Primary key
+- user_id: Foreign key to users table
+- cortisol: Cortisol value (ng/mL)
+- estrogen: Estrogen value (pg/mL)
+- testosterone: Testosterone value (ng/dL)
+- date: Sample collection date
+- time: Sample collection time
+- prediction: Classification result
+- confidence: AI confidence percentage
+- created_at: Record timestamp
+
+## Important Notes
+
+### Disclaimer
+This is an academic project for educational purposes only. The hormone values are simulated and should NOT be used for actual medical diagnosis. Always consult healthcare professionals for medical decisions.
+
+### Educational Use
+This project demonstrates:
+- Full-stack web development with Flask
+- Machine learning integration with Scikit-learn
+- Database design with SQLite
+- Data visualization with Chart.js
+- User authentication and session management
+- Responsive web design principles
+
+### What's Included
+- Flask web application with authentication
+- SQLite database for data persistence
+- Machine learning model for hormone analysis
+- Interactive dashboard with visualizations
+- Responsive healthcare-themed UI
+- Automated CI/CD pipeline with GitHub Actions
+- Pre-trained model files
+- Complete documentation
+
+## Repository
+
+GitHub: https://github.com/mtechbro94/saliva-hormone-ai-tracker
+
+## Support
+
+For issues or questions, please open an issue on the GitHub repository.
+
+## License
+
+This project is created for academic purposes. Feel free to use and modify for educational projects.
+
 ---
 
-## �📄 License
-
-This project is created for **academic purposes**. Feel free to use and modify for educational projects.
-
----
-
-## 👨‍💻 Author
-
-**Academic Healthcare Project**  
-Saliva-Based Hormonal Tracking System Using Artificial Intelligence
-
----
-
-*Built with ❤️ using Flask, Scikit-learn, and Chart.js*
+Built with Flask, Scikit-learn, and Chart.js
