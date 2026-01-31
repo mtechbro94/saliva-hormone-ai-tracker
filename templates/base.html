@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saliva-Based Hormonal Tracking System with AI-Powered Analysis">
+    <title>{% block title %}Saliva Hormone Tracker{% endblock %}</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <!-- Background Pattern -->
+    <div class="app-background"></div>
+
+    {% if session.get('user_id') %}
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="{{ url_for('dashboard') }}" class="nav-brand">
+                <div class="nav-brand-icon">🧬</div>
+                <span class="nav-brand-text">HormoneTracker AI</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="{{ url_for('dashboard') }}"
+                    class="nav-link {% if request.endpoint == 'dashboard' %}active{% endif %}">
+                    📊 Dashboard
+                </a>
+                <a href="{{ url_for('add_data') }}"
+                    class="nav-link {% if request.endpoint == 'add_data' %}active{% endif %}">
+                    ➕ Add Sample
+                </a>
+                <div class="nav-user">
+                    <div class="nav-user-avatar">{{ session.get('user_name', 'U')[0] }}</div>
+                    <span>{{ session.get('user_name', 'User') }}</span>
+                </div>
+                <a href="{{ url_for('logout') }}" class="nav-link">
+                    Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+    {% endif %}
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-message {{ category }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <!-- Main Content -->
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    {% if session.get('user_id') %}
+    <!-- Footer -->
+    <footer class="footer">
+        <p>🧬 Saliva-Based Hormonal Tracking System | Academic Healthcare Project</p>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem;">Powered by AI/ML • Not for medical diagnosis</p>
+    </footer>
+    {% endif %}
+
+    {% block scripts %}{% endblock %}
+
+    <script>
+        // Auto-hide flash messages
+        setTimeout(() => {
+            document.querySelectorAll('.flash-message').forEach(el => {
+                el.style.animation = 'slideInRight 0.3s ease reverse forwards';
+                setTimeout(() => el.remove(), 300);
+            });
+        }, 5000);
+    </script>
+</body>
+
+</html>

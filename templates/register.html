@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - HormoneTracker AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="auth-page">
+        <!-- Visual Side -->
+        <div class="auth-visual">
+            <div class="auth-visual-content">
+                <h1>Start Your<br>Health Journey<br>Today</h1>
+                <p>Create an account to begin tracking your hormonal health with AI-powered insights and personalized
+                    recommendations.</p>
+
+                <ul class="auth-features">
+                    <li>
+                        <span>✨</span>
+                        <span>Free to use for academic purposes</span>
+                    </li>
+                    <li>
+                        <span>🎯</span>
+                        <span>Age & gender-specific analysis</span>
+                    </li>
+                    <li>
+                        <span>📈</span>
+                        <span>Track trends over time</span>
+                    </li>
+                    <li>
+                        <span>🤖</span>
+                        <span>92%+ AI prediction accuracy</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Form Side -->
+        <div class="auth-form-container">
+            <div class="auth-form-card">
+                <div class="auth-form-header">
+                    <h2>Create Account</h2>
+                    <p>Enter your details to get started</p>
+                </div>
+
+                <form method="POST" action="{{ url_for('register') }}">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-row form-row-2">
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age" min="18" max="100" placeholder="25" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select...</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-row form-row-2">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="••••••••" required
+                                minlength="6">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm_password">Confirm</label>
+                            <input type="password" id="confirm_password" name="confirm_password" placeholder="••••••••"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-actions" style="margin-top: 1.5rem;">
+                        <button type="submit" class="btn btn-primary btn-large btn-full">
+                            Create Account
+                        </button>
+                    </div>
+                </form>
+
+                <p style="text-align: center; margin-top: 1.5rem; color: var(--slate-500);">
+                    Already have an account?
+                    <a href="{{ url_for('login') }}" style="font-weight: 600;">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-message {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <script>
+        setTimeout(() => {
+            document.querySelectorAll('.flash-message').forEach(el => {
+                el.style.animation = 'slideInRight 0.3s ease reverse forwards';
+                setTimeout(() => el.remove(), 300);
+            });
+        }, 5000);
+    </script>
+</body>
+
+</html>

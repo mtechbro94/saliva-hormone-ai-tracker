@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - HormoneTracker AI{% endblock %}
+
+{% block content %}
+<div class="dashboard-page">
+    <!-- Dashboard Header Banner Image -->
+    <div class="dashboard-header-banner">
+        <img src="{{ url_for('static', filename='images/dashboard.jpg') }}" 
+             alt="Dashboard - User Health Overview" 
+             class="dashboard-banner-image">
+        <div class="dashboard-banner-overlay"></div>
+        <div class="dashboard-banner-content">
+            <h1>Your Health Dashboard</h1>
+            <p>AI-powered hormone analysis and personalized health insights</p>
+        </div>
+    </div>
+
+    <!-- Welcome Hero -->
+    <div class="welcome-card">
+        <div class="welcome-content">
+            <h2>👋 Welcome back, {{ user.name }}</h2>
+            <p>Track your hormonal health with AI-powered analysis</p>
+            <div class="welcome-badges">
+                <span class="welcome-badge">📅 {{ user.age }} years</span>
+                <span class="welcome-badge">👤 {{ user.gender }}</span>
+                <span class="welcome-badge">📊 {{ stats.total_records }} Records</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">📊</div>
+            <div class="stat-value">{{ stats.total_records }}</div>
+            <div class="stat-label">Total Samples</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon" style="background: var(--success-light);">✅</div>
+            <div class="stat-value" style="-webkit-text-fill-color: var(--success);">{{ stats.normal_count }}</div>
+            <div class="stat-label">Normal Results</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon" style="background: var(--warning-light);">⚠️</div>
+            <div class="stat-value" style="-webkit-text-fill-color: var(--warning);">{{ stats.imbalance_count }}</div>
+            <div class="stat-label">Imbalances Detected</div>
+        </div>
+    </div>
+
+    <!-- Latest AI Insights -->
+    {% if latest_record %}
+    <div class="insights-card {{ latest_insights.color }}">
+        <div class="insights-header">
+            <span class="status-badge {{ latest_insights.color }}">
+                {% if latest_insights.color == 'success' %}✅{% elif latest_insights.color == 'warning' %}⚠️{% elif
+                latest_insights.color == 'orange' %}🟠{% else %}🔴{% endif %}
+                {{ latest_record.prediction }}
+            </span>
+            <span class="confidence-badge">{{ latest_record.confidence|default(85) }}% Confidence</span>
+            <span style="color: var(--slate-400); font-size: 0.875rem; margin-left: auto;">{{ latest_record.date
+                }}</span>
+        </div>
+
+        <h3 class="insights-title">{{ latest_insights.title }}</h3>
+        <p class="insights-description">{{ latest_insights.description }}</p>
+
+        <!-- Hormone Analysis Cards -->
+        {% if latest_insights.hormone_analysis %}
+        <div class="hormone-analysis-grid">
+            <div class="hormone-analysis-card {{ latest_insights.hormone_analysis.cortisol.status|lower }}">
+                <h5>🧠 Cortisol</h5>
+                <div class="value">{{ latest_record.cortisol }}</div>
+                <div class="status-text">{{ latest_insights.hormone_analysis.cortisol.status }} (ng/mL)</div>
+            </div>
+            <div class="hormone-analysis-card {{ latest_insights.hormone_analysis.estrogen.status|lower }}">
+                <h5>💜 Estrogen</h5>
+                <div class="value">{{ latest_record.estrogen }}</div>
+                <div class="status-text">{{ latest_insights.hormone_analysis.estrogen.status }} (pg/mL)</div>
+            </div>
+            <div class="hormone-analysis-card {{ latest_insights.hormone_analysis.testosterone.status|lower }}">
+                <h5>💪 Testosterone</h5>
+                <div class="value">{{ latest_record.testosterone }}</div>
+                <div class="status-text">{{ latest_insights.hormone_analysis.testosterone.status }} (pg/mL)</div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Recommendations -->
+        <div class="recommendations-section">
+            <h4>💡 Recommendations</h4>
+            <ul class="recommendations-list">
+                {% for rec in latest_insights.recommendations %}
+                <li>{{ rec }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Probability Distribution -->
+        {% if latest_insights.probabilities %}
+        <div class="probability-section">
+            <h4 style="font-size: 0.875rem; color: var(--slate-600); margin-bottom: 0.75rem;">📊 AI Probability
+                Distribution</h4>
+            <div class="probability-grid">
+                {% for status, prob in latest_insights.probabilities.items() %}
+                <div class="probability-item">
+                    <span>{{ status }}:</span>
+                    <span>{{ prob }}%</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% else %}
+    <div class="card empty-state">
+        <div class="empty-state-icon">📊</div>
+        <h3>No Data Yet</h3>
+        <p>Start tracking your hormones by adding your first sample</p>
+        <a href="{{ url_for('add_data') }}" class="btn btn-primary btn-large">
+            ➕ Add First Sample
+        </a>
+    </div>
+    {% endif %}
+
+    <!-- Charts Section -->
+    {% if records|length > 1 %}
+    <div class="charts-grid">
+        <div class="chart-card">
+            <h3 class="chart-title">🧠 Cortisol Trend</h3>
+            <canvas id="cortisolChart" height="200"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3 class="chart-title">💜 Estrogen Trend</h3>
+            <canvas id="estrogenChart" height="200"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3 class="chart-title">💪 Testosterone Trend</h3>
+            <canvas id="testosteroneChart" height="200"></canvas>
+        </div>
+        <div class="chart-card">
+            <h3 class="chart-title">📈 Combined Overview</h3>
+            <canvas id="combinedChart" height="200"></canvas>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- History Table -->
+    {% if records %}
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">📋 Sample History</h3>
+            <a href="{{ url_for('add_data') }}" class="btn btn-primary">➕ Add New Sample</a>
+        </div>
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Cortisol</th>
+                        <th>Estrogen</th>
+                        <th>Testosterone</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in records[:15] %}
+                    <tr>
+                        <td>{{ record.date }}</td>
+                        <td>{{ record.time }}</td>
+                        <td>{{ record.cortisol }} ng/mL</td>
+                        <td>{{ record.estrogen }} pg/mL</td>
+                        <td>{{ record.testosterone }} pg/mL</td>
+                        <td>
+                            <span
+                                class="status-badge {% if record.prediction == 'Normal' %}success{% elif 'Mild' in record.prediction %}warning{% elif 'Moderate' in record.prediction %}orange{% else %}danger{% endif %}">
+                                {{ record.prediction }}
+                            </span>
+                        </td>
+                        <td>
+                            <form action="{{ url_for('delete_record', record_id=record.id) }}" method="POST"
+                                style="display: inline;">
+                                <button type="submit" class="btn btn-delete"
+                                    onclick="return confirm('Delete this record?')">🗑️</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if records|length > 15 %}
+        <p style="text-align: center; padding: 1rem; color: var(--slate-500); font-size: 0.875rem;">
+            Showing 15 of {{ records|length }} records
+        </p>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+{% endblock %}

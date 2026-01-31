@@ -1,0 +1,2001 @@
+age,gender,cortisol,estrogen,testosterone,time_of_day,sample_date,health_condition,status
+33,Male,5.64,2.96,70.66,Afternoon,2024-03-23,Stressed,Mild Imbalance
+33,Female,8.28,1.28,20.73,Morning,2025-07-05,Healthy,Normal
+52,Female,5.02,2.71,42.7,Afternoon,2025-09-17,Stressed,Mild Imbalance
+35,Male,9.71,2.47,124.77,Morning,2025-03-27,Stressed,Mild Imbalance
+18,Male,4.08,0.82,93.89,Morning,2024-06-21,PCOS,Mild Imbalance
+31,Male,8.6,3.42,154.52,Morning,2024-06-08,Healthy,Normal
+37,Male,5.17,1.61,65.87,Morning,2024-02-28,Healthy,Normal
+30,Male,9.41,3.3,175.55,Morning,2025-02-17,Healthy,Normal
+51,Female,9.6,2.63,27.88,Morning,2025-06-11,Healthy,Normal
+40,Male,6.74,2.34,123.84,Morning,2025-12-27,Healthy,Normal
+24,Male,5.32,2.54,103.42,Afternoon,2024-04-27,Stressed,Mild Imbalance
+34,Female,9.44,3.81,25.22,Morning,2025-04-03,Stressed,Normal
+37,Female,5.96,4.36,34.74,Afternoon,2025-10-06,Stressed,Mild Imbalance
+37,Female,4.25,4.36,105.96,Morning,2025-06-04,PCOS,Mild Imbalance
+60,Female,4.37,0.98,50.98,Afternoon,2024-08-30,Healthy,Mild Imbalance
+40,Male,5.98,3.07,30.62,Morning,2024-07-30,Low_T,Mild Imbalance
+37,Female,2.29,4.13,27.49,Afternoon,2024-05-04,Healthy,Normal
+36,Male,15.41,1.44,115.27,Morning,2025-06-20,Stressed,Mild Imbalance
+32,Female,1.74,8.5,24.87,Afternoon,2024-11-03,Healthy,Normal
+20,Male,2.56,2.83,160.4,Afternoon,2025-11-08,Stressed,Normal
+18,Male,6.06,2.33,125.93,Morning,2024-11-26,Healthy,Normal
+50,Female,6.16,4.44,26.09,Morning,2024-09-19,Healthy,Normal
+18,Male,1.58,1.13,152.77,Evening,2025-09-12,Stressed,Normal
+59,Male,4.33,2.62,92.77,Afternoon,2024-03-28,Stressed,Mild Imbalance
+22,Female,2.03,5.86,32.42,Afternoon,2025-06-05,Healthy,Normal
+32,Female,10.97,1.63,25.5,Morning,2025-03-04,Menopause,Normal
+21,Male,8.28,2.13,127.84,Morning,2025-08-28,Healthy,Normal
+33,Female,0.83,2.72,40.48,Evening,2024-05-16,Healthy,Normal
+38,Female,1.93,5.25,24.25,Evening,2025-11-21,Low_T,Mild Imbalance
+31,Female,10.14,4.13,40.63,Morning,2024-06-06,Healthy,Normal
+35,Female,0.99,2.94,9.67,Evening,2025-03-12,Low_T,Mild Imbalance
+57,Female,4.21,2.36,44.56,Afternoon,2025-11-04,Healthy,Mild Imbalance
+38,Male,7.47,0.55,146.89,Morning,2024-08-25,Menopause,Mild Imbalance
+43,Male,6.74,2.42,78.95,Morning,2024-02-05,Low_T,Normal
+30,Female,1.31,1.23,25.9,Afternoon,2024-12-13,Menopause,Normal
+34,Male,0.57,3.62,138.56,Evening,2024-03-03,Healthy,Normal
+31,Female,3.76,3.12,34.55,Afternoon,2025-04-26,Healthy,Normal
+39,Female,1.22,4.99,42.04,Afternoon,2025-04-03,Healthy,Normal
+53,Male,7.07,1.24,75.8,Morning,2025-03-05,Menopause,Normal
+18,Female,1.65,1.51,25.75,Evening,2025-07-20,Healthy,Normal
+42,Female,3.07,4.65,17.45,Afternoon,2024-11-18,Healthy,Normal
+31,Female,1.42,4.23,34.22,Evening,2025-07-16,PCOS,Normal
+46,Male,3.49,2.54,151.86,Afternoon,2025-05-27,Stressed,Normal
+37,Female,6.88,2.98,27.58,Morning,2024-03-13,Healthy,Normal
+18,Female,4.69,5.17,38.42,Afternoon,2024-03-15,Thyroid,Mild Imbalance
+29,Male,9.09,1.93,160.89,Morning,2024-10-12,Healthy,Normal
+24,Female,3.3,4.1,45.32,Afternoon,2024-11-12,Healthy,Normal
+48,Female,1.44,4.57,30.05,Evening,2024-02-24,Healthy,Normal
+39,Female,12.22,5.22,45.19,Morning,2025-01-06,Stressed,Mild Imbalance
+38,Female,2.2,2.33,68.41,Afternoon,2025-07-30,PCOS,Mild Imbalance
+38,Female,8.29,4.37,47.59,Morning,2024-03-31,Healthy,Normal
+27,Female,8.75,4.66,20.69,Morning,2025-09-17,Healthy,Normal
+38,Female,5.16,0.68,26.09,Morning,2024-06-09,Menopause,Mild Imbalance
+46,Male,7.49,2.32,136.35,Morning,2024-12-18,Healthy,Normal
+60,Female,9.21,1.84,43.43,Morning,2025-09-23,Healthy,Normal
+32,Female,12.13,2.77,18.45,Morning,2025-07-16,Stressed,Mild Imbalance
+27,Female,1.87,3.75,43.1,Evening,2024-03-03,Healthy,Normal
+22,Male,1.62,2.54,102.42,Afternoon,2024-12-20,Healthy,Normal
+46,Male,2.3,3.12,61.98,Evening,2025-09-23,Stressed,Mild Imbalance
+53,Male,5.97,1.76,63.18,Afternoon,2024-04-10,Stressed,Mild Imbalance
+35,Male,0.49,2.4,86.95,Evening,2025-08-05,Adrenal,Normal
+46,Male,1.82,0.7,141.52,Afternoon,2026-01-10,Menopause,Mild Imbalance
+18,Male,9.15,1.91,101.17,Morning,2025-09-07,Healthy,Normal
+32,Male,2.23,2.06,98.84,Evening,2024-08-18,Stressed,Mild Imbalance
+41,Female,5.88,1.64,29.52,Morning,2024-02-08,Healthy,Normal
+24,Female,6.78,5.23,59.38,Morning,2025-05-17,PCOS,Mild Imbalance
+45,Male,4.59,0.94,107.05,Morning,2025-04-10,PCOS,Mild Imbalance
+26,Male,11.02,2.88,81.21,Morning,2025-11-24,Stressed,Mild Imbalance
+34,Female,1.22,2.32,16.81,Afternoon,2024-03-30,Healthy,Normal
+18,Female,5.35,3.11,47.54,Morning,2024-10-25,Healthy,Normal
+66,Female,4.8,1.52,63.3,Morning,2025-02-28,PCOS,Mild Imbalance
+28,Female,6.32,4.38,46.39,Morning,2024-11-08,Healthy,Normal
+37,Male,1.84,1.9,104.89,Evening,2025-06-04,Healthy,Normal
+28,Male,12.78,3.29,82.08,Morning,2024-04-20,Stressed,Mild Imbalance
+66,Male,2.26,1.5,73.87,Evening,2024-10-11,Menopause,Mild Imbalance
+22,Female,11.37,3.01,26.81,Morning,2024-09-29,Stressed,Mild Imbalance
+26,Female,0.34,4.63,41.31,Afternoon,2025-12-30,Adrenal,Mild Imbalance
+40,Female,1.44,2.63,32.01,Evening,2025-02-09,Healthy,Normal
+36,Female,9.03,1.37,39.52,Morning,2024-05-04,Healthy,Normal
+23,Male,6.55,1.53,76.08,Morning,2025-12-21,Thyroid,Normal
+27,Male,1.81,2.91,155.35,Evening,2025-10-19,Healthy,Normal
+40,Female,1.37,4.26,16.78,Evening,2024-09-15,Healthy,Normal
+30,Male,8.97,2.48,181.42,Morning,2025-01-25,Stressed,Normal
+39,Male,1.76,3.09,73.78,Evening,2025-10-29,Healthy,Normal
+29,Male,0.32,3.14,119.24,Evening,2024-09-05,Healthy,Normal
+25,Female,0.48,5.45,24.75,Evening,2025-05-04,Adrenal,Normal
+47,Female,3.01,2.77,19.33,Morning,2024-10-14,Adrenal,Mild Imbalance
+70,Female,9.18,1.44,18.11,Morning,2024-10-16,Healthy,Normal
+42,Male,3.77,2.45,50.82,Afternoon,2024-10-14,Healthy,Normal
+46,Male,4.79,2.44,63.8,Morning,2024-03-24,Healthy,Normal
+45,Male,25.44,2.54,128.25,Morning,2025-11-04,Adrenal,Mild Imbalance
+57,Male,7.8,3.74,66.66,Morning,2024-12-21,Healthy,Normal
+41,Female,4.0,6.79,8.17,Morning,2024-01-31,Low_T,Mild Imbalance
+38,Male,7.78,2.41,88.61,Morning,2025-06-26,Healthy,Normal
+34,Male,1.98,1.77,105.73,Evening,2025-03-20,Healthy,Normal
+38,Male,3.67,1.16,139.73,Afternoon,2025-02-18,Healthy,Normal
+48,Male,5.32,2.96,44.71,Morning,2025-06-04,Low_T,Mild Imbalance
+65,Male,5.83,2.21,68.32,Morning,2025-03-04,Healthy,Normal
+25,Female,2.27,6.27,36.24,Afternoon,2024-02-28,Healthy,Normal
+40,Female,5.6,6.58,8.59,Morning,2024-11-05,Low_T,Mild Imbalance
+42,Male,6.13,1.56,92.34,Morning,2025-09-23,Healthy,Normal
+26,Female,2.95,3.59,40.93,Afternoon,2024-02-27,Healthy,Normal
+18,Male,18.74,1.89,71.09,Morning,2024-11-19,Adrenal,Mild Imbalance
+32,Female,4.55,2.3,33.98,Morning,2024-03-10,Healthy,Normal
+45,Male,0.27,2.61,86.29,Evening,2025-11-19,Adrenal,Mild Imbalance
+49,Female,5.09,7.22,47.02,Morning,2024-10-23,Healthy,Normal
+25,Female,6.21,2.83,22.95,Morning,2025-09-28,Healthy,Normal
+50,Female,1.02,1.77,39.56,Evening,2025-10-23,Healthy,Normal
+34,Male,11.21,1.2,94.37,Morning,2024-11-21,Stressed,Mild Imbalance
+18,Male,0.71,0.93,159.67,Evening,2025-04-03,PCOS,Mild Imbalance
+28,Female,2.6,2.33,16.07,Afternoon,2025-01-11,Low_T,Normal
+41,Male,6.11,1.4,149.69,Morning,2024-11-01,Healthy,Normal
+29,Male,2.73,2.11,143.68,Afternoon,2024-03-13,Healthy,Normal
+51,Female,9.13,2.14,20.43,Morning,2025-01-18,Stressed,Normal
+43,Male,5.12,1.54,99.53,Morning,2025-08-12,Healthy,Normal
+18,Female,8.6,6.63,35.42,Morning,2025-08-22,Healthy,Normal
+33,Male,2.53,3.36,117.53,Afternoon,2024-09-21,Healthy,Normal
+27,Male,5.62,3.25,158.66,Afternoon,2025-05-30,Stressed,Mild Imbalance
+45,Male,4.23,2.58,125.02,Morning,2025-05-08,Healthy,Normal
+23,Male,7.6,1.12,31.52,Morning,2024-02-20,Low_T,Mild Imbalance
+40,Male,0.61,2.64,89.99,Evening,2024-08-13,Thyroid,Normal
+20,Male,8.56,2.56,76.83,Morning,2025-06-10,Stressed,Normal
+22,Male,6.11,2.42,128.34,Morning,2024-05-17,Thyroid,Normal
+53,Male,19.53,1.69,76.27,Morning,2024-12-17,Stressed,Mild Imbalance
+56,Female,6.11,0.57,23.84,Morning,2025-03-30,Menopause,Mild Imbalance
+23,Male,10.96,2.38,103.31,Morning,2024-11-19,Stressed,Mild Imbalance
+33,Male,2.06,1.58,127.08,Afternoon,2025-07-31,Healthy,Normal
+42,Female,1.19,3.96,16.96,Afternoon,2025-03-13,Healthy,Normal
+38,Female,2.4,4.5,37.86,Afternoon,2024-12-07,Healthy,Normal
+37,Male,6.01,1.11,66.17,Morning,2026-01-21,Healthy,Normal
+33,Female,9.75,8.12,44.82,Morning,2025-11-12,Healthy,Normal
+44,Female,6.47,3.21,42.27,Morning,2024-02-11,Healthy,Normal
+41,Male,4.46,3.78,95.63,Morning,2025-07-10,Healthy,Normal
+24,Male,12.76,1.14,64.74,Morning,2025-11-20,Stressed,Mild Imbalance
+36,Male,1.59,2.1,68.77,Afternoon,2024-04-20,Healthy,Normal
+39,Female,3.48,2.54,74.68,Afternoon,2025-10-22,PCOS,Mild Imbalance
+25,Female,6.2,5.36,38.04,Morning,2024-04-05,Healthy,Normal
+40,Female,9.57,5.48,28.93,Morning,2025-01-10,Healthy,Normal
+37,Male,6.21,3.14,57.49,Afternoon,2026-01-11,Stressed,Mild Imbalance
+27,Male,7.55,1.83,165.96,Morning,2025-10-25,Stressed,Normal
+41,Female,1.92,1.8,30.29,Afternoon,2024-03-26,Healthy,Normal
+50,Male,2.16,1.76,122.46,Afternoon,2025-04-13,Healthy,Normal
+23,Female,3.13,3.18,14.93,Afternoon,2024-03-18,Healthy,Normal
+53,Male,2.07,3.03,102.89,Afternoon,2025-06-18,Healthy,Normal
+35,Female,7.37,3.92,25.86,Morning,2024-07-04,Healthy,Normal
+42,Male,10.83,2.28,64.23,Morning,2024-03-21,Stressed,Mild Imbalance
+65,Male,2.99,3.0,76.28,Afternoon,2025-03-09,Stressed,Normal
+34,Male,1.17,1.49,126.37,Evening,2024-04-17,Menopause,Normal
+27,Female,8.77,4.46,20.77,Morning,2024-04-24,Stressed,Normal
+44,Female,2.16,3.02,49.15,Afternoon,2024-07-05,Healthy,Normal
+26,Female,1.28,3.14,64.36,Afternoon,2025-12-18,PCOS,Mild Imbalance
+37,Female,1.43,0.95,24.02,Evening,2024-05-20,Menopause,Normal
+43,Female,1.55,4.92,23.97,Evening,2025-12-10,Healthy,Normal
+23,Male,5.11,1.84,91.81,Morning,2024-04-03,Healthy,Normal
+27,Female,6.78,2.69,32.96,Morning,2024-11-23,Healthy,Normal
+53,Male,9.16,1.46,84.11,Morning,2025-08-27,Healthy,Normal
+39,Female,2.46,4.71,12.69,Afternoon,2024-06-27,Low_T,Normal
+23,Female,2.83,5.57,28.66,Afternoon,2026-01-23,Healthy,Normal
+62,Female,4.13,1.67,43.32,Afternoon,2025-10-27,Stressed,Normal
+35,Female,11.34,6.32,38.59,Morning,2025-08-22,Stressed,Mild Imbalance
+49,Female,7.42,1.38,17.75,Morning,2024-10-10,Low_T,Normal
+34,Male,5.33,3.26,80.71,Morning,2024-09-18,Low_T,Normal
+34,Female,1.31,2.87,41.99,Afternoon,2025-03-14,Healthy,Normal
+47,Female,8.58,4.57,48.97,Morning,2025-07-21,Healthy,Normal
+37,Male,2.56,2.83,129.11,Evening,2024-11-09,Stressed,Mild Imbalance
+28,Female,0.81,2.23,28.12,Evening,2024-03-25,Stressed,Normal
+39,Male,11.41,1.48,104.44,Morning,2025-11-11,Stressed,Mild Imbalance
+28,Male,13.55,1.82,168.71,Morning,2024-12-05,Stressed,Mild Imbalance
+48,Male,0.76,3.46,95.09,Evening,2025-03-17,Healthy,Normal
+32,Male,1.01,0.96,71.13,Evening,2024-05-01,Healthy,Normal
+48,Male,9.36,1.34,65.27,Morning,2025-10-02,Menopause,Normal
+50,Male,1.73,1.78,130.17,Evening,2024-06-20,Healthy,Normal
+18,Male,8.79,2.71,121.18,Morning,2024-08-20,Healthy,Normal
+34,Female,2.15,1.24,8.46,Afternoon,2024-04-08,Low_T,Mild Imbalance
+21,Female,2.63,5.0,22.62,Afternoon,2024-08-31,Low_T,Normal
+35,Male,1.7,3.26,78.17,Afternoon,2024-06-16,Low_T,Normal
+39,Female,4.26,7.61,29.43,Morning,2024-03-01,Healthy,Normal
+18,Male,5.59,3.07,63.72,Morning,2024-10-08,Healthy,Normal
+34,Female,1.36,7.02,22.88,Evening,2024-11-21,Healthy,Normal
+37,Female,3.51,1.96,40.58,Afternoon,2024-12-02,Healthy,Normal
+37,Male,3.31,1.59,48.83,Afternoon,2025-05-19,Low_T,Mild Imbalance
+47,Male,11.1,1.94,66.24,Morning,2024-06-30,Stressed,Mild Imbalance
+32,Male,3.93,1.92,133.9,Morning,2025-08-07,Healthy,Mild Imbalance
+37,Female,1.97,5.77,16.15,Afternoon,2025-05-04,Healthy,Normal
+29,Male,6.16,3.61,116.52,Morning,2025-08-03,Thyroid,Normal
+28,Male,6.71,3.23,85.66,Morning,2026-01-03,Healthy,Normal
+44,Male,11.72,3.33,122.46,Morning,2024-05-10,Stressed,Mild Imbalance
+48,Female,5.45,3.72,28.46,Morning,2025-10-09,Healthy,Normal
+36,Female,9.42,0.81,53.82,Morning,2024-10-20,PCOS,Mild Imbalance
+33,Female,1.65,4.5,32.9,Afternoon,2024-02-10,Healthy,Normal
+45,Female,4.09,4.1,41.69,Morning,2025-01-02,Thyroid,Normal
+52,Male,1.05,0.59,55.65,Evening,2025-02-17,Menopause,Mild Imbalance
+43,Female,10.51,3.02,22.83,Morning,2025-03-27,Stressed,Mild Imbalance
+37,Male,9.23,1.32,139.5,Morning,2025-11-19,Healthy,Normal
+18,Female,4.93,4.68,28.05,Morning,2024-10-17,Healthy,Normal
+26,Female,4.14,3.02,22.4,Morning,2024-12-04,Healthy,Normal
+22,Male,17.08,1.96,102.07,Morning,2026-01-01,Adrenal,Mild Imbalance
+28,Male,7.1,3.51,106.0,Morning,2024-04-09,Healthy,Normal
+42,Male,5.27,0.76,115.45,Morning,2025-04-26,Menopause,Mild Imbalance
+32,Male,2.18,2.49,150.74,Evening,2025-08-27,Stressed,Mild Imbalance
+31,Male,1.03,2.67,110.79,Evening,2024-03-15,Stressed,Normal
+18,Female,0.58,4.53,37.49,Evening,2025-07-13,Stressed,Normal
+39,Female,9.14,4.6,14.81,Morning,2025-07-11,Healthy,Normal
+38,Female,2.26,1.9,43.6,Evening,2025-05-09,Stressed,Mild Imbalance
+38,Male,9.86,3.31,39.93,Morning,2025-12-09,Low_T,Mild Imbalance
+37,Male,9.74,0.52,79.6,Morning,2025-12-29,Menopause,Mild Imbalance
+33,Male,9.92,2.15,147.4,Morning,2026-01-14,Stressed,Mild Imbalance
+30,Male,1.48,1.08,98.62,Evening,2025-01-21,Menopause,Normal
+18,Male,2.27,2.71,142.18,Afternoon,2025-10-15,Healthy,Normal
+18,Female,2.32,4.33,22.36,Afternoon,2024-04-05,Healthy,Normal
+61,Female,8.32,2.52,48.78,Morning,2024-04-20,Healthy,Normal
+20,Male,6.43,2.63,124.41,Morning,2025-12-15,Thyroid,Normal
+27,Male,12.36,3.01,77.28,Morning,2024-07-26,Stressed,Mild Imbalance
+24,Female,3.58,4.89,12.06,Afternoon,2025-12-02,Low_T,Normal
+47,Female,2.35,3.37,17.39,Morning,2024-12-12,Adrenal,Mild Imbalance
+31,Female,4.75,3.51,23.34,Morning,2025-02-13,Healthy,Normal
+20,Female,2.34,6.0,42.81,Afternoon,2024-05-27,Thyroid,Normal
+34,Male,8.15,1.37,124.81,Morning,2024-03-16,Healthy,Normal
+53,Female,10.38,1.76,47.84,Morning,2024-04-21,Healthy,Normal
+20,Female,1.63,1.93,107.31,Evening,2025-07-30,PCOS,Mild Imbalance
+28,Female,1.45,1.07,17.92,Afternoon,2024-09-28,Menopause,Mild Imbalance
+24,Female,11.82,1.83,20.23,Morning,2025-09-24,Stressed,Mild Imbalance
+48,Male,4.01,1.51,127.18,Morning,2024-03-22,Healthy,Normal
+32,Female,3.47,3.22,19.63,Evening,2025-09-04,Stressed,Mild Imbalance
+45,Female,6.41,7.97,30.9,Morning,2025-10-17,Healthy,Normal
+66,Female,3.13,0.28,29.53,Afternoon,2025-01-04,Menopause,Mild Imbalance
+43,Male,11.05,1.49,141.31,Morning,2025-11-14,Stressed,Mild Imbalance
+18,Male,0.92,2.01,77.81,Evening,2025-12-04,PCOS,Normal
+39,Male,1.71,1.65,36.4,Evening,2025-06-24,Low_T,Mild Imbalance
+49,Male,1.19,1.53,78.28,Evening,2024-03-22,PCOS,Normal
+48,Male,0.99,1.82,111.48,Evening,2025-08-18,Healthy,Normal
+62,Female,3.24,0.8,11.31,Afternoon,2025-05-22,Menopause,Mild Imbalance
+31,Female,9.46,1.2,11.2,Morning,2025-03-28,Menopause,Normal
+49,Male,3.82,2.05,60.95,Afternoon,2025-12-30,Healthy,Normal
+35,Male,2.58,2.47,160.7,Afternoon,2025-03-19,Adrenal,Normal
+29,Female,3.14,2.62,12.03,Afternoon,2024-05-06,Low_T,Normal
+36,Male,4.5,2.77,125.5,Morning,2025-11-09,Healthy,Normal
+42,Male,8.66,1.32,125.83,Morning,2024-07-31,Healthy,Normal
+20,Female,1.18,2.62,40.86,Evening,2024-03-11,Healthy,Normal
+49,Male,8.09,1.18,101.1,Morning,2025-08-05,Healthy,Normal
+35,Female,5.04,4.68,31.23,Morning,2025-05-22,Healthy,Normal
+56,Male,7.05,0.68,127.99,Morning,2024-10-23,Menopause,Mild Imbalance
+47,Male,3.0,0.78,98.42,Afternoon,2025-03-20,PCOS,Mild Imbalance
+18,Female,1.39,2.88,19.73,Afternoon,2026-01-16,Menopause,Normal
+30,Male,7.94,0.94,106.75,Morning,2025-10-23,Menopause,Mild Imbalance
+38,Female,1.0,4.95,23.85,Evening,2024-10-18,Thyroid,Normal
+31,Male,7.0,2.2,105.68,Morning,2025-02-20,Healthy,Normal
+40,Female,7.11,1.86,22.74,Morning,2024-11-28,Thyroid,Normal
+50,Female,4.37,5.21,12.03,Morning,2024-08-14,Low_T,Normal
+34,Male,8.61,2.59,143.35,Morning,2024-05-05,Healthy,Normal
+43,Female,1.3,1.31,29.73,Evening,2024-04-07,PCOS,Normal
+36,Female,7.41,0.71,38.78,Morning,2024-10-22,Thyroid,Mild Imbalance
+46,Female,2.14,3.35,33.18,Afternoon,2025-04-11,Healthy,Normal
+48,Female,5.32,2.89,26.46,Morning,2025-02-06,Low_T,Normal
+24,Female,6.87,4.18,20.03,Morning,2024-02-28,Stressed,Normal
+29,Female,3.34,2.29,41.1,Afternoon,2025-11-01,PCOS,Normal
+35,Male,1.93,1.93,83.85,Afternoon,2024-03-10,PCOS,Normal
+40,Female,7.53,1.08,26.88,Morning,2024-07-09,Menopause,Normal
+54,Female,3.88,1.97,47.5,Afternoon,2024-07-27,PCOS,Mild Imbalance
+18,Female,6.19,4.59,22.64,Morning,2024-10-11,Healthy,Normal
+36,Male,1.99,2.81,148.42,Morning,2025-06-30,Adrenal,Mild Imbalance
+61,Female,9.91,2.52,41.81,Morning,2025-08-14,Healthy,Mild Imbalance
+34,Male,1.5,0.56,152.49,Evening,2025-08-20,Menopause,Mild Imbalance
+28,Male,4.88,1.73,91.86,Morning,2024-10-25,PCOS,Normal
+42,Female,9.87,4.15,33.66,Morning,2025-05-19,Healthy,Mild Imbalance
+18,Female,2.54,5.1,43.39,Evening,2024-07-10,Stressed,Mild Imbalance
+52,Male,1.76,1.66,83.81,Evening,2025-03-13,Healthy,Normal
+25,Female,6.89,2.1,21.65,Morning,2025-05-06,Healthy,Normal
+47,Female,15.57,5.26,42.57,Morning,2024-08-08,Stressed,Mild Imbalance
+38,Female,5.87,5.5,36.76,Morning,2024-11-10,Healthy,Normal
+49,Male,5.1,2.76,66.95,Afternoon,2025-05-07,Stressed,Mild Imbalance
+32,Female,3.17,1.96,52.3,Afternoon,2025-12-07,Healthy,Normal
+41,Male,3.38,2.96,79.79,Afternoon,2024-03-06,Healthy,Normal
+57,Male,13.57,2.02,116.74,Morning,2025-10-29,Stressed,Mild Imbalance
+36,Female,3.42,4.87,52.77,Afternoon,2024-12-02,PCOS,Normal
+41,Male,8.16,3.3,160.17,Morning,2024-10-26,Healthy,Normal
+42,Female,4.23,3.77,28.28,Morning,2025-10-13,Healthy,Normal
+31,Male,0.65,2.21,111.62,Evening,2025-10-08,Healthy,Normal
+65,Female,0.75,2.55,17.96,Evening,2025-12-17,Low_T,Normal
+29,Female,1.56,4.45,12.6,Evening,2024-10-25,Low_T,Normal
+20,Female,3.3,0.96,59.97,Afternoon,2024-06-25,PCOS,Mild Imbalance
+42,Male,3.59,2.55,112.26,Afternoon,2026-01-04,Healthy,Normal
+18,Female,1.23,3.0,40.7,Afternoon,2024-05-13,Healthy,Normal
+29,Male,1.31,1.09,164.79,Evening,2024-04-20,Healthy,Normal
+46,Male,3.07,2.16,115.58,Afternoon,2024-05-20,Healthy,Normal
+46,Male,11.02,1.18,77.38,Morning,2024-06-18,Stressed,Mild Imbalance
+44,Female,1.07,3.44,51.09,Evening,2024-12-16,Healthy,Normal
+48,Male,2.3,1.72,103.35,Evening,2025-04-09,Stressed,Mild Imbalance
+53,Female,2.89,3.14,47.45,Afternoon,2024-04-20,Healthy,Normal
+48,Female,8.03,3.94,51.89,Morning,2026-01-27,Healthy,Normal
+49,Female,2.08,2.15,40.19,Afternoon,2025-03-30,Healthy,Normal
+45,Male,6.4,1.07,144.01,Morning,2024-06-22,PCOS,Normal
+28,Female,6.36,5.89,22.11,Morning,2024-10-22,Healthy,Normal
+45,Female,7.91,4.89,7.91,Morning,2025-02-17,Low_T,Mild Imbalance
+29,Male,0.82,3.24,127.74,Evening,2025-12-14,Healthy,Normal
+43,Male,12.88,1.31,93.88,Morning,2025-12-02,Stressed,Mild Imbalance
+26,Female,6.84,1.55,36.91,Morning,2025-02-12,Menopause,Normal
+29,Male,9.63,2.81,148.05,Morning,2025-01-25,Healthy,Normal
+37,Female,0.4,3.44,38.09,Evening,2024-12-30,Healthy,Normal
+43,Male,8.07,1.84,68.98,Morning,2024-07-15,Healthy,Normal
+30,Female,1.25,2.37,23.27,Evening,2024-05-06,Low_T,Normal
+36,Male,1.81,2.0,121.94,Evening,2025-01-16,Adrenal,Normal
+25,Female,1.32,5.89,9.97,Evening,2024-03-09,Low_T,Mild Imbalance
+27,Male,8.8,1.74,160.88,Morning,2025-12-28,Healthy,Normal
+37,Male,4.5,2.1,107.51,Morning,2024-02-17,Healthy,Normal
+29,Male,12.96,2.49,76.66,Morning,2024-05-15,Stressed,Mild Imbalance
+34,Female,9.02,2.49,8.33,Morning,2024-10-03,Low_T,Mild Imbalance
+32,Female,7.17,4.19,27.01,Morning,2024-04-09,Healthy,Normal
+43,Female,1.26,4.03,91.25,Evening,2024-04-26,PCOS,Mild Imbalance
+27,Male,0.51,1.81,88.45,Evening,2025-04-21,Healthy,Normal
+34,Male,4.23,2.39,107.85,Morning,2024-05-03,Healthy,Normal
+70,Male,21.41,2.82,105.44,Morning,2025-07-29,Stressed,Mild Imbalance
+61,Female,25.91,1.56,19.86,Morning,2024-02-20,Adrenal,Mild Imbalance
+29,Male,6.32,2.64,82.46,Afternoon,2025-08-06,Stressed,Mild Imbalance
+39,Male,7.75,2.62,142.9,Morning,2024-07-24,Healthy,Normal
+28,Female,1.32,3.9,80.77,Afternoon,2025-01-01,PCOS,Mild Imbalance
+33,Male,6.08,2.88,136.52,Morning,2025-01-12,Healthy,Normal
+41,Male,1.54,3.06,85.86,Afternoon,2025-02-27,Healthy,Normal
+29,Female,1.98,3.33,38.54,Evening,2025-08-29,Healthy,Normal
+18,Female,7.31,6.02,33.18,Morning,2024-11-23,Stressed,Normal
+18,Female,2.79,1.4,24.03,Afternoon,2025-01-28,Healthy,Normal
+29,Male,5.42,2.24,148.42,Morning,2025-09-20,Healthy,Normal
+32,Female,0.97,3.72,42.84,Afternoon,2024-04-30,Healthy,Mild Imbalance
+42,Male,5.82,2.91,44.88,Morning,2024-12-27,Low_T,Mild Imbalance
+37,Female,3.8,4.03,40.63,Afternoon,2024-02-11,Healthy,Normal
+30,Male,9.78,2.95,82.95,Morning,2025-03-28,Stressed,Mild Imbalance
+59,Male,1.69,2.96,75.93,Afternoon,2025-05-31,Healthy,Normal
+20,Female,11.95,2.8,22.49,Morning,2024-03-30,Adrenal,Mild Imbalance
+29,Male,5.04,1.25,140.03,Morning,2024-03-28,Healthy,Normal
+37,Male,1.66,0.64,79.87,Afternoon,2025-05-13,Menopause,Mild Imbalance
+18,Male,2.23,3.36,171.63,Afternoon,2025-01-17,Healthy,Normal
+42,Female,2.18,1.43,33.61,Afternoon,2025-02-21,Healthy,Normal
+22,Male,13.79,2.12,69.17,Morning,2024-07-18,Stressed,Mild Imbalance
+35,Female,1.21,5.07,21.09,Afternoon,2025-01-23,Healthy,Normal
+37,Male,12.66,3.28,81.81,Morning,2024-06-01,Stressed,Mild Imbalance
+22,Female,15.91,2.14,42.75,Morning,2024-08-26,Stressed,Mild Imbalance
+35,Female,1.64,6.55,24.94,Evening,2024-10-18,Healthy,Normal
+43,Female,0.84,3.77,32.77,Evening,2025-01-24,Healthy,Normal
+63,Female,1.29,2.27,25.6,Afternoon,2025-10-27,Healthy,Normal
+41,Female,5.44,2.75,85.37,Morning,2024-03-30,PCOS,Mild Imbalance
+18,Female,1.03,1.73,25.6,Evening,2024-07-22,Menopause,Normal
+25,Female,2.12,4.46,27.1,Afternoon,2025-08-15,Stressed,Normal
+39,Female,1.13,2.18,24.51,Evening,2025-09-18,Healthy,Normal
+22,Male,6.96,2.05,76.4,Morning,2025-03-04,Healthy,Normal
+52,Female,7.37,2.36,10.62,Morning,2024-02-17,Menopause,Normal
+32,Female,1.41,4.85,46.73,Afternoon,2024-04-12,Healthy,Normal
+38,Male,5.58,3.16,103.09,Morning,2024-08-13,Healthy,Normal
+29,Male,2.98,3.65,166.89,Afternoon,2024-10-15,Healthy,Normal
+21,Female,1.31,3.86,18.64,Evening,2024-05-18,Stressed,Normal
+18,Female,6.96,2.05,52.11,Afternoon,2026-01-28,Stressed,Mild Imbalance
+44,Male,7.8,0.94,108.92,Morning,2025-01-13,Healthy,Normal
+18,Male,5.13,0.92,128.51,Morning,2025-06-16,PCOS,Mild Imbalance
+40,Female,4.02,1.97,12.82,Morning,2024-12-09,Menopause,Normal
+31,Female,4.62,3.56,48.54,Morning,2024-02-11,Healthy,Normal
+18,Male,0.2,2.44,117.64,Evening,2024-06-11,Adrenal,Mild Imbalance
+39,Female,0.44,5.42,29.54,Evening,2024-06-20,Healthy,Normal
+37,Female,3.73,2.33,36.66,Afternoon,2024-05-11,Healthy,Normal
+37,Female,4.97,2.83,48.35,Morning,2025-09-01,Healthy,Normal
+27,Female,3.26,1.2,29.63,Afternoon,2025-06-18,Menopause,Normal
+46,Female,8.2,3.48,20.81,Afternoon,2025-02-25,Adrenal,Mild Imbalance
+18,Male,1.98,3.34,142.18,Afternoon,2025-07-17,Stressed,Normal
+24,Male,1.62,0.96,121.05,Evening,2025-07-24,Healthy,Normal
+34,Female,7.51,5.08,26.17,Morning,2024-08-03,Healthy,Normal
+37,Male,11.3,1.67,78.65,Morning,2025-11-21,Stressed,Mild Imbalance
+35,Female,1.07,0.73,18.46,Evening,2024-10-27,Menopause,Mild Imbalance
+18,Female,0.57,6.67,25.66,Evening,2024-02-12,Thyroid,Normal
+45,Female,0.99,5.11,45.53,Evening,2026-01-09,Healthy,Normal
+25,Female,8.65,3.75,53.54,Morning,2025-12-10,Stressed,Normal
+34,Male,9.2,2.62,85.06,Morning,2025-11-15,Stressed,Normal
+54,Female,6.42,2.91,21.08,Afternoon,2024-04-09,Stressed,Mild Imbalance
+29,Male,2.22,1.91,108.76,Afternoon,2024-12-01,Healthy,Normal
+18,Female,1.76,3.84,35.79,Afternoon,2024-06-24,Healthy,Normal
+47,Male,9.75,1.27,88.98,Morning,2025-11-10,PCOS,Normal
+22,Female,1.08,3.96,22.61,Afternoon,2024-04-22,Adrenal,Normal
+40,Male,5.13,2.72,53.7,Morning,2025-04-20,Healthy,Normal
+45,Female,4.69,1.78,36.75,Morning,2025-11-30,Healthy,Normal
+33,Female,1.02,4.1,46.79,Afternoon,2025-03-24,Healthy,Normal
+33,Female,7.25,7.06,30.2,Morning,2025-08-02,Healthy,Normal
+42,Male,6.88,1.15,30.76,Morning,2024-11-08,Low_T,Mild Imbalance
+42,Male,1.7,1.33,89.26,Afternoon,2026-01-09,Thyroid,Normal
+33,Female,2.38,2.37,72.65,Afternoon,2024-07-26,PCOS,Mild Imbalance
+30,Male,2.55,0.9,151.81,Afternoon,2025-09-30,Menopause,Mild Imbalance
+32,Male,4.41,2.73,59.31,Morning,2025-09-19,Healthy,Normal
+54,Female,12.47,5.67,40.78,Morning,2025-07-05,Healthy,Mild Imbalance
+35,Male,3.02,3.32,132.3,Afternoon,2025-07-02,Stressed,Normal
+48,Female,1.21,3.33,25.02,Evening,2025-03-18,Healthy,Normal
+44,Female,9.43,5.84,30.32,Morning,2024-02-05,Stressed,Normal
+44,Male,3.94,1.81,104.25,Afternoon,2025-07-20,PCOS,Mild Imbalance
+21,Male,6.88,3.0,81.78,Morning,2025-08-03,Healthy,Normal
+36,Female,3.46,6.87,33.36,Afternoon,2024-02-12,Healthy,Normal
+18,Male,11.15,4.46,190.48,Morning,2024-08-29,Thyroid,Mild Imbalance
+22,Female,6.8,5.93,18.13,Morning,2024-11-16,Healthy,Normal
+41,Female,6.51,6.24,48.53,Morning,2025-10-17,Healthy,Normal
+37,Male,0.73,1.83,99.38,Evening,2025-05-17,Thyroid,Normal
+27,Male,0.57,1.21,131.05,Evening,2024-03-22,Healthy,Normal
+52,Female,1.11,1.88,48.88,Afternoon,2025-10-21,Healthy,Normal
+25,Female,1.69,7.32,18.34,Evening,2025-10-13,Healthy,Normal
+55,Female,5.74,2.74,46.46,Morning,2024-08-05,Healthy,Normal
+34,Female,1.26,5.01,26.44,Evening,2024-12-06,Healthy,Normal
+35,Female,14.76,2.35,35.95,Morning,2025-09-25,Stressed,Mild Imbalance
+34,Male,1.26,2.19,97.77,Evening,2025-06-28,Healthy,Normal
+25,Female,5.52,1.28,10.55,Morning,2024-08-22,Menopause,Normal
+47,Male,13.27,1.69,78.33,Morning,2025-05-24,Stressed,Mild Imbalance
+22,Male,1.36,1.23,61.25,Evening,2025-06-20,Adrenal,Normal
+59,Female,1.32,3.38,87.62,Evening,2026-01-27,PCOS,Mild Imbalance
+40,Male,4.04,1.26,27.1,Morning,2024-10-14,Low_T,Mild Imbalance
+33,Male,1.02,1.6,103.17,Afternoon,2024-05-17,Adrenal,Normal
+30,Female,7.25,3.07,32.3,Morning,2025-11-17,Healthy,Normal
+34,Male,1.67,2.22,141.56,Evening,2025-04-27,Healthy,Normal
+30,Male,1.51,1.66,148.04,Evening,2025-05-25,Healthy,Normal
+44,Female,2.0,1.04,19.19,Afternoon,2025-07-11,Menopause,Normal
+38,Male,8.92,2.24,57.61,Morning,2025-02-06,Healthy,Normal
+43,Female,3.84,6.09,36.8,Evening,2024-06-16,Stressed,Mild Imbalance
+45,Male,1.62,3.29,96.3,Evening,2025-08-31,Adrenal,Normal
+53,Male,0.56,1.85,122.13,Evening,2025-04-21,PCOS,Normal
+53,Female,2.05,3.17,17.58,Afternoon,2024-12-02,Stressed,Normal
+44,Male,0.68,3.71,108.23,Evening,2025-02-02,Healthy,Normal
+30,Male,10.64,3.42,98.61,Morning,2025-09-25,Stressed,Mild Imbalance
+35,Female,5.87,1.57,57.16,Morning,2024-03-26,PCOS,Mild Imbalance
+38,Female,6.86,1.49,18.96,Morning,2025-12-03,Low_T,Normal
+57,Male,9.79,3.14,48.77,Morning,2025-04-13,Low_T,Mild Imbalance
+35,Male,7.76,3.02,138.76,Morning,2025-11-21,Thyroid,Normal
+37,Male,2.69,2.6,63.74,Afternoon,2025-09-26,Thyroid,Normal
+39,Female,4.29,3.01,25.58,Morning,2024-10-01,Healthy,Normal
+26,Male,10.66,1.68,174.64,Morning,2025-03-25,Stressed,Mild Imbalance
+57,Female,5.7,2.06,47.57,Afternoon,2024-07-12,Stressed,Mild Imbalance
+35,Male,10.17,1.35,114.82,Morning,2024-03-04,Healthy,Normal
+37,Female,4.87,2.95,36.67,Afternoon,2025-03-18,Stressed,Mild Imbalance
+45,Male,2.71,0.99,140.09,Evening,2025-05-03,Stressed,Mild Imbalance
+23,Male,9.55,1.91,55.8,Morning,2025-09-18,Stressed,Normal
+23,Male,15.58,3.06,139.33,Morning,2024-11-04,Stressed,Mild Imbalance
+52,Female,10.42,6.91,26.9,Morning,2024-11-14,Healthy,Mild Imbalance
+45,Male,8.75,2.54,88.42,Morning,2026-01-08,Healthy,Normal
+35,Female,1.48,3.36,34.86,Afternoon,2026-01-05,PCOS,Normal
+70,Male,2.08,2.48,43.52,Evening,2024-08-23,Thyroid,Mild Imbalance
+48,Female,11.25,4.26,24.12,Morning,2025-03-10,Stressed,Mild Imbalance
+54,Female,8.89,3.95,10.22,Morning,2024-10-20,Low_T,Mild Imbalance
+21,Male,2.34,1.05,153.35,Afternoon,2025-12-28,Stressed,Normal
+33,Female,3.54,0.95,41.67,Afternoon,2025-10-04,Healthy,Normal
+32,Female,0.61,5.48,47.33,Evening,2025-09-01,Stressed,Normal
+54,Female,0.72,3.39,24.95,Afternoon,2024-07-21,Adrenal,Mild Imbalance
+37,Male,1.15,2.27,86.03,Afternoon,2025-11-04,Healthy,Normal
+38,Male,7.2,3.09,138.12,Morning,2024-03-23,Healthy,Normal
+64,Male,22.0,2.78,117.87,Morning,2024-02-18,Stressed,Mild Imbalance
+37,Male,8.15,1.66,142.82,Morning,2024-08-15,Healthy,Normal
+37,Female,1.66,3.43,37.85,Evening,2025-11-05,Healthy,Normal
+53,Male,18.88,2.51,89.29,Morning,2025-06-07,Adrenal,Mild Imbalance
+45,Female,2.77,6.3,49.4,Afternoon,2025-09-27,Healthy,Normal
+19,Male,1.75,1.0,93.76,Evening,2024-08-02,Healthy,Normal
+26,Male,7.89,2.06,164.91,Morning,2024-10-15,PCOS,Normal
+50,Male,0.84,1.8,49.56,Evening,2025-11-26,Healthy,Normal
+39,Female,4.24,1.4,7.55,Afternoon,2025-05-05,Low_T,Mild Imbalance
+42,Male,0.61,3.51,127.12,Evening,2026-01-05,Healthy,Normal
+38,Male,1.72,1.59,66.45,Evening,2025-10-30,PCOS,Normal
+30,Male,2.05,1.13,72.13,Evening,2024-04-12,Stressed,Mild Imbalance
+46,Male,1.66,1.53,59.69,Morning,2024-04-22,Adrenal,Mild Imbalance
+28,Male,3.66,2.93,86.15,Afternoon,2024-06-26,Healthy,Normal
+41,Male,2.25,3.09,100.85,Afternoon,2024-04-28,Thyroid,Normal
+41,Male,5.41,0.7,124.02,Morning,2024-11-16,PCOS,Mild Imbalance
+37,Male,3.82,2.82,163.97,Afternoon,2026-01-06,Healthy,Normal
+20,Male,2.53,2.79,98.73,Afternoon,2024-04-01,Thyroid,Normal
+45,Male,11.88,1.92,89.09,Morning,2025-09-17,Stressed,Mild Imbalance
+19,Male,4.48,3.18,95.4,Afternoon,2025-12-20,Adrenal,Mild Imbalance
+26,Female,1.31,3.55,46.77,Evening,2024-06-27,PCOS,Normal
+34,Female,3.96,3.01,15.85,Afternoon,2024-06-13,Stressed,Normal
+18,Male,3.87,1.18,122.24,Morning,2025-10-11,PCOS,Normal
+32,Male,1.93,2.28,50.85,Afternoon,2025-10-08,Low_T,Normal
+28,Male,3.07,1.82,47.45,Afternoon,2025-12-07,Low_T,Mild Imbalance
+20,Female,4.2,2.82,40.31,Morning,2024-09-20,Healthy,Mild Imbalance
+57,Male,5.51,1.65,60.03,Morning,2025-10-06,Healthy,Normal
+43,Male,1.52,2.48,161.97,Afternoon,2025-03-21,Healthy,Normal
+31,Male,6.82,2.55,60.04,Morning,2024-10-21,Low_T,Normal
+45,Female,0.58,1.29,28.2,Evening,2025-05-01,Healthy,Normal
+21,Male,1.04,3.35,115.62,Evening,2025-02-11,Healthy,Normal
+49,Female,7.73,4.13,47.68,Morning,2025-06-28,Healthy,Normal
+27,Male,4.83,2.44,76.41,Morning,2024-12-18,Healthy,Normal
+43,Male,8.96,1.03,59.85,Morning,2025-01-06,Low_T,Normal
+26,Female,3.0,5.22,37.4,Afternoon,2025-10-28,Stressed,Normal
+35,Male,13.76,1.34,83.36,Morning,2025-07-18,Stressed,Mild Imbalance
+27,Male,6.87,0.63,77.75,Morning,2025-03-05,Menopause,Mild Imbalance
+35,Female,1.88,2.73,17.49,Evening,2025-01-14,Healthy,Normal
+41,Female,1.21,5.98,47.92,Evening,2025-09-01,Healthy,Normal
+19,Female,7.64,3.44,44.64,Morning,2024-10-03,Healthy,Normal
+50,Male,4.76,1.77,60.27,Morning,2025-05-18,Healthy,Normal
+38,Male,0.66,3.06,86.62,Evening,2024-04-06,Healthy,Normal
+34,Male,0.95,2.36,154.54,Afternoon,2025-06-20,Healthy,Mild Imbalance
+48,Male,9.09,2.89,107.94,Morning,2024-11-18,Healthy,Normal
+32,Male,1.6,0.81,130.64,Evening,2024-03-24,Menopause,Mild Imbalance
+28,Female,6.78,2.76,26.71,Morning,2025-02-16,Healthy,Normal
+27,Male,0.9,2.59,140.49,Evening,2025-04-14,Stressed,Normal
+31,Male,3.15,1.27,169.56,Afternoon,2024-07-04,PCOS,Normal
+51,Female,4.01,3.97,21.95,Afternoon,2025-08-18,Healthy,Mild Imbalance
+50,Female,7.61,5.0,41.53,Morning,2024-02-29,Healthy,Normal
+34,Female,5.51,4.96,25.09,Morning,2024-05-02,Healthy,Normal
+23,Male,2.25,1.49,127.1,Afternoon,2025-10-05,Healthy,Normal
+26,Male,0.74,2.7,75.85,Evening,2025-10-12,Healthy,Normal
+28,Female,7.16,5.38,23.59,Morning,2026-01-16,Healthy,Normal
+36,Female,16.94,3.73,38.47,Morning,2024-02-27,Stressed,Mild Imbalance
+32,Female,4.7,2.61,17.76,Morning,2026-01-24,Healthy,Normal
+42,Female,2.81,4.81,32.24,Afternoon,2024-11-10,Healthy,Normal
+46,Female,0.54,2.83,32.17,Evening,2025-10-06,Healthy,Normal
+39,Female,1.04,5.16,38.0,Evening,2024-11-26,Adrenal,Normal
+22,Female,1.56,3.83,33.68,Afternoon,2024-06-19,Healthy,Normal
+25,Male,13.48,1.87,96.46,Morning,2025-12-15,Stressed,Mild Imbalance
+54,Male,7.73,1.75,122.35,Morning,2026-01-01,Healthy,Normal
+36,Male,12.68,1.99,64.53,Morning,2025-07-10,Stressed,Mild Imbalance
+30,Male,17.65,1.88,147.18,Morning,2024-09-30,Adrenal,Mild Imbalance
+22,Female,8.31,5.03,38.29,Morning,2024-09-17,Stressed,Normal
+38,Female,4.28,7.02,21.75,Morning,2024-05-21,Healthy,Normal
+18,Male,1.84,1.91,63.0,Afternoon,2024-07-23,Stressed,Normal
+24,Female,7.18,5.98,27.06,Morning,2024-04-16,Healthy,Normal
+27,Male,0.49,0.55,122.65,Evening,2025-06-02,Menopause,Mild Imbalance
+59,Female,2.11,1.66,16.57,Evening,2025-06-29,Healthy,Mild Imbalance
+44,Male,20.01,2.5,136.41,Morning,2026-01-28,Stressed,Mild Imbalance
+28,Male,5.92,2.04,185.54,Morning,2025-10-27,Healthy,Normal
+38,Female,4.59,2.84,49.41,Morning,2024-11-04,Healthy,Normal
+28,Female,8.85,2.09,10.24,Morning,2024-12-10,Menopause,Normal
+48,Female,16.57,2.1,19.54,Morning,2025-05-21,Stressed,Mild Imbalance
+49,Male,2.08,1.12,137.0,Evening,2025-05-14,Healthy,Normal
+29,Male,1.07,1.79,156.3,Evening,2026-01-04,Healthy,Normal
+48,Male,5.95,1.46,96.95,Morning,2025-02-05,PCOS,Normal
+40,Male,4.4,3.09,73.07,Morning,2025-11-16,Healthy,Normal
+41,Female,5.52,4.39,40.94,Morning,2025-06-19,Healthy,Normal
+18,Female,5.54,2.02,21.49,Morning,2025-01-07,Healthy,Normal
+18,Male,4.06,3.13,127.35,Morning,2026-01-11,Healthy,Mild Imbalance
+32,Female,2.06,4.91,50.67,Afternoon,2024-04-28,Healthy,Normal
+36,Male,5.55,3.19,122.22,Morning,2025-12-16,Healthy,Normal
+46,Male,0.47,3.19,123.3,Evening,2025-11-22,Healthy,Normal
+40,Male,7.35,3.74,103.8,Afternoon,2024-08-19,Stressed,Mild Imbalance
+45,Female,7.63,3.59,42.74,Morning,2024-05-06,Healthy,Normal
+40,Male,6.43,2.17,79.49,Morning,2024-06-10,PCOS,Normal
+37,Female,1.41,4.82,38.32,Evening,2024-08-02,Healthy,Normal
+28,Male,11.33,2.29,139.62,Morning,2025-10-27,Stressed,Mild Imbalance
+56,Male,17.15,2.45,114.95,Morning,2026-01-03,Stressed,Mild Imbalance
+39,Female,2.09,3.24,53.55,Afternoon,2025-07-16,PCOS,Normal
+39,Female,0.76,6.39,22.29,Evening,2025-02-21,Thyroid,Normal
+38,Male,4.16,1.52,130.53,Morning,2024-03-20,Healthy,Normal
+50,Female,10.55,4.14,24.33,Morning,2025-01-26,Healthy,Mild Imbalance
+32,Male,2.57,1.25,90.56,Afternoon,2025-02-24,Healthy,Normal
+46,Male,0.49,2.41,104.25,Evening,2025-10-21,Healthy,Normal
+21,Male,4.67,1.28,131.16,Morning,2024-10-01,Healthy,Normal
+26,Male,1.49,1.12,101.84,Evening,2024-03-11,Healthy,Normal
+26,Male,1.97,0.26,78.82,Afternoon,2024-09-14,Menopause,Mild Imbalance
+40,Male,7.57,1.07,70.8,Morning,2025-05-26,Healthy,Normal
+56,Female,3.87,0.83,10.89,Afternoon,2024-04-07,Menopause,Mild Imbalance
+28,Male,7.41,2.06,90.44,Morning,2024-03-24,Thyroid,Normal
+39,Female,7.57,1.68,15.62,Morning,2025-01-07,Menopause,Normal
+55,Female,7.8,3.58,20.46,Morning,2025-08-29,Stressed,Normal
+36,Male,8.19,1.2,67.83,Morning,2024-02-21,Healthy,Normal
+35,Male,0.51,3.37,60.8,Evening,2024-02-06,Healthy,Normal
+22,Female,1.1,1.31,22.39,Afternoon,2024-10-11,Menopause,Normal
+31,Female,6.07,2.48,45.4,Morning,2025-10-23,Healthy,Normal
+23,Female,4.13,3.95,7.04,Morning,2025-07-20,Low_T,Mild Imbalance
+35,Female,2.35,3.46,41.13,Afternoon,2025-07-06,Healthy,Normal
+29,Male,7.45,0.62,161.51,Morning,2025-06-10,Menopause,Mild Imbalance
+18,Female,5.99,6.31,33.67,Morning,2026-01-01,Stressed,Normal
+31,Female,1.38,3.78,34.13,Afternoon,2024-11-09,PCOS,Normal
+46,Male,3.43,1.54,50.5,Afternoon,2024-12-08,Stressed,Normal
+37,Male,10.02,1.21,63.51,Morning,2025-06-28,Healthy,Normal
+25,Male,6.26,1.41,108.18,Morning,2024-06-30,Healthy,Normal
+32,Female,2.22,1.82,44.02,Afternoon,2025-02-25,Healthy,Normal
+23,Female,7.59,2.29,67.76,Morning,2025-09-03,PCOS,Mild Imbalance
+28,Female,3.0,2.89,58.32,Afternoon,2025-03-23,PCOS,Mild Imbalance
+40,Male,4.92,2.1,94.87,Morning,2024-02-14,Healthy,Normal
+37,Male,14.3,2.36,118.37,Morning,2025-05-20,Stressed,Mild Imbalance
+42,Male,7.37,1.33,141.94,Morning,2024-04-25,Thyroid,Normal
+18,Female,5.32,3.1,17.21,Morning,2024-09-03,Low_T,Normal
+24,Male,0.98,2.63,77.91,Evening,2024-04-04,Low_T,Normal
+18,Male,6.79,2.04,136.45,Morning,2024-03-11,PCOS,Normal
+34,Female,1.22,1.48,21.26,Evening,2024-10-23,Healthy,Normal
+46,Female,7.11,3.49,19.48,Morning,2024-09-23,Healthy,Normal
+42,Male,8.79,2.32,54.7,Morning,2024-11-04,Stressed,Normal
+36,Female,15.6,2.68,29.94,Morning,2024-07-27,Stressed,Mild Imbalance
+50,Male,2.81,3.5,112.78,Afternoon,2025-09-04,Thyroid,Normal
+23,Female,6.16,6.76,33.97,Morning,2025-06-11,Healthy,Normal
+29,Female,1.46,3.12,32.98,Evening,2024-09-10,Healthy,Normal
+27,Female,7.3,4.96,33.95,Morning,2024-05-30,Stressed,Normal
+28,Male,0.76,2.22,127.81,Evening,2025-01-12,Stressed,Normal
+44,Female,1.77,2.82,34.21,Evening,2024-12-25,Healthy,Normal
+40,Female,0.8,1.91,16.16,Evening,2024-10-28,Menopause,Normal
+33,Female,8.89,4.41,27.18,Morning,2025-09-23,Healthy,Normal
+47,Male,7.4,2.69,100.19,Morning,2025-03-19,Healthy,Normal
+18,Male,3.05,1.22,180.3,Afternoon,2024-05-30,Menopause,Normal
+48,Male,0.89,1.21,143.4,Evening,2024-09-19,Stressed,Normal
+37,Male,2.27,2.73,140.05,Morning,2024-05-05,Adrenal,Mild Imbalance
+42,Male,2.53,2.12,124.31,Afternoon,2025-06-29,Healthy,Normal
+53,Female,11.54,1.0,44.48,Morning,2024-12-01,Stressed,Mild Imbalance
+66,Male,0.37,1.36,63.46,Evening,2024-09-20,Healthy,Normal
+32,Male,0.7,2.82,145.23,Evening,2024-07-10,Healthy,Normal
+35,Female,4.37,3.23,44.02,Morning,2024-07-12,Healthy,Normal
+31,Female,0.61,4.06,22.5,Evening,2025-03-19,Healthy,Normal
+37,Male,5.73,2.07,79.71,Morning,2024-07-02,PCOS,Normal
+30,Female,5.31,2.66,49.31,Morning,2025-12-08,Healthy,Normal
+27,Male,4.79,4.36,156.17,Morning,2024-02-13,Thyroid,Mild Imbalance
+18,Female,2.99,3.82,24.54,Afternoon,2024-10-15,Healthy,Normal
+41,Female,2.48,1.54,64.2,Afternoon,2024-07-13,PCOS,Mild Imbalance
+32,Female,6.76,3.85,51.21,Morning,2025-11-23,Healthy,Normal
+18,Female,9.18,7.16,15.67,Morning,2024-10-27,Healthy,Normal
+18,Female,2.08,6.39,33.45,Afternoon,2024-11-05,Stressed,Normal
+42,Male,7.14,2.77,100.74,Morning,2024-07-03,Healthy,Normal
+53,Male,4.31,0.99,56.21,Afternoon,2025-02-01,PCOS,Mild Imbalance
+18,Male,7.9,0.7,59.95,Morning,2024-03-27,Menopause,Mild Imbalance
+29,Male,6.59,2.7,183.48,Morning,2024-07-18,Healthy,Normal
+54,Female,5.98,3.83,48.08,Morning,2025-04-05,Healthy,Normal
+34,Female,7.6,4.35,43.46,Morning,2024-10-22,Healthy,Normal
+46,Female,1.97,5.18,25.96,Morning,2025-09-08,Adrenal,Mild Imbalance
+62,Female,0.23,3.45,21.5,Evening,2025-01-09,Adrenal,Mild Imbalance
+37,Male,7.11,0.68,84.24,Morning,2025-02-23,PCOS,Mild Imbalance
+33,Male,3.27,0.6,88.14,Afternoon,2025-10-22,Menopause,Mild Imbalance
+29,Female,5.19,1.68,44.68,Morning,2024-03-28,Healthy,Normal
+49,Male,3.83,1.78,82.8,Afternoon,2024-10-06,PCOS,Normal
+29,Female,4.26,2.39,42.12,Afternoon,2024-04-26,Thyroid,Mild Imbalance
+18,Male,0.58,3.81,68.1,Evening,2025-11-25,Healthy,Normal
+20,Male,4.97,2.74,115.95,Morning,2025-05-19,Healthy,Normal
+40,Female,0.98,3.08,50.76,Evening,2025-11-05,Healthy,Normal
+30,Male,4.52,3.1,133.74,Morning,2025-10-12,Healthy,Normal
+55,Male,2.69,2.59,113.3,Evening,2026-01-09,Stressed,Mild Imbalance
+28,Female,1.67,1.21,8.72,Evening,2025-03-30,Menopause,Mild Imbalance
+37,Male,2.5,2.73,150.96,Afternoon,2024-11-11,Healthy,Normal
+37,Female,9.18,3.84,34.24,Morning,2025-07-31,Healthy,Normal
+29,Female,1.88,2.52,49.67,Evening,2025-04-09,Healthy,Normal
+35,Male,5.56,1.24,106.88,Morning,2025-11-09,Healthy,Normal
+56,Female,8.33,4.35,21.28,Morning,2026-01-04,Low_T,Normal
+52,Male,2.04,2.37,103.16,Afternoon,2026-01-25,Stressed,Normal
+49,Male,11.2,1.25,86.97,Morning,2025-11-10,Stressed,Mild Imbalance
+43,Male,0.42,1.54,40.43,Evening,2024-06-09,Low_T,Mild Imbalance
+30,Female,1.75,5.34,17.74,Afternoon,2025-10-21,Low_T,Normal
+50,Male,17.14,1.07,90.6,Morning,2025-08-14,Stressed,Mild Imbalance
+24,Female,1.55,5.34,24.29,Afternoon,2024-08-27,Healthy,Normal
+35,Female,1.27,6.22,49.24,Evening,2025-12-21,Healthy,Normal
+27,Female,24.54,2.83,49.74,Morning,2025-09-09,Adrenal,Mild Imbalance
+50,Female,1.5,1.75,35.27,Evening,2025-04-15,Thyroid,Normal
+38,Female,1.45,2.51,48.37,Evening,2024-12-21,Healthy,Normal
+32,Female,2.21,4.41,25.52,Evening,2025-08-21,Stressed,Mild Imbalance
+18,Female,8.21,2.33,59.63,Morning,2025-11-22,PCOS,Mild Imbalance
+33,Male,9.52,0.94,174.12,Morning,2024-03-08,Menopause,Normal
+48,Female,5.23,2.28,23.88,Morning,2024-07-07,Healthy,Normal
+54,Male,10.78,3.18,72.76,Morning,2024-10-26,Adrenal,Mild Imbalance
+41,Male,1.38,2.11,113.42,Morning,2024-02-24,Adrenal,Mild Imbalance
+50,Male,5.42,3.31,103.22,Morning,2024-12-08,Healthy,Normal
+34,Female,6.22,2.8,43.6,Morning,2025-01-14,Thyroid,Normal
+38,Male,1.21,2.81,126.75,Evening,2025-01-25,Healthy,Normal
+53,Female,2.32,2.76,30.38,Evening,2024-09-01,Stressed,Mild Imbalance
+38,Female,1.59,4.86,32.38,Afternoon,2025-06-17,Healthy,Normal
+38,Male,10.1,1.0,103.54,Morning,2024-02-15,Healthy,Mild Imbalance
+18,Male,7.61,1.84,105.4,Morning,2024-09-01,Stressed,Normal
+39,Male,1.54,2.81,62.59,Afternoon,2024-10-19,Low_T,Normal
+29,Male,7.38,2.69,144.96,Morning,2025-10-11,Stressed,Normal
+64,Female,1.57,1.39,36.24,Evening,2024-02-16,Healthy,Normal
+49,Male,1.48,2.76,86.24,Afternoon,2024-04-07,Healthy,Normal
+45,Female,6.29,7.33,41.25,Morning,2024-10-23,Thyroid,Normal
+26,Female,0.62,2.63,41.47,Evening,2025-06-04,PCOS,Normal
+18,Male,5.54,1.71,97.24,Morning,2024-03-26,Healthy,Normal
+54,Female,2.1,0.81,23.22,Afternoon,2025-04-07,Menopause,Mild Imbalance
+18,Male,17.01,1.91,144.14,Morning,2025-06-13,Stressed,Mild Imbalance
+48,Male,5.47,1.55,77.36,Morning,2025-09-10,Healthy,Normal
+18,Male,0.9,2.38,173.18,Evening,2024-05-16,Healthy,Normal
+43,Female,0.36,0.93,80.94,Evening,2026-01-11,PCOS,Moderate Imbalance
+27,Female,1.4,7.21,25.49,Afternoon,2024-08-16,Healthy,Normal
+24,Male,1.86,3.26,150.84,Evening,2025-10-04,Stressed,Normal
+39,Male,2.91,1.87,54.39,Afternoon,2024-02-12,PCOS,Normal
+38,Female,8.62,5.2,39.45,Morning,2024-02-16,Healthy,Normal
+31,Female,1.29,1.49,11.1,Afternoon,2024-02-25,Menopause,Normal
+24,Female,3.5,2.82,49.73,Afternoon,2025-01-17,PCOS,Normal
+22,Female,0.73,5.14,48.1,Evening,2025-12-21,PCOS,Normal
+38,Male,3.65,1.76,77.0,Afternoon,2024-08-03,PCOS,Normal
+25,Male,0.83,1.76,169.16,Evening,2025-11-18,PCOS,Normal
+53,Female,5.6,1.51,35.56,Afternoon,2025-09-12,Stressed,Mild Imbalance
+42,Male,2.14,2.59,107.34,Afternoon,2024-08-28,Healthy,Normal
+53,Male,9.13,2.28,90.57,Morning,2025-09-10,Thyroid,Normal
+26,Female,7.29,6.27,17.99,Morning,2026-01-10,Stressed,Normal
+25,Male,3.33,1.8,29.22,Afternoon,2024-10-02,Low_T,Mild Imbalance
+33,Female,5.21,0.74,25.71,Morning,2025-04-06,Menopause,Mild Imbalance
+26,Female,6.94,2.37,68.54,Morning,2025-02-12,PCOS,Mild Imbalance
+46,Female,7.17,2.69,20.89,Afternoon,2025-05-20,Stressed,Mild Imbalance
+34,Male,3.79,2.7,170.99,Afternoon,2025-04-20,Stressed,Mild Imbalance
+43,Female,2.86,2.14,27.63,Afternoon,2025-11-26,Stressed,Normal
+42,Female,4.82,2.59,28.27,Morning,2025-12-10,Healthy,Normal
+34,Female,3.43,3.35,24.91,Afternoon,2024-11-30,Healthy,Normal
+41,Male,5.11,2.47,104.22,Morning,2024-02-18,Thyroid,Normal
+29,Female,0.43,1.91,77.04,Evening,2025-01-15,PCOS,Mild Imbalance
+21,Male,2.34,2.58,49.79,Afternoon,2026-01-28,Low_T,Mild Imbalance
+42,Male,7.43,0.87,60.5,Morning,2024-05-03,Menopause,Mild Imbalance
+28,Female,1.88,3.88,41.67,Afternoon,2024-12-16,Stressed,Normal
+40,Female,12.03,3.14,29.74,Morning,2025-11-12,Thyroid,Mild Imbalance
+35,Female,2.8,4.97,27.51,Afternoon,2024-11-27,Healthy,Normal
+26,Male,6.21,1.36,155.22,Morning,2024-03-10,Menopause,Normal
+20,Male,1.93,2.57,91.93,Afternoon,2025-06-11,Low_T,Normal
+25,Male,1.51,1.51,118.07,Afternoon,2024-06-08,Healthy,Normal
+41,Male,7.22,2.68,73.91,Morning,2024-05-19,Stressed,Normal
+44,Male,2.44,3.19,67.73,Afternoon,2025-08-22,Healthy,Normal
+18,Male,0.6,3.45,45.56,Evening,2024-11-16,Low_T,Mild Imbalance
+42,Female,12.13,1.39,31.72,Morning,2025-11-14,Stressed,Mild Imbalance
+37,Female,6.3,2.1,20.96,Morning,2025-12-06,Healthy,Normal
+20,Male,7.75,1.73,109.43,Morning,2025-06-12,Healthy,Normal
+30,Male,1.64,1.68,79.95,Evening,2024-06-28,Low_T,Normal
+52,Male,9.7,2.66,57.18,Morning,2024-07-27,Healthy,Normal
+34,Male,10.21,1.32,58.83,Morning,2024-11-05,Adrenal,Mild Imbalance
+18,Female,1.96,2.12,18.84,Afternoon,2025-09-22,Healthy,Normal
+45,Female,8.85,4.4,38.81,Morning,2024-04-20,Stressed,Mild Imbalance
+27,Female,2.89,4.92,26.82,Evening,2025-01-24,Stressed,Mild Imbalance
+34,Female,6.24,4.37,20.34,Morning,2024-07-12,Low_T,Normal
+22,Female,9.7,4.29,20.25,Morning,2024-05-05,Healthy,Normal
+33,Male,2.54,1.9,90.94,Afternoon,2025-01-23,Healthy,Normal
+47,Female,1.22,3.18,36.8,Evening,2024-07-14,Healthy,Normal
+28,Male,1.27,1.62,111.84,Evening,2024-11-20,Healthy,Normal
+18,Female,5.0,1.04,34.73,Afternoon,2024-09-21,Stressed,Mild Imbalance
+56,Female,7.67,3.32,8.95,Morning,2024-02-18,Low_T,Mild Imbalance
+18,Female,9.74,6.5,38.68,Morning,2025-06-14,Healthy,Normal
+64,Female,2.09,1.67,39.44,Afternoon,2024-12-21,Healthy,Normal
+23,Male,2.43,3.16,103.39,Afternoon,2024-06-01,Healthy,Normal
+46,Female,1.42,3.61,38.09,Afternoon,2025-08-13,Healthy,Normal
+41,Female,6.8,3.5,15.44,Morning,2025-07-12,Healthy,Normal
+38,Female,1.38,3.9,23.91,Morning,2025-08-27,Adrenal,Mild Imbalance
+18,Female,3.57,4.38,36.67,Afternoon,2025-03-28,Stressed,Normal
+24,Female,6.27,3.99,17.69,Morning,2025-09-02,Stressed,Normal
+31,Male,19.15,1.51,155.39,Morning,2025-10-24,Stressed,Mild Imbalance
+24,Male,7.19,1.23,96.41,Morning,2024-08-31,PCOS,Normal
+46,Male,2.6,1.84,87.6,Evening,2024-04-18,Stressed,Mild Imbalance
+49,Female,5.45,1.87,45.55,Afternoon,2025-02-18,Stressed,Mild Imbalance
+18,Male,3.58,0.79,155.34,Morning,2024-07-16,Menopause,Mild Imbalance
+35,Male,2.01,3.5,138.39,Afternoon,2025-08-25,Stressed,Normal
+47,Female,6.77,4.93,36.81,Morning,2024-02-08,Thyroid,Normal
+52,Male,5.68,2.45,77.69,Morning,2025-03-07,Healthy,Normal
+27,Male,2.44,1.75,144.78,Afternoon,2024-04-28,Healthy,Normal
+48,Male,3.95,0.78,106.51,Afternoon,2024-07-24,PCOS,Mild Imbalance
+57,Female,3.19,2.23,29.0,Afternoon,2026-01-24,Stressed,Normal
+19,Male,3.75,2.58,77.27,Afternoon,2025-08-28,Stressed,Normal
+18,Male,7.15,3.55,149.14,Morning,2025-03-01,Healthy,Normal
+22,Male,2.2,2.41,137.16,Evening,2025-06-05,Stressed,Mild Imbalance
+31,Female,3.73,5.11,28.69,Afternoon,2024-04-05,Healthy,Normal
+37,Male,12.62,3.01,65.8,Morning,2024-09-22,Stressed,Mild Imbalance
+48,Female,8.37,1.11,12.3,Morning,2024-08-05,Menopause,Normal
+38,Female,4.02,0.42,15.52,Afternoon,2025-04-12,Menopause,Moderate Imbalance
+45,Female,4.4,3.41,31.64,Morning,2024-07-15,Healthy,Normal
+28,Female,5.82,3.04,32.57,Morning,2024-03-06,Healthy,Normal
+26,Female,3.37,4.08,23.93,Afternoon,2025-02-04,Healthy,Normal
+23,Female,8.87,5.01,23.46,Morning,2024-08-10,Healthy,Normal
+37,Female,3.58,2.57,43.43,Afternoon,2024-06-17,Stressed,Normal
+48,Female,6.56,3.54,35.68,Morning,2024-11-03,Thyroid,Normal
+19,Female,1.48,6.31,18.75,Evening,2025-05-18,Thyroid,Normal
+40,Female,8.24,2.99,17.41,Morning,2025-07-20,Healthy,Normal
+41,Male,2.29,1.17,151.09,Afternoon,2024-03-14,Menopause,Normal
+28,Female,6.71,4.32,31.78,Morning,2024-04-07,Healthy,Normal
+39,Male,2.59,1.12,131.66,Afternoon,2025-12-17,Healthy,Normal
+28,Female,10.15,5.18,38.66,Morning,2025-05-21,Healthy,Normal
+26,Male,3.91,1.33,148.08,Afternoon,2024-04-14,Healthy,Normal
+42,Female,9.66,3.04,39.14,Morning,2024-12-20,Healthy,Normal
+54,Male,1.58,1.1,67.66,Evening,2025-09-03,Menopause,Normal
+36,Male,0.38,2.14,85.33,Evening,2024-05-02,Healthy,Normal
+49,Male,8.24,2.52,40.07,Morning,2024-02-17,Low_T,Mild Imbalance
+36,Female,9.05,5.84,28.61,Morning,2024-12-19,Healthy,Mild Imbalance
+40,Male,9.12,1.74,95.84,Morning,2025-02-15,Healthy,Normal
+46,Male,10.64,2.6,147.25,Morning,2025-05-08,Healthy,Mild Imbalance
+32,Male,1.3,3.01,84.12,Afternoon,2024-07-01,Healthy,Normal
+67,Male,1.53,3.63,75.68,Evening,2026-01-30,Healthy,Normal
+18,Female,7.07,6.65,8.82,Morning,2024-08-17,Low_T,Mild Imbalance
+51,Female,2.86,3.01,34.05,Afternoon,2025-11-14,Healthy,Normal
+32,Male,2.39,2.98,132.48,Afternoon,2024-05-30,Healthy,Normal
+22,Male,1.22,3.55,81.58,Afternoon,2024-04-27,Healthy,Normal
+48,Male,1.99,1.28,101.21,Evening,2024-12-16,PCOS,Normal
+38,Female,2.2,1.96,31.02,Afternoon,2024-11-15,Stressed,Normal
+18,Male,5.66,2.96,87.74,Morning,2024-11-27,Stressed,Normal
+53,Female,1.69,2.21,43.29,Afternoon,2025-10-03,Healthy,Normal
+34,Female,2.02,1.09,10.82,Evening,2025-10-29,Menopause,Normal
+27,Male,1.67,2.7,36.11,Afternoon,2025-04-21,Low_T,Mild Imbalance
+42,Female,8.82,3.17,33.07,Morning,2025-11-08,Stressed,Normal
+49,Female,1.94,4.81,44.51,Evening,2025-12-10,Adrenal,Normal
+23,Male,8.61,1.3,143.75,Morning,2024-02-17,Stressed,Normal
+33,Male,1.94,3.72,68.25,Afternoon,2025-07-11,Healthy,Normal
+45,Female,0.76,3.0,18.42,Evening,2024-03-16,Healthy,Normal
+27,Female,4.51,4.97,48.18,Morning,2024-08-05,Healthy,Normal
+48,Male,1.11,1.13,124.09,Evening,2024-02-20,Healthy,Normal
+42,Female,7.57,3.39,22.35,Morning,2025-12-08,Healthy,Normal
+44,Female,3.06,3.86,43.06,Afternoon,2025-08-25,Healthy,Normal
+35,Female,0.19,1.18,40.57,Evening,2025-08-31,Adrenal,Mild Imbalance
+41,Male,2.31,3.01,74.42,Evening,2024-08-09,Stressed,Mild Imbalance
+20,Male,1.17,1.86,63.62,Evening,2025-04-03,PCOS,Normal
+41,Male,12.89,1.44,118.25,Morning,2024-02-17,Stressed,Mild Imbalance
+20,Female,3.9,6.7,27.87,Morning,2024-07-05,Thyroid,Mild Imbalance
+28,Male,1.45,2.15,165.34,Evening,2025-01-03,Healthy,Normal
+35,Male,3.38,1.55,106.57,Afternoon,2025-10-20,Stressed,Normal
+18,Male,4.68,1.37,77.99,Morning,2025-03-07,Stressed,Normal
+44,Female,11.22,3.29,45.38,Morning,2024-12-08,Stressed,Mild Imbalance
+24,Female,17.25,2.53,16.74,Morning,2025-03-05,Adrenal,Mild Imbalance
+36,Male,6.95,0.7,167.99,Morning,2024-03-13,Menopause,Mild Imbalance
+40,Male,4.01,2.56,55.5,Afternoon,2024-10-20,Healthy,Normal
+35,Male,5.8,2.42,107.96,Afternoon,2025-03-06,Stressed,Mild Imbalance
+27,Female,1.36,4.24,41.55,Evening,2025-09-05,Stressed,Normal
+19,Male,2.96,2.19,92.74,Afternoon,2025-06-13,Stressed,Normal
+47,Male,0.78,0.62,134.5,Evening,2025-01-24,Menopause,Mild Imbalance
+33,Male,15.29,2.96,87.52,Morning,2025-11-24,Stressed,Mild Imbalance
+36,Male,4.31,1.46,165.26,Afternoon,2025-04-14,Adrenal,Mild Imbalance
+19,Male,2.07,1.72,125.78,Evening,2025-12-24,Stressed,Normal
+45,Female,8.08,0.88,16.69,Morning,2024-09-25,Menopause,Mild Imbalance
+26,Female,13.37,5.39,28.38,Morning,2025-07-02,Stressed,Mild Imbalance
+35,Male,7.18,2.73,109.4,Morning,2025-08-02,Healthy,Normal
+32,Male,8.78,3.0,113.23,Morning,2024-09-09,Healthy,Normal
+18,Male,3.93,0.55,163.5,Morning,2024-12-31,Menopause,Mild Imbalance
+37,Female,5.81,6.57,34.23,Morning,2025-02-07,Healthy,Normal
+35,Male,6.74,1.41,76.88,Morning,2024-09-16,Stressed,Normal
+60,Female,3.75,2.77,31.12,Afternoon,2024-02-15,Healthy,Normal
+39,Male,0.43,3.16,133.02,Evening,2025-05-01,Healthy,Normal
+23,Female,3.87,3.27,26.11,Morning,2024-12-18,Healthy,Mild Imbalance
+47,Male,10.47,0.93,122.71,Morning,2025-06-24,PCOS,Mild Imbalance
+46,Male,8.47,2.01,148.54,Morning,2025-02-16,Healthy,Normal
+22,Male,11.04,3.19,92.45,Morning,2025-03-15,Stressed,Mild Imbalance
+38,Female,6.89,5.37,20.18,Morning,2025-09-06,Healthy,Normal
+28,Female,1.8,3.54,28.54,Afternoon,2026-01-24,Healthy,Normal
+52,Female,1.75,1.16,70.95,Afternoon,2024-07-28,PCOS,Mild Imbalance
+39,Male,1.81,3.14,77.71,Afternoon,2025-03-01,Stressed,Normal
+70,Female,4.24,0.9,19.84,Afternoon,2025-07-09,Stressed,Mild Imbalance
+28,Female,2.58,6.15,15.61,Afternoon,2024-03-27,Low_T,Normal
+37,Female,2.64,5.28,48.67,Afternoon,2024-05-30,Stressed,Normal
+34,Female,2.76,3.82,35.86,Afternoon,2025-06-15,Healthy,Normal
+37,Female,1.04,4.37,26.36,Evening,2025-08-15,Healthy,Normal
+25,Male,8.55,3.75,74.67,Morning,2025-01-02,Thyroid,Normal
+40,Female,5.29,2.72,50.21,Morning,2025-12-09,Healthy,Normal
+51,Female,3.08,3.87,47.6,Evening,2025-12-24,Stressed,Mild Imbalance
+36,Female,8.36,3.43,36.56,Morning,2025-10-04,Stressed,Normal
+24,Female,12.51,2.1,18.28,Morning,2025-11-05,Stressed,Mild Imbalance
+33,Female,1.4,2.81,33.3,Evening,2024-03-23,Healthy,Normal
+43,Male,7.88,2.5,141.25,Afternoon,2025-10-30,Stressed,Mild Imbalance
+47,Male,14.98,2.54,67.88,Morning,2025-06-23,Stressed,Mild Imbalance
+42,Female,8.92,4.26,14.21,Morning,2026-01-13,Low_T,Normal
+29,Male,0.39,2.58,86.4,Evening,2025-11-02,Thyroid,Normal
+36,Female,2.26,3.46,52.77,Afternoon,2025-02-02,Healthy,Normal
+21,Female,1.55,3.32,39.38,Evening,2025-01-28,Healthy,Normal
+54,Female,2.81,2.1,13.28,Afternoon,2025-05-20,Low_T,Normal
+32,Female,0.97,4.48,21.22,Evening,2025-04-29,Healthy,Normal
+35,Male,4.82,3.61,131.31,Morning,2024-09-24,Healthy,Normal
+29,Male,6.58,0.93,95.64,Morning,2025-10-27,Low_T,Normal
+23,Female,3.21,3.23,40.42,Afternoon,2025-06-21,Healthy,Normal
+23,Male,8.33,1.58,97.47,Morning,2024-07-07,Healthy,Normal
+33,Female,1.41,2.37,42.12,Afternoon,2025-03-25,Healthy,Normal
+18,Male,2.81,1.5,139.51,Afternoon,2025-04-04,Stressed,Normal
+28,Male,1.0,1.85,141.17,Evening,2025-09-11,Healthy,Normal
+31,Male,7.17,3.98,134.8,Morning,2025-01-05,Thyroid,Normal
+60,Female,7.43,2.41,30.97,Morning,2024-06-11,Healthy,Normal
+34,Male,7.23,2.29,145.38,Morning,2025-01-25,Healthy,Normal
+39,Female,1.53,3.41,39.64,Afternoon,2024-07-10,Healthy,Normal
+43,Male,1.56,1.43,50.42,Evening,2025-11-30,Low_T,Normal
+50,Female,1.5,5.01,31.88,Evening,2024-02-05,Healthy,Normal
+30,Male,22.58,2.1,68.13,Morning,2025-05-26,Adrenal,Mild Imbalance
+22,Male,4.1,2.24,70.95,Morning,2024-06-22,Healthy,Mild Imbalance
+31,Female,2.03,5.58,27.17,Evening,2024-09-20,Stressed,Normal
+44,Male,6.16,2.57,118.14,Morning,2025-01-13,Healthy,Normal
+18,Male,4.97,0.63,128.38,Morning,2025-12-04,Menopause,Mild Imbalance
+35,Male,6.93,1.6,99.55,Morning,2024-10-17,Healthy,Normal
+20,Male,0.93,0.49,134.68,Afternoon,2025-04-05,Menopause,Mild Imbalance
+41,Female,2.16,3.98,22.99,Evening,2025-02-08,Healthy,Mild Imbalance
+32,Male,7.4,2.6,158.02,Morning,2024-02-07,Thyroid,Normal
+43,Female,1.28,3.13,52.3,Evening,2024-02-12,Healthy,Normal
+22,Male,5.62,4.11,75.44,Morning,2024-10-31,Thyroid,Mild Imbalance
+41,Female,1.95,3.17,25.98,Afternoon,2025-07-20,Healthy,Normal
+32,Male,8.79,0.52,169.44,Morning,2025-11-29,Menopause,Mild Imbalance
+41,Male,0.1,1.05,137.06,Evening,2025-10-17,Adrenal,Mild Imbalance
+23,Male,0.53,1.67,91.57,Evening,2024-12-02,PCOS,Normal
+39,Male,1.29,1.03,60.37,Evening,2024-08-03,Menopause,Mild Imbalance
+44,Male,7.81,3.05,149.32,Afternoon,2025-11-16,Stressed,Mild Imbalance
+59,Female,9.88,2.97,39.26,Morning,2025-01-18,Healthy,Normal
+43,Male,5.85,2.08,61.64,Morning,2025-05-05,PCOS,Normal
+38,Male,1.03,2.12,64.84,Afternoon,2024-07-09,Healthy,Normal
+51,Male,21.83,1.39,98.77,Morning,2024-11-21,Adrenal,Mild Imbalance
+29,Female,9.64,3.32,48.25,Morning,2024-02-01,PCOS,Normal
+57,Female,14.55,3.22,46.63,Morning,2025-02-16,Stressed,Mild Imbalance
+35,Female,2.87,3.23,38.5,Afternoon,2025-12-16,Healthy,Normal
+26,Female,13.77,6.15,35.75,Morning,2024-10-27,Adrenal,Mild Imbalance
+38,Male,3.62,3.23,151.77,Afternoon,2025-07-10,Stressed,Normal
+26,Male,0.61,3.29,132.12,Evening,2025-09-08,Stressed,Normal
+18,Male,14.25,2.97,157.23,Morning,2025-02-26,Stressed,Mild Imbalance
+38,Female,1.92,4.97,36.29,Evening,2025-06-22,Healthy,Normal
+32,Male,1.89,3.13,175.44,Afternoon,2025-09-22,Healthy,Normal
+38,Female,4.68,7.92,26.41,Afternoon,2024-02-28,Stressed,Mild Imbalance
+23,Female,2.83,3.17,36.21,Evening,2025-12-21,Stressed,Mild Imbalance
+38,Female,2.31,3.02,34.05,Afternoon,2024-05-10,Healthy,Normal
+31,Male,0.59,1.18,158.35,Evening,2024-08-05,Healthy,Normal
+24,Female,3.27,3.97,27.62,Afternoon,2026-01-22,Stressed,Normal
+18,Female,3.37,5.19,22.18,Afternoon,2024-08-21,Healthy,Normal
+40,Female,6.61,2.86,42.35,Morning,2024-11-25,Healthy,Normal
+43,Male,9.26,2.29,64.12,Morning,2024-12-12,Healthy,Normal
+41,Male,2.77,1.37,104.21,Afternoon,2024-06-24,Stressed,Normal
+22,Female,1.76,5.46,51.85,Afternoon,2025-11-08,Healthy,Normal
+60,Female,15.31,2.34,43.45,Morning,2024-09-05,Stressed,Mild Imbalance
+28,Male,2.22,3.36,94.37,Afternoon,2025-11-03,Healthy,Normal
+37,Male,1.85,1.02,138.83,Evening,2024-08-12,Healthy,Normal
+34,Male,3.59,1.88,162.38,Afternoon,2025-04-07,Healthy,Normal
+30,Female,3.52,3.21,17.21,Afternoon,2025-04-26,Healthy,Normal
+26,Male,8.7,1.54,76.41,Morning,2025-06-25,Healthy,Normal
+18,Female,3.16,5.3,42.26,Morning,2025-01-01,Thyroid,Mild Imbalance
+53,Female,9.88,3.99,12.66,Morning,2024-04-22,Low_T,Mild Imbalance
+31,Female,5.56,6.61,48.64,Morning,2024-12-19,Thyroid,Normal
+27,Male,2.95,1.63,140.34,Afternoon,2024-02-22,Healthy,Normal
+56,Female,8.65,1.03,45.05,Morning,2025-02-23,Stressed,Normal
+44,Female,3.62,3.93,28.62,Afternoon,2024-10-01,Healthy,Normal
+18,Male,6.09,0.67,84.49,Morning,2025-08-25,Menopause,Mild Imbalance
+35,Male,4.8,1.73,127.78,Morning,2025-10-14,Stressed,Normal
+43,Female,7.56,5.73,33.21,Morning,2024-07-26,Healthy,Normal
+36,Female,9.0,2.34,43.33,Morning,2024-08-18,PCOS,Normal
+39,Female,9.32,7.04,51.28,Morning,2024-12-10,Healthy,Normal
+26,Female,5.01,3.01,31.68,Morning,2024-10-07,Healthy,Normal
+26,Male,3.98,2.96,104.18,Morning,2024-07-20,Healthy,Normal
+49,Male,1.97,2.13,140.62,Evening,2024-05-08,PCOS,Mild Imbalance
+28,Female,4.1,0.69,23.17,Morning,2024-08-02,Menopause,Mild Imbalance
+37,Female,3.42,3.56,35.49,Afternoon,2025-10-28,Thyroid,Normal
+34,Female,5.52,5.14,41.97,Afternoon,2025-12-19,Stressed,Mild Imbalance
+33,Male,6.26,2.41,88.04,Morning,2025-04-17,Healthy,Normal
+35,Female,4.11,2.04,32.07,Afternoon,2024-09-12,Stressed,Mild Imbalance
+46,Female,9.37,2.8,59.79,Morning,2025-10-05,PCOS,Mild Imbalance
+62,Female,5.75,1.9,39.74,Morning,2025-02-11,Healthy,Normal
+43,Male,4.98,2.07,133.45,Morning,2024-11-04,Healthy,Normal
+47,Male,12.52,2.65,119.56,Morning,2024-03-22,Stressed,Mild Imbalance
+46,Female,2.05,4.02,40.53,Morning,2025-10-05,Adrenal,Mild Imbalance
+47,Male,6.0,0.8,126.37,Morning,2025-11-29,PCOS,Mild Imbalance
+46,Male,5.1,2.77,94.25,Morning,2024-09-05,PCOS,Normal
+37,Female,11.3,6.65,20.34,Morning,2024-10-22,Stressed,Mild Imbalance
+32,Female,7.27,3.73,22.49,Morning,2026-01-15,Healthy,Normal
+18,Male,2.79,3.42,87.61,Afternoon,2025-01-06,Healthy,Normal
+25,Female,8.24,4.15,19.3,Morning,2025-02-06,Healthy,Normal
+31,Male,1.3,3.35,112.31,Afternoon,2024-08-29,Healthy,Normal
+51,Female,9.7,3.63,25.73,Morning,2024-05-08,Healthy,Mild Imbalance
+41,Male,8.74,2.34,153.5,Morning,2025-01-18,Stressed,Normal
+34,Female,9.76,5.45,19.03,Morning,2025-05-27,Healthy,Normal
+32,Female,0.99,6.41,16.8,Evening,2025-04-19,Low_T,Normal
+26,Female,1.42,3.01,23.89,Morning,2024-06-12,Adrenal,Mild Imbalance
+42,Female,15.28,5.44,27.35,Morning,2024-04-14,Stressed,Mild Imbalance
+55,Male,17.73,1.56,110.28,Morning,2025-06-26,Stressed,Mild Imbalance
+37,Female,3.42,6.91,21.17,Afternoon,2024-04-17,Healthy,Normal
+29,Male,1.32,2.78,110.26,Afternoon,2025-11-15,Healthy,Normal
+41,Female,2.58,1.24,15.26,Afternoon,2025-12-17,Menopause,Normal
+20,Female,11.3,4.67,25.49,Morning,2025-01-29,Stressed,Mild Imbalance
+18,Female,0.87,2.32,31.7,Evening,2025-10-05,Healthy,Normal
+31,Male,6.53,1.61,40.36,Morning,2025-10-23,Low_T,Mild Imbalance
+36,Female,1.55,2.91,8.92,Afternoon,2024-03-07,Low_T,Mild Imbalance
+25,Male,2.9,1.14,127.23,Afternoon,2024-04-28,PCOS,Normal
+28,Female,6.32,4.77,44.39,Afternoon,2025-08-25,Stressed,Mild Imbalance
+25,Male,2.08,3.34,118.58,Evening,2025-05-04,Stressed,Mild Imbalance
+40,Female,3.66,2.29,50.38,Afternoon,2025-04-03,Healthy,Normal
+26,Female,7.98,3.12,15.9,Morning,2024-05-31,Healthy,Normal
+31,Male,7.2,4.21,58.6,Morning,2024-07-14,Thyroid,Normal
+54,Female,2.97,3.4,33.61,Afternoon,2024-07-02,Healthy,Normal
+39,Male,1.83,2.67,80.88,Evening,2025-04-22,Healthy,Normal
+38,Female,2.04,5.95,32.57,Afternoon,2024-06-03,Stressed,Normal
+36,Male,0.67,2.12,109.5,Evening,2024-07-14,Thyroid,Normal
+39,Female,5.46,6.05,18.89,Afternoon,2025-08-31,Stressed,Mild Imbalance
+51,Female,6.9,3.59,23.46,Morning,2025-02-06,Stressed,Normal
+27,Male,7.11,1.67,69.54,Morning,2025-08-19,Healthy,Normal
+27,Male,6.31,0.74,143.25,Morning,2025-08-30,Menopause,Mild Imbalance
+31,Female,0.44,3.26,51.34,Evening,2025-04-25,Healthy,Normal
+58,Male,10.27,1.35,64.33,Morning,2024-03-07,PCOS,Mild Imbalance
+21,Male,12.86,3.13,168.78,Morning,2024-08-27,Stressed,Mild Imbalance
+42,Female,1.15,5.27,27.91,Afternoon,2025-12-03,Healthy,Normal
+25,Female,3.73,4.93,16.71,Afternoon,2025-08-04,Healthy,Normal
+38,Female,5.94,2.1,30.1,Morning,2024-07-24,Healthy,Normal
+31,Female,2.65,3.1,45.72,Afternoon,2024-02-10,Thyroid,Normal
+18,Female,8.06,3.57,17.05,Morning,2024-07-30,Healthy,Normal
+34,Male,0.96,1.96,139.51,Evening,2025-06-18,Healthy,Normal
+57,Male,9.87,2.42,131.6,Morning,2025-10-14,Healthy,Mild Imbalance
+37,Female,1.76,3.11,29.32,Afternoon,2024-11-24,Healthy,Normal
+18,Female,2.48,2.07,33.54,Afternoon,2024-10-07,Menopause,Normal
+25,Male,0.78,2.93,73.1,Evening,2024-08-29,Healthy,Normal
+43,Female,8.53,4.36,36.92,Morning,2024-01-31,Thyroid,Normal
+18,Female,4.16,4.73,26.08,Morning,2025-03-08,Healthy,Normal
+23,Male,6.99,2.14,60.94,Morning,2024-11-23,Healthy,Normal
+34,Female,1.85,2.91,32.84,Afternoon,2025-01-05,Healthy,Normal
+44,Male,6.4,2.96,77.45,Morning,2024-03-20,Healthy,Normal
+30,Male,4.51,3.57,72.87,Morning,2025-04-02,Healthy,Normal
+30,Female,5.34,4.71,23.57,Morning,2025-11-28,Low_T,Normal
+40,Female,7.84,3.1,27.58,Morning,2024-11-15,Thyroid,Normal
+36,Female,0.63,3.2,32.53,Evening,2026-01-20,Adrenal,Normal
+39,Female,6.73,7.08,15.18,Morning,2024-03-22,Stressed,Normal
+35,Female,1.8,3.07,46.35,Evening,2024-06-15,Healthy,Normal
+44,Male,7.1,2.08,89.45,Morning,2024-03-05,Healthy,Normal
+49,Female,5.32,5.69,37.34,Morning,2024-09-22,Healthy,Normal
+36,Female,4.14,4.1,43.45,Afternoon,2024-04-24,Stressed,Normal
+27,Male,4.5,2.17,169.54,Morning,2024-03-21,Healthy,Normal
+33,Female,10.11,3.54,45.89,Morning,2025-11-29,Healthy,Normal
+57,Female,1.42,4.02,38.47,Morning,2024-08-31,Adrenal,Mild Imbalance
+18,Female,1.93,2.98,27.36,Afternoon,2025-07-22,Stressed,Normal
+33,Female,2.75,2.54,17.96,Afternoon,2024-03-22,Healthy,Normal
+39,Female,9.97,0.98,45.51,Morning,2026-01-30,Healthy,Mild Imbalance
+20,Male,6.87,2.32,81.95,Morning,2024-11-24,Healthy,Normal
+44,Male,1.51,1.14,125.09,Afternoon,2025-08-11,Menopause,Normal
+18,Female,9.84,6.4,31.66,Morning,2025-02-26,Thyroid,Normal
+29,Female,7.39,1.36,15.55,Morning,2026-01-09,Stressed,Normal
+43,Male,4.48,3.33,51.77,Morning,2025-06-28,Low_T,Mild Imbalance
+45,Female,2.05,5.41,20.76,Evening,2025-12-19,Healthy,Mild Imbalance
+37,Male,2.16,1.98,65.15,Afternoon,2024-10-16,Healthy,Normal
+42,Female,1.62,5.41,28.01,Afternoon,2025-09-07,Healthy,Normal
+41,Female,2.76,0.59,23.29,Afternoon,2024-04-21,PCOS,Mild Imbalance
+20,Male,7.81,1.93,146.43,Morning,2024-09-03,Healthy,Normal
+24,Female,9.55,1.49,24.39,Morning,2024-04-12,Stressed,Normal
+42,Male,6.73,2.92,56.98,Morning,2025-12-01,Healthy,Normal
+41,Female,6.32,3.33,40.67,Morning,2025-05-14,Healthy,Normal
+30,Female,5.16,4.74,11.07,Morning,2024-09-25,Low_T,Normal
+36,Male,1.7,0.63,165.6,Afternoon,2024-07-21,Menopause,Mild Imbalance
+38,Female,6.05,4.25,20.22,Morning,2024-03-30,Healthy,Normal
+34,Male,2.84,1.9,122.62,Afternoon,2024-04-12,PCOS,Normal
+28,Female,2.8,3.59,45.0,Afternoon,2025-11-30,Stressed,Normal
+20,Male,6.76,3.37,182.31,Morning,2024-09-20,Healthy,Normal
+39,Female,3.71,4.23,15.53,Afternoon,2024-07-14,Healthy,Normal
+32,Male,0.58,3.36,158.12,Evening,2024-10-03,Healthy,Normal
+18,Female,4.34,0.45,20.92,Morning,2025-10-01,Menopause,Mild Imbalance
+42,Male,9.39,1.28,125.99,Morning,2024-06-06,Healthy,Normal
+41,Female,1.16,2.58,21.14,Evening,2025-05-04,Stressed,Normal
+57,Male,1.2,1.28,118.77,Afternoon,2025-05-26,Menopause,Normal
+38,Female,0.11,6.38,24.46,Evening,2024-05-08,Adrenal,Mild Imbalance
+18,Female,1.05,4.48,18.97,Evening,2025-03-07,Healthy,Normal
+31,Male,6.33,2.38,107.66,Morning,2024-10-25,Thyroid,Normal
+38,Female,3.29,4.69,52.61,Afternoon,2025-07-19,Healthy,Normal
+53,Male,16.6,1.48,79.24,Morning,2025-04-24,Stressed,Mild Imbalance
+18,Male,3.07,3.27,171.12,Afternoon,2025-01-05,Healthy,Normal
+42,Female,3.96,4.38,38.4,Afternoon,2024-11-12,Stressed,Mild Imbalance
+44,Male,9.5,1.36,85.09,Morning,2024-03-16,Menopause,Mild Imbalance
+42,Male,0.82,3.36,26.06,Evening,2025-12-03,Low_T,Mild Imbalance
+32,Female,1.71,2.93,32.24,Evening,2025-06-16,Healthy,Normal
+43,Male,8.71,3.08,113.74,Morning,2025-11-26,Healthy,Normal
+52,Female,5.16,4.23,22.13,Morning,2024-05-06,Healthy,Normal
+32,Female,9.83,5.11,47.99,Morning,2025-07-18,Stressed,Normal
+26,Male,6.73,4.4,94.2,Morning,2024-06-07,Thyroid,Mild Imbalance
+37,Female,9.63,3.69,52.29,Morning,2025-02-20,Healthy,Normal
+41,Male,9.91,3.44,136.86,Morning,2024-12-14,Healthy,Normal
+41,Female,26.14,1.96,34.28,Morning,2025-04-20,Adrenal,Mild Imbalance
+49,Female,12.79,3.03,19.51,Morning,2025-04-16,Stressed,Mild Imbalance
+40,Male,18.63,2.47,73.8,Morning,2024-07-15,Stressed,Mild Imbalance
+49,Male,1.49,2.19,116.63,Afternoon,2024-07-12,Healthy,Normal
+21,Male,6.6,2.97,138.51,Morning,2025-01-10,Thyroid,Normal
+21,Male,15.92,1.37,118.79,Morning,2025-04-23,Stressed,Mild Imbalance
+53,Male,2.09,2.33,122.83,Evening,2024-11-02,Healthy,Mild Imbalance
+30,Male,5.6,3.06,87.92,Morning,2025-04-26,Healthy,Normal
+48,Female,2.98,1.42,13.03,Afternoon,2025-01-13,Menopause,Normal
+28,Female,10.17,1.59,35.43,Morning,2024-02-20,Thyroid,Mild Imbalance
+20,Male,4.28,0.53,75.24,Morning,2024-04-29,Menopause,Mild Imbalance
+50,Female,11.48,4.74,16.14,Morning,2025-04-02,Low_T,Mild Imbalance
+48,Female,4.15,2.25,30.08,Morning,2024-09-18,Healthy,Normal
+34,Female,1.37,3.99,34.76,Evening,2025-10-12,Healthy,Normal
+42,Female,2.57,8.27,38.82,Afternoon,2025-05-07,Healthy,Normal
+47,Female,1.28,6.19,29.32,Afternoon,2024-05-15,Thyroid,Normal
+42,Male,3.12,0.62,62.77,Afternoon,2025-02-07,PCOS,Mild Imbalance
+57,Female,20.3,4.04,22.7,Morning,2025-09-16,Stressed,Mild Imbalance
+44,Male,5.22,2.34,62.63,Morning,2024-12-06,Healthy,Normal
+34,Male,1.09,1.31,126.34,Afternoon,2024-06-19,Adrenal,Normal
+22,Male,0.67,2.48,101.99,Evening,2025-06-09,Healthy,Normal
+34,Male,3.29,2.51,86.96,Afternoon,2025-06-14,Healthy,Normal
+49,Male,5.54,1.97,136.42,Morning,2025-08-04,Healthy,Normal
+19,Male,13.89,2.17,143.93,Morning,2025-09-12,Stressed,Mild Imbalance
+34,Male,5.92,2.6,160.04,Morning,2025-04-09,Healthy,Normal
+28,Male,7.51,1.87,88.13,Morning,2024-02-12,Healthy,Normal
+38,Male,5.67,1.86,110.74,Morning,2024-05-30,PCOS,Normal
+24,Female,11.4,1.98,24.54,Morning,2025-03-29,Stressed,Mild Imbalance
+29,Female,7.54,0.89,14.96,Morning,2024-05-10,Menopause,Mild Imbalance
+55,Female,5.05,1.22,63.77,Morning,2025-09-18,PCOS,Mild Imbalance
+28,Male,2.71,1.76,137.38,Evening,2024-05-17,Stressed,Mild Imbalance
+50,Male,8.71,1.12,81.81,Morning,2025-04-15,Healthy,Normal
+40,Female,0.7,5.49,24.07,Evening,2025-04-27,Healthy,Normal
+18,Male,7.65,0.55,175.21,Morning,2024-04-03,Menopause,Mild Imbalance
+26,Female,2.41,2.49,28.13,Afternoon,2024-04-09,Thyroid,Normal
+18,Female,1.09,1.88,36.3,Evening,2024-05-26,Healthy,Normal
+32,Female,2.27,2.65,38.1,Afternoon,2024-08-29,Healthy,Normal
+33,Male,1.28,2.72,90.47,Evening,2025-03-29,Healthy,Normal
+18,Female,0.75,5.43,48.46,Evening,2025-03-20,Thyroid,Normal
+18,Female,7.65,4.25,36.41,Morning,2025-11-05,Stressed,Normal
+35,Female,1.38,4.25,27.24,Afternoon,2024-11-08,Healthy,Normal
+31,Female,0.62,1.76,19.62,Evening,2024-11-14,Menopause,Normal
+25,Male,1.02,1.49,162.53,Evening,2025-04-12,PCOS,Normal
+18,Male,2.25,2.85,128.8,Morning,2024-12-22,Adrenal,Mild Imbalance
+32,Male,1.22,2.62,126.3,Evening,2025-03-19,Healthy,Normal
+36,Female,5.05,1.38,41.26,Afternoon,2025-11-26,Stressed,Mild Imbalance
+43,Female,3.35,3.15,21.33,Afternoon,2025-03-13,Healthy,Normal
+31,Female,1.7,3.47,38.48,Afternoon,2025-02-01,Healthy,Normal
+39,Female,6.93,0.72,37.62,Morning,2025-06-19,PCOS,Mild Imbalance
+32,Female,6.17,3.48,44.36,Morning,2025-06-27,Healthy,Normal
+18,Male,3.82,1.49,168.11,Morning,2024-03-15,Healthy,Mild Imbalance
+27,Female,5.99,1.8,53.89,Morning,2024-03-06,PCOS,Normal
+46,Male,1.5,2.37,87.74,Morning,2025-04-05,Adrenal,Mild Imbalance
+19,Male,5.12,1.8,75.34,Afternoon,2025-05-10,Stressed,Mild Imbalance
+43,Female,0.98,5.31,49.95,Evening,2026-01-28,Healthy,Normal
+30,Male,4.76,1.09,152.0,Morning,2025-07-28,Healthy,Normal
+54,Male,9.67,1.6,110.47,Morning,2024-03-18,Healthy,Normal
+44,Female,2.4,3.87,88.82,Afternoon,2025-10-18,PCOS,Mild Imbalance
+29,Male,1.83,3.24,155.32,Evening,2024-10-17,Healthy,Normal
+51,Female,3.11,3.67,50.01,Afternoon,2024-11-04,Healthy,Normal
+25,Male,8.45,2.33,87.63,Morning,2025-06-04,Low_T,Normal
+47,Female,1.35,6.09,40.44,Afternoon,2025-05-05,Healthy,Normal
+18,Female,2.95,4.15,31.72,Afternoon,2024-03-04,Healthy,Normal
+57,Female,7.38,3.92,19.52,Morning,2025-11-24,Healthy,Normal
+32,Male,5.47,1.15,127.78,Morning,2024-07-01,Healthy,Normal
+45,Female,5.69,4.68,41.79,Morning,2025-10-04,Healthy,Normal
+27,Female,1.74,2.12,10.43,Evening,2025-02-26,Low_T,Normal
+42,Male,0.66,2.55,80.28,Evening,2024-03-14,Healthy,Normal
+19,Female,6.85,6.02,15.87,Morning,2024-11-04,Healthy,Normal
+42,Female,2.03,4.58,52.92,Afternoon,2024-08-28,Thyroid,Normal
+19,Female,1.06,4.56,40.77,Evening,2024-08-30,Healthy,Normal
+37,Female,7.83,2.15,85.92,Morning,2025-06-15,PCOS,Mild Imbalance
+22,Male,5.18,2.09,86.34,Morning,2025-06-27,Thyroid,Normal
+30,Male,11.55,2.49,87.05,Morning,2024-05-27,Thyroid,Mild Imbalance
+41,Female,1.75,3.33,50.93,Afternoon,2024-07-28,Healthy,Normal
+35,Male,7.79,1.85,99.71,Morning,2024-02-06,Healthy,Normal
+32,Female,3.34,1.14,41.42,Afternoon,2024-04-29,Stressed,Normal
+46,Male,5.94,0.93,117.91,Morning,2025-11-16,Healthy,Normal
+20,Female,9.61,1.37,41.64,Morning,2025-03-15,Thyroid,Normal
+30,Female,2.02,4.81,32.28,Afternoon,2025-09-11,Healthy,Normal
+51,Male,6.64,1.93,95.26,Morning,2024-09-11,Healthy,Normal
+42,Female,4.24,2.19,34.68,Afternoon,2025-03-02,Healthy,Mild Imbalance
+46,Male,1.09,2.71,153.03,Evening,2024-10-22,Healthy,Normal
+41,Female,1.09,3.37,43.43,Evening,2025-06-09,Thyroid,Normal
+29,Female,1.34,4.8,7.13,Evening,2025-07-18,Low_T,Mild Imbalance
+23,Male,1.53,1.82,70.48,Evening,2024-03-19,Healthy,Normal
+26,Male,0.95,1.91,146.14,Evening,2025-01-07,Thyroid,Normal
+31,Male,8.29,3.02,72.81,Morning,2024-12-02,Healthy,Normal
+36,Male,4.52,1.15,86.33,Morning,2025-04-20,PCOS,Normal
+40,Female,15.14,6.05,33.88,Morning,2026-01-16,Stressed,Mild Imbalance
+25,Male,14.6,3.09,99.84,Morning,2025-09-18,Adrenal,Mild Imbalance
+34,Male,2.33,2.16,153.91,Afternoon,2024-12-01,Thyroid,Normal
+45,Male,10.4,0.7,91.03,Morning,2025-06-05,Menopause,Mild Imbalance
+64,Female,7.2,2.14,24.46,Morning,2025-11-04,Healthy,Normal
+41,Female,15.05,1.66,40.54,Morning,2025-01-05,Stressed,Mild Imbalance
+18,Male,6.46,1.9,82.17,Morning,2025-06-27,Healthy,Normal
+33,Female,4.25,2.23,39.29,Afternoon,2025-01-06,Stressed,Mild Imbalance
+61,Male,10.55,2.25,80.3,Morning,2024-06-12,Healthy,Mild Imbalance
+18,Male,1.98,3.21,87.15,Afternoon,2024-05-19,Healthy,Normal
+26,Female,13.48,4.34,41.06,Morning,2025-01-08,Stressed,Mild Imbalance
+25,Female,8.39,7.19,28.85,Morning,2024-07-12,Healthy,Normal
+39,Male,1.23,1.35,122.82,Evening,2025-06-06,Healthy,Normal
+33,Male,0.67,3.22,138.19,Evening,2024-08-26,Healthy,Normal
+38,Male,2.75,0.46,56.14,Afternoon,2025-03-16,Menopause,Mild Imbalance
+40,Male,9.33,2.36,94.96,Morning,2026-01-11,Healthy,Normal
+31,Male,7.95,1.66,82.83,Morning,2025-08-20,Healthy,Normal
+25,Female,1.8,4.48,39.74,Afternoon,2025-10-20,Healthy,Normal
+34,Male,2.0,2.03,157.37,Evening,2026-01-18,Stressed,Mild Imbalance
+22,Male,5.55,2.18,72.57,Morning,2025-10-29,PCOS,Normal
+32,Female,3.58,4.12,20.97,Afternoon,2025-05-02,Stressed,Normal
+43,Female,16.22,6.34,46.39,Morning,2025-09-10,Stressed,Mild Imbalance
+34,Female,3.26,5.63,14.93,Afternoon,2025-02-17,Healthy,Normal
+21,Male,7.67,2.96,115.83,Morning,2025-03-02,Healthy,Normal
+45,Male,6.91,2.32,121.43,Morning,2025-12-15,Stressed,Normal
+34,Female,4.42,5.85,15.57,Morning,2024-10-06,Healthy,Normal
+39,Male,0.39,2.52,109.94,Afternoon,2025-08-01,Adrenal,Mild Imbalance
+56,Male,6.86,2.36,46.85,Morning,2024-06-25,Low_T,Mild Imbalance
+39,Male,7.88,0.92,85.75,Morning,2025-01-22,Menopause,Normal
+34,Female,6.49,4.67,9.9,Morning,2025-04-24,Low_T,Normal
+28,Female,1.38,2.27,39.33,Evening,2024-10-29,PCOS,Normal
+26,Female,5.38,6.16,44.33,Morning,2024-09-18,Healthy,Normal
+38,Male,3.99,2.2,80.89,Afternoon,2025-06-20,Healthy,Normal
+37,Female,7.08,2.75,40.58,Morning,2025-01-12,Healthy,Normal
+46,Male,5.58,2.84,78.06,Afternoon,2025-06-15,Stressed,Mild Imbalance
+20,Female,1.16,3.0,48.16,Evening,2024-06-12,Healthy,Normal
+30,Male,5.11,2.18,176.65,Morning,2025-12-29,Healthy,Normal
+53,Female,2.59,1.11,6.4,Afternoon,2024-02-23,Low_T,Mild Imbalance
+18,Male,9.58,2.01,91.49,Morning,2025-01-22,Stressed,Mild Imbalance
+36,Male,7.6,2.55,119.36,Morning,2025-11-13,Thyroid,Normal
+25,Male,0.97,0.53,143.47,Afternoon,2025-12-04,Menopause,Mild Imbalance
+29,Male,0.76,1.33,161.82,Afternoon,2024-09-15,Adrenal,Mild Imbalance
+33,Male,8.44,3.99,162.92,Morning,2025-10-05,Thyroid,Normal
+32,Female,4.33,2.04,49.36,Morning,2024-12-22,Healthy,Normal
+36,Male,4.88,3.43,81.9,Morning,2025-11-20,Healthy,Normal
+65,Female,7.08,2.19,21.82,Morning,2025-10-05,Low_T,Normal
+35,Male,1.59,3.24,78.21,Evening,2025-04-16,Healthy,Normal
+46,Female,0.55,4.86,38.94,Evening,2024-04-01,Healthy,Normal
+42,Female,6.14,4.19,34.62,Morning,2025-06-10,Healthy,Normal
+43,Female,2.74,2.91,37.45,Evening,2024-11-02,Adrenal,Mild Imbalance
+18,Female,0.67,3.87,31.35,Evening,2025-10-22,Healthy,Normal
+32,Male,5.26,2.92,147.72,Afternoon,2024-11-06,Stressed,Mild Imbalance
+20,Male,1.75,2.83,152.78,Afternoon,2025-05-04,Thyroid,Normal
+36,Male,6.56,2.7,73.37,Morning,2025-05-02,Thyroid,Normal
+30,Male,4.48,1.34,129.0,Morning,2025-07-03,Healthy,Normal
+39,Female,3.37,5.5,37.19,Afternoon,2024-06-19,Healthy,Normal
+37,Female,2.43,3.5,86.11,Afternoon,2025-06-06,PCOS,Mild Imbalance
+39,Male,0.29,2.05,123.18,Evening,2025-05-13,Adrenal,Mild Imbalance
+30,Female,1.54,4.38,42.36,Evening,2024-04-15,Stressed,Normal
+22,Female,6.49,2.96,15.74,Morning,2024-02-16,Low_T,Normal
+24,Male,1.28,2.7,111.87,Evening,2025-10-10,Healthy,Normal
+28,Female,1.63,3.23,30.11,Evening,2025-03-21,Stressed,Normal
+28,Male,4.37,0.92,99.18,Morning,2025-01-29,PCOS,Mild Imbalance
+36,Female,0.39,5.8,45.93,Evening,2025-09-14,Adrenal,Normal
+45,Female,9.05,8.13,17.72,Morning,2024-09-04,Stressed,Normal
+42,Male,1.35,1.66,71.84,Afternoon,2024-06-10,Healthy,Normal
+40,Male,2.25,1.17,139.66,Afternoon,2024-04-16,Healthy,Normal
+32,Male,1.56,3.69,158.54,Afternoon,2024-07-05,Healthy,Normal
+18,Female,4.35,4.88,35.12,Afternoon,2024-11-08,Stressed,Normal
+27,Male,2.54,0.78,114.6,Afternoon,2025-05-30,PCOS,Mild Imbalance
+35,Female,8.32,4.84,27.06,Morning,2025-10-20,Healthy,Normal
+52,Female,8.66,6.93,24.31,Morning,2024-03-02,Healthy,Normal
+21,Female,0.88,4.57,17.22,Evening,2025-01-28,Stressed,Normal
+21,Male,5.51,0.88,88.57,Morning,2024-06-11,Menopause,Mild Imbalance
+18,Female,0.51,5.05,46.38,Evening,2025-04-14,Healthy,Normal
+42,Female,6.42,2.83,26.88,Morning,2024-10-06,Healthy,Normal
+43,Female,6.27,3.35,31.84,Morning,2024-03-08,Healthy,Normal
+39,Female,1.0,2.97,40.52,Evening,2025-01-15,Healthy,Normal
+36,Female,14.3,1.75,44.78,Morning,2025-03-27,Stressed,Mild Imbalance
+37,Male,7.86,0.88,150.19,Morning,2024-06-18,Menopause,Mild Imbalance
+18,Female,0.99,1.08,25.96,Afternoon,2024-09-02,Healthy,Normal
+29,Female,8.37,2.47,15.18,Morning,2024-05-21,Healthy,Normal
+44,Female,3.02,3.29,16.35,Afternoon,2024-08-12,Thyroid,Normal
+38,Female,10.04,3.93,34.67,Morning,2024-06-30,Adrenal,Mild Imbalance
+36,Female,1.1,3.35,27.15,Evening,2025-05-12,Healthy,Normal
+33,Male,5.06,2.61,79.53,Morning,2024-12-16,Healthy,Normal
+43,Male,6.69,1.76,119.77,Afternoon,2024-07-20,Stressed,Mild Imbalance
+24,Female,1.26,2.53,43.62,Evening,2024-05-19,Healthy,Normal
+53,Female,8.12,4.9,25.38,Morning,2024-05-16,Healthy,Normal
+21,Female,6.38,1.48,25.92,Morning,2025-11-20,Menopause,Normal
+27,Male,6.79,2.66,64.66,Morning,2025-05-29,Healthy,Normal
+44,Male,2.28,1.28,115.04,Afternoon,2025-01-21,Healthy,Normal
+18,Male,4.84,0.64,145.76,Morning,2025-02-18,Menopause,Mild Imbalance
+44,Male,10.0,2.5,87.27,Afternoon,2024-10-08,Adrenal,Mild Imbalance
+31,Female,2.02,3.46,29.33,Afternoon,2025-07-22,Healthy,Normal
+46,Female,1.35,2.98,39.81,Afternoon,2025-06-26,Healthy,Normal
+41,Female,1.55,4.58,16.59,Evening,2025-06-03,Healthy,Normal
+33,Female,7.15,3.81,31.31,Morning,2024-12-02,Healthy,Normal
+21,Female,15.7,1.36,43.94,Morning,2024-05-16,Stressed,Mild Imbalance
+53,Male,6.01,2.73,66.42,Morning,2025-03-28,Healthy,Normal
+51,Female,0.77,3.2,25.99,Evening,2024-07-09,Healthy,Normal
+48,Female,1.64,0.62,17.86,Evening,2025-11-16,Menopause,Mild Imbalance
+41,Male,3.89,3.72,63.86,Afternoon,2024-07-21,Healthy,Normal
+22,Male,5.84,0.35,165.46,Morning,2025-06-29,Menopause,Mild Imbalance
+18,Female,7.24,3.23,51.17,Morning,2024-12-23,Healthy,Normal
+29,Female,8.96,5.08,19.66,Morning,2025-10-26,Stressed,Normal
+29,Female,1.57,3.15,21.37,Afternoon,2025-05-18,Healthy,Normal
+28,Female,3.78,7.42,25.73,Afternoon,2024-08-07,Thyroid,Normal
+42,Female,17.78,4.65,42.16,Morning,2024-08-02,Stressed,Mild Imbalance
+49,Female,8.28,1.19,13.92,Morning,2024-09-27,Menopause,Normal
+48,Male,10.05,2.49,34.77,Morning,2024-06-20,Low_T,Mild Imbalance
+33,Male,5.11,3.54,141.07,Afternoon,2025-12-14,Stressed,Mild Imbalance
+58,Female,10.76,1.65,30.41,Morning,2025-08-17,Healthy,Mild Imbalance
+49,Female,3.32,5.46,9.83,Afternoon,2025-08-22,Low_T,Normal
+50,Female,8.24,2.41,51.02,Morning,2024-10-12,Healthy,Normal
+42,Male,5.85,1.28,119.13,Morning,2025-01-03,Healthy,Normal
+41,Female,1.65,6.5,34.85,Afternoon,2024-06-07,Healthy,Normal
+57,Male,5.64,2.5,121.35,Afternoon,2025-08-01,Stressed,Mild Imbalance
+47,Female,6.76,4.23,16.48,Morning,2025-11-21,Healthy,Normal
+40,Male,10.16,2.82,156.65,Morning,2024-05-23,Healthy,Normal
+42,Male,5.02,3.07,78.11,Morning,2024-06-14,Healthy,Normal
+23,Female,6.94,5.25,49.42,Morning,2025-11-08,Stressed,Normal
+28,Male,10.04,1.78,158.82,Morning,2024-03-19,Stressed,Mild Imbalance
+29,Female,3.41,4.49,64.49,Afternoon,2024-02-21,PCOS,Mild Imbalance
+19,Male,1.84,2.29,80.2,Afternoon,2024-12-28,Healthy,Normal
+59,Female,8.16,1.97,29.3,Morning,2024-09-13,Healthy,Normal
+26,Female,4.86,7.02,12.59,Morning,2025-03-01,Low_T,Normal
+35,Male,4.28,2.17,124.04,Afternoon,2025-05-02,Stressed,Mild Imbalance
+18,Female,4.44,2.26,87.52,Morning,2025-03-06,PCOS,Mild Imbalance
+52,Male,1.09,3.39,23.58,Evening,2024-07-29,Low_T,Mild Imbalance
+53,Male,4.03,1.87,81.34,Afternoon,2024-12-09,Stressed,Mild Imbalance
+48,Female,8.12,2.41,58.84,Morning,2024-10-23,PCOS,Mild Imbalance
+31,Male,8.66,2.45,72.33,Morning,2025-05-04,Healthy,Normal
+56,Female,4.61,2.26,21.84,Afternoon,2024-04-30,Adrenal,Mild Imbalance
+42,Female,7.95,0.64,25.27,Morning,2024-05-26,Menopause,Mild Imbalance
+40,Female,1.91,2.01,41.84,Evening,2025-12-08,Stressed,Normal
+53,Female,2.5,3.03,18.12,Afternoon,2025-10-29,Healthy,Normal
+36,Male,7.62,2.25,66.24,Morning,2024-03-25,Thyroid,Normal
+30,Female,4.18,1.72,35.26,Morning,2025-04-04,Thyroid,Mild Imbalance
+18,Male,2.32,3.74,91.81,Afternoon,2025-10-11,Thyroid,Normal
+23,Female,4.23,5.05,22.78,Morning,2024-08-05,Healthy,Normal
+28,Female,7.46,4.11,25.52,Morning,2024-05-11,Healthy,Normal
+34,Female,2.96,1.75,23.5,Afternoon,2025-12-11,Menopause,Normal
+18,Male,6.55,2.63,164.64,Morning,2024-03-02,Healthy,Normal
+18,Male,6.13,2.11,124.3,Morning,2024-03-17,PCOS,Normal
+47,Male,11.93,1.62,114.86,Morning,2025-05-13,Stressed,Mild Imbalance
+55,Female,4.47,1.55,12.42,Morning,2025-01-28,Low_T,Normal
+57,Male,9.0,2.37,131.71,Morning,2025-07-17,Healthy,Normal
+18,Female,1.86,1.54,46.54,Afternoon,2024-03-15,PCOS,Normal
+36,Male,9.37,0.91,64.81,Morning,2025-03-11,Stressed,Normal
+47,Female,5.98,3.76,29.53,Afternoon,2024-10-11,Stressed,Mild Imbalance
+19,Male,8.52,0.58,61.6,Morning,2025-06-02,Menopause,Mild Imbalance
+18,Female,6.89,1.18,15.57,Morning,2024-12-01,Menopause,Normal
+18,Male,7.31,1.69,89.89,Morning,2025-10-05,Stressed,Normal
+31,Female,1.41,3.85,48.61,Evening,2024-05-07,Healthy,Normal
+40,Female,6.66,2.15,29.91,Morning,2025-12-13,Healthy,Normal
+31,Male,5.23,2.52,163.59,Morning,2025-11-20,Healthy,Normal
+18,Female,5.9,2.71,26.58,Morning,2024-12-16,Healthy,Normal
+20,Male,3.28,1.2,134.95,Afternoon,2024-11-16,Thyroid,Normal
+30,Female,11.33,2.89,31.62,Morning,2025-05-26,Stressed,Mild Imbalance
+31,Female,0.8,2.46,19.36,Evening,2024-05-08,Healthy,Normal
+27,Male,8.24,0.37,66.98,Morning,2025-12-22,Menopause,Mild Imbalance
+26,Female,2.27,5.27,38.19,Afternoon,2024-10-07,Healthy,Normal
+18,Female,8.43,1.13,27.82,Morning,2024-03-28,Menopause,Normal
+39,Female,5.57,2.58,9.62,Morning,2025-03-27,Low_T,Mild Imbalance
+55,Female,1.72,2.84,36.44,Evening,2024-07-27,Healthy,Normal
+51,Male,6.26,2.08,49.48,Morning,2025-04-22,Healthy,Normal
+29,Female,1.35,1.47,35.76,Afternoon,2025-01-07,Stressed,Normal
+29,Female,6.31,3.65,48.5,Morning,2025-08-25,Healthy,Normal
+32,Male,1.62,3.03,148.6,Afternoon,2024-10-06,Thyroid,Normal
+49,Male,5.78,2.56,108.79,Afternoon,2024-06-07,Stressed,Mild Imbalance
+42,Male,1.36,3.53,96.08,Afternoon,2025-11-21,Healthy,Normal
+48,Male,6.02,2.37,103.08,Morning,2024-08-29,Healthy,Normal
+31,Female,6.65,4.18,40.44,Morning,2025-04-27,Healthy,Normal
+34,Female,6.4,6.33,16.61,Morning,2024-05-17,Thyroid,Normal
+24,Female,4.34,3.85,66.52,Morning,2024-06-08,PCOS,Mild Imbalance
+19,Male,6.49,2.34,166.76,Morning,2025-06-24,Stressed,Normal
+39,Female,1.41,4.39,16.68,Evening,2025-11-06,Healthy,Normal
+36,Female,1.87,7.38,29.97,Afternoon,2025-08-16,Healthy,Normal
+38,Male,8.7,0.75,127.64,Morning,2024-08-08,PCOS,Mild Imbalance
+35,Female,3.39,3.53,18.92,Afternoon,2025-02-28,Healthy,Normal
+56,Male,9.08,1.63,95.53,Morning,2024-07-16,Healthy,Normal
+18,Female,1.77,3.19,10.21,Afternoon,2024-12-20,Menopause,Normal
+34,Female,7.72,1.06,20.24,Morning,2025-07-18,Healthy,Normal
+35,Female,1.29,5.19,44.06,Evening,2024-04-30,Healthy,Normal
+47,Female,6.64,4.53,23.12,Morning,2024-07-28,Healthy,Normal
+34,Female,12.01,6.45,22.42,Morning,2025-02-04,Stressed,Mild Imbalance
+47,Female,3.69,2.99,41.79,Afternoon,2025-09-02,Healthy,Normal
+18,Male,3.2,0.94,88.6,Afternoon,2025-10-04,Healthy,Normal
+39,Female,6.54,6.74,23.38,Morning,2025-09-30,Healthy,Normal
+41,Female,2.29,3.22,15.17,Afternoon,2025-10-20,Menopause,Normal
+27,Female,4.74,1.46,15.1,Morning,2024-10-28,Menopause,Normal
+38,Male,3.34,1.85,55.9,Afternoon,2024-04-24,Stressed,Normal
+27,Female,8.5,4.59,53.16,Morning,2024-10-23,PCOS,Normal
+33,Male,7.15,1.9,139.38,Afternoon,2025-05-22,Stressed,Mild Imbalance
+22,Female,16.01,4.96,29.92,Morning,2025-05-21,Stressed,Mild Imbalance
+25,Female,0.63,3.84,16.34,Evening,2025-03-31,Healthy,Normal
+46,Female,4.43,4.11,21.72,Afternoon,2024-11-27,Stressed,Mild Imbalance
+41,Male,2.63,1.17,158.72,Afternoon,2024-10-07,Stressed,Normal
+39,Female,8.26,4.2,14.35,Morning,2025-05-29,Healthy,Normal
+34,Male,8.62,2.04,70.68,Morning,2025-02-05,Healthy,Normal
+37,Male,2.89,1.81,167.87,Evening,2025-12-06,Stressed,Mild Imbalance
+52,Female,0.97,1.13,86.7,Evening,2025-02-05,PCOS,Mild Imbalance
+52,Female,2.05,1.19,37.59,Morning,2024-08-13,Adrenal,Mild Imbalance
+18,Male,8.33,1.57,74.0,Morning,2025-05-02,PCOS,Normal
+39,Female,4.08,4.64,43.35,Morning,2024-05-22,PCOS,Normal
+24,Female,5.54,2.3,47.19,Morning,2025-06-14,Thyroid,Normal
+23,Male,4.01,1.88,155.14,Morning,2024-10-03,Healthy,Normal
+34,Female,9.88,2.5,26.29,Morning,2025-09-11,Healthy,Normal
+60,Female,1.84,1.39,44.31,Afternoon,2025-12-01,Stressed,Normal
+39,Male,2.85,2.37,146.14,Evening,2024-10-06,Stressed,Mild Imbalance
+27,Male,3.26,3.46,187.13,Afternoon,2024-10-07,Healthy,Normal
+27,Male,1.69,2.54,75.83,Afternoon,2025-01-17,Healthy,Normal
+26,Female,1.46,3.09,30.64,Evening,2024-09-22,Healthy,Normal
+40,Female,3.15,4.1,30.12,Afternoon,2025-06-01,Stressed,Normal
+22,Male,1.11,1.24,176.8,Evening,2025-01-19,Healthy,Normal
+50,Female,1.93,3.81,45.23,Afternoon,2025-01-10,Healthy,Normal
+40,Male,7.98,1.94,54.79,Morning,2024-09-14,Healthy,Normal
+55,Male,6.2,0.7,46.2,Morning,2025-03-12,Menopause,Mild Imbalance
+21,Female,7.64,5.04,35.15,Morning,2025-02-27,Healthy,Normal
+38,Female,0.38,5.16,41.4,Evening,2024-06-29,Healthy,Normal
+54,Female,6.45,0.86,36.2,Morning,2024-12-18,Menopause,Mild Imbalance
+18,Female,18.29,1.78,47.91,Morning,2024-11-04,Adrenal,Mild Imbalance
+41,Male,6.69,1.09,60.54,Morning,2024-06-24,Low_T,Normal
+25,Female,1.94,3.48,24.91,Afternoon,2024-02-08,Healthy,Normal
+44,Female,7.29,4.36,51.71,Morning,2025-07-25,Healthy,Normal
+26,Male,8.87,3.11,80.43,Morning,2024-07-08,Healthy,Normal
+52,Male,4.94,1.8,70.09,Morning,2024-04-03,Healthy,Normal
+41,Male,7.33,2.53,53.28,Afternoon,2024-07-09,Stressed,Mild Imbalance
+34,Female,13.14,1.76,32.76,Morning,2025-03-26,Adrenal,Mild Imbalance
+28,Female,8.69,4.84,37.58,Morning,2025-07-04,Healthy,Normal
+43,Female,3.7,2.93,16.57,Afternoon,2025-09-29,Healthy,Mild Imbalance
+30,Male,3.27,0.58,93.72,Afternoon,2025-12-05,Menopause,Mild Imbalance
+27,Male,4.1,1.23,132.25,Morning,2024-09-17,PCOS,Mild Imbalance
+47,Female,8.84,4.56,38.01,Morning,2024-07-27,Healthy,Normal
+36,Male,3.44,3.62,149.41,Afternoon,2024-10-15,Healthy,Normal
+28,Male,0.23,2.68,80.21,Evening,2025-02-02,Adrenal,Mild Imbalance
+31,Female,3.64,3.07,15.67,Morning,2024-03-12,Healthy,Mild Imbalance
+44,Female,5.28,3.27,35.71,Afternoon,2025-08-17,Stressed,Mild Imbalance
+50,Male,0.6,1.4,129.45,Evening,2025-02-11,Healthy,Normal
+19,Female,5.23,4.08,40.94,Morning,2025-12-19,Healthy,Normal
+29,Female,4.71,4.19,40.63,Morning,2025-10-16,Healthy,Normal
+35,Male,13.52,2.33,144.58,Morning,2025-08-18,Stressed,Mild Imbalance
+47,Female,9.13,5.67,30.31,Morning,2025-04-30,Healthy,Normal
+18,Male,1.13,3.49,125.05,Afternoon,2025-11-13,Healthy,Normal
+41,Male,1.18,2.17,74.13,Evening,2024-03-15,Healthy,Normal
+43,Female,1.53,3.86,22.09,Afternoon,2025-11-27,Thyroid,Normal
+28,Female,1.75,3.83,21.57,Afternoon,2025-11-17,Healthy,Normal
+32,Male,7.98,1.7,140.62,Morning,2024-02-09,Healthy,Normal
+46,Male,3.18,2.83,64.43,Evening,2025-04-24,Adrenal,Mild Imbalance
+18,Female,5.63,1.62,15.88,Morning,2024-08-05,Healthy,Normal
+50,Female,1.44,1.48,24.78,Evening,2025-06-18,Menopause,Normal
+18,Male,1.78,2.94,181.2,Evening,2024-03-15,Healthy,Normal
+35,Female,2.22,3.77,38.31,Afternoon,2024-11-24,Healthy,Normal
+37,Female,2.15,2.39,39.58,Afternoon,2025-04-21,PCOS,Normal
+30,Female,3.97,4.61,18.49,Morning,2026-01-02,Healthy,Mild Imbalance
+34,Male,1.29,2.48,94.09,Evening,2025-08-27,Stressed,Normal
+27,Female,5.6,3.63,46.99,Morning,2025-11-06,Healthy,Normal
+39,Female,7.17,1.95,48.83,Morning,2025-09-24,Healthy,Normal
+18,Male,11.78,1.76,64.92,Morning,2025-08-23,Stressed,Mild Imbalance
+19,Female,4.51,3.43,19.56,Afternoon,2025-02-02,Stressed,Mild Imbalance
+54,Male,2.95,3.6,61.43,Evening,2024-04-05,Stressed,Mild Imbalance
+45,Male,2.23,1.93,57.03,Afternoon,2025-11-11,Low_T,Normal
+37,Female,1.83,5.16,44.34,Evening,2025-10-17,PCOS,Normal
+33,Female,1.1,3.03,29.77,Evening,2024-12-10,Healthy,Normal
+25,Male,5.34,1.27,73.59,Morning,2024-12-28,Healthy,Normal
+28,Male,1.17,2.85,82.62,Evening,2024-05-20,Thyroid,Normal
+41,Female,0.94,2.84,22.37,Evening,2024-05-21,Healthy,Normal
+27,Male,4.12,2.75,114.99,Afternoon,2026-01-04,Stressed,Normal
+28,Female,8.5,7.64,27.59,Morning,2025-04-21,Healthy,Normal
+18,Male,3.86,3.02,60.28,Afternoon,2024-09-17,Stressed,Normal
+45,Female,9.27,6.87,34.05,Morning,2024-07-17,Stressed,Normal
+52,Female,2.19,1.62,39.11,Afternoon,2024-06-26,Stressed,Normal
+22,Female,8.03,3.49,10.74,Morning,2025-08-24,Low_T,Normal
+36,Male,7.34,1.61,84.74,Morning,2024-10-12,PCOS,Normal
+32,Male,5.28,1.28,112.66,Morning,2024-04-12,Healthy,Normal
+36,Female,7.24,3.36,41.9,Morning,2024-11-23,Healthy,Normal
+55,Male,7.61,2.48,39.16,Morning,2024-05-01,Low_T,Mild Imbalance
+18,Male,2.8,1.94,144.76,Afternoon,2025-05-05,Healthy,Normal
+39,Female,1.73,6.65,11.41,Evening,2024-12-17,Low_T,Normal
+32,Male,1.15,2.84,163.59,Afternoon,2024-11-02,Healthy,Normal
+41,Female,1.93,3.3,23.03,Afternoon,2025-05-25,Stressed,Normal
+27,Female,9.25,4.21,29.32,Morning,2025-05-28,Healthy,Normal
+57,Female,6.51,2.3,44.6,Morning,2024-02-01,Healthy,Normal
+27,Male,5.16,2.91,157.24,Morning,2025-06-01,Healthy,Normal
+47,Female,8.54,4.32,34.51,Morning,2024-07-02,Healthy,Normal
+24,Male,5.84,0.81,184.48,Morning,2026-01-02,PCOS,Mild Imbalance
+62,Male,14.59,1.04,56.93,Morning,2024-11-22,Stressed,Mild Imbalance
+18,Female,1.14,1.2,13.77,Evening,2025-01-22,Menopause,Normal
+29,Female,1.57,3.74,18.51,Evening,2024-06-05,Low_T,Normal
+18,Female,4.03,2.5,32.26,Afternoon,2025-09-15,Stressed,Mild Imbalance
+60,Male,3.68,2.85,79.21,Afternoon,2024-11-03,Stressed,Normal
+19,Male,9.49,1.93,67.64,Morning,2024-12-05,Healthy,Normal
+18,Female,8.29,5.41,34.28,Morning,2026-01-15,Healthy,Normal
+23,Female,1.42,3.0,44.52,Evening,2024-04-10,Healthy,Normal
+30,Female,5.5,3.46,47.38,Morning,2025-06-19,PCOS,Normal
+27,Male,1.54,1.37,146.39,Afternoon,2024-05-24,Thyroid,Normal
+51,Female,5.18,4.62,26.65,Morning,2024-08-09,Healthy,Normal
+40,Female,2.17,1.3,33.27,Afternoon,2024-05-23,Menopause,Normal
+28,Female,1.25,5.56,33.25,Evening,2024-07-11,Healthy,Normal
+42,Male,15.51,1.14,76.54,Morning,2024-11-11,Stressed,Mild Imbalance
+42,Female,0.74,3.65,29.32,Evening,2024-06-06,Stressed,Normal
+34,Female,0.42,2.77,42.86,Evening,2025-04-11,PCOS,Normal
+26,Female,2.05,2.38,20.75,Afternoon,2024-03-27,Thyroid,Normal
+33,Male,15.44,2.71,62.61,Morning,2024-03-10,Stressed,Mild Imbalance
+25,Male,2.28,2.35,56.62,Afternoon,2024-11-23,Low_T,Normal
+47,Female,5.36,3.86,43.06,Morning,2024-06-08,Thyroid,Normal
+44,Female,9.94,2.4,32.04,Morning,2024-06-19,Thyroid,Normal
+18,Male,0.56,0.95,101.67,Evening,2025-06-13,PCOS,Mild Imbalance
+37,Male,7.34,0.75,116.52,Morning,2024-11-07,PCOS,Mild Imbalance
+27,Female,9.02,4.66,36.6,Morning,2025-03-17,Healthy,Normal
+46,Male,1.13,0.95,66.95,Evening,2025-06-03,Thyroid,Mild Imbalance
+36,Male,1.2,3.0,160.26,Evening,2024-05-19,Healthy,Normal
+35,Male,3.2,1.29,107.72,Afternoon,2025-08-09,PCOS,Normal
+41,Female,3.36,3.42,81.39,Afternoon,2024-04-05,PCOS,Mild Imbalance
+39,Male,4.27,1.86,62.31,Afternoon,2026-01-15,Thyroid,Mild Imbalance
+45,Male,0.71,2.64,54.13,Evening,2025-04-12,Healthy,Normal
+41,Female,7.14,4.46,39.07,Morning,2026-01-29,Healthy,Normal
+35,Male,3.31,2.27,163.92,Afternoon,2025-07-11,Stressed,Normal
+34,Female,0.94,5.56,22.38,Evening,2025-05-31,Healthy,Normal
+39,Male,8.78,0.71,150.96,Morning,2024-02-24,Menopause,Mild Imbalance
+51,Female,6.71,1.66,47.51,Morning,2024-03-07,Healthy,Normal
+24,Female,1.86,2.06,37.9,Afternoon,2026-01-23,Healthy,Normal
+25,Female,4.49,4.89,18.08,Morning,2025-05-23,Healthy,Normal
+18,Female,8.52,5.6,34.28,Morning,2026-01-21,Healthy,Normal
+51,Male,16.13,2.22,122.95,Morning,2025-01-04,Adrenal,Mild Imbalance
+32,Female,1.1,0.96,34.2,Evening,2024-08-19,Menopause,Mild Imbalance
+37,Female,1.02,2.97,40.91,Evening,2025-12-15,Healthy,Normal
+33,Female,7.82,3.15,22.04,Morning,2024-11-02,Healthy,Normal
+42,Female,2.84,4.54,8.33,Afternoon,2024-07-05,Low_T,Mild Imbalance
+37,Male,3.6,2.62,137.21,Afternoon,2025-03-22,Adrenal,Normal
+34,Male,7.35,2.87,126.54,Morning,2024-02-02,Stressed,Normal
+31,Male,9.39,1.19,156.64,Morning,2025-04-29,Thyroid,Normal
+47,Male,7.79,1.85,100.22,Morning,2025-11-18,Healthy,Normal
+34,Female,2.96,3.31,19.23,Afternoon,2024-03-23,Low_T,Normal
+43,Male,2.03,3.39,109.36,Afternoon,2024-09-07,Stressed,Normal
+18,Female,1.36,3.64,39.52,Evening,2024-12-06,Healthy,Normal
+48,Male,7.81,1.38,70.95,Morning,2024-04-19,Healthy,Normal
+38,Female,2.73,2.2,45.3,Afternoon,2026-01-01,Healthy,Normal
+51,Female,8.76,3.84,24.01,Morning,2025-08-21,Healthy,Normal
+56,Female,1.56,2.95,17.37,Afternoon,2024-04-30,Healthy,Normal
+37,Female,7.07,3.12,22.06,Morning,2024-07-30,Thyroid,Normal
+39,Male,2.88,1.14,73.66,Afternoon,2025-09-18,Healthy,Normal
+43,Female,0.62,1.86,108.1,Evening,2024-02-24,PCOS,Mild Imbalance
+24,Female,14.85,1.25,41.42,Morning,2024-07-18,Stressed,Mild Imbalance
+18,Female,1.9,3.32,40.23,Afternoon,2024-11-18,Healthy,Normal
+39,Female,9.19,2.82,32.13,Morning,2024-04-22,Healthy,Normal
+18,Male,1.34,0.63,91.24,Evening,2024-10-09,Menopause,Mild Imbalance
+26,Male,4.47,2.19,182.34,Afternoon,2024-07-25,Stressed,Mild Imbalance
+33,Male,13.25,1.53,148.88,Morning,2024-12-21,Stressed,Mild Imbalance
+34,Male,13.6,2.58,115.28,Morning,2024-08-09,Stressed,Mild Imbalance
+41,Male,2.91,2.97,120.59,Afternoon,2025-05-15,Healthy,Normal
+22,Male,1.85,2.16,93.8,Morning,2025-02-28,Adrenal,Mild Imbalance
+29,Male,5.64,2.16,179.65,Morning,2025-03-25,Healthy,Normal
+51,Male,1.18,2.58,141.21,Afternoon,2025-04-23,Adrenal,Normal
+47,Male,1.71,1.38,95.56,Evening,2024-10-15,PCOS,Normal
+28,Male,3.68,2.32,47.76,Afternoon,2025-01-25,Low_T,Mild Imbalance
+32,Male,1.44,3.3,58.66,Evening,2024-08-25,Low_T,Normal
+29,Male,0.34,3.73,124.45,Evening,2024-07-18,Healthy,Normal
+43,Female,3.59,1.51,29.18,Afternoon,2024-10-28,Healthy,Normal
+25,Male,5.43,1.74,89.26,Afternoon,2025-12-23,Stressed,Mild Imbalance
+40,Female,1.84,2.22,24.83,Afternoon,2025-03-16,Low_T,Normal
+23,Female,0.97,4.68,15.63,Evening,2024-06-16,Healthy,Normal
+40,Female,1.18,4.26,74.6,Evening,2024-03-24,PCOS,Mild Imbalance
+34,Female,0.41,1.79,23.68,Evening,2025-09-06,Menopause,Normal
+18,Female,9.73,1.94,28.5,Morning,2024-04-03,Low_T,Normal
+42,Female,2.34,5.31,28.37,Evening,2025-06-09,Stressed,Mild Imbalance
+30,Female,10.64,7.11,38.96,Morning,2024-08-22,Thyroid,Mild Imbalance
+18,Male,1.15,2.13,138.26,Evening,2026-01-01,Stressed,Normal
+44,Female,1.14,2.2,41.47,Evening,2025-05-23,Thyroid,Normal
+35,Female,1.6,1.47,16.06,Evening,2025-11-09,Low_T,Normal
+21,Male,7.56,2.32,118.79,Morning,2025-08-17,Healthy,Normal
+18,Male,0.44,0.97,81.92,Evening,2025-08-21,Thyroid,Normal
+25,Female,8.83,2.54,25.58,Morning,2024-07-03,Menopause,Normal
+29,Female,0.83,4.72,29.57,Evening,2025-11-29,Healthy,Normal
+35,Female,2.51,2.88,27.44,Afternoon,2024-07-26,Healthy,Normal
+28,Female,1.88,2.93,24.13,Afternoon,2025-11-16,Stressed,Normal
+62,Male,5.06,2.27,51.19,Morning,2024-10-26,PCOS,Normal
+38,Female,10.93,6.36,32.87,Morning,2025-03-23,Stressed,Mild Imbalance
+29,Male,9.01,3.11,175.61,Morning,2024-05-22,Thyroid,Normal
+18,Male,1.77,0.79,102.56,Evening,2026-01-05,PCOS,Mild Imbalance
+33,Female,2.09,4.49,24.66,Afternoon,2024-04-15,Healthy,Normal
+18,Male,6.99,2.55,105.62,Morning,2024-10-23,Healthy,Normal
+28,Female,6.29,2.18,38.02,Morning,2025-02-26,Stressed,Normal
+46,Male,16.89,2.01,130.48,Morning,2025-07-11,Stressed,Mild Imbalance
+60,Male,7.44,2.97,48.27,Morning,2025-04-11,Healthy,Normal
+26,Female,1.54,4.65,38.82,Afternoon,2024-08-08,Healthy,Normal
+32,Female,10.25,3.66,21.99,Morning,2025-05-25,Stressed,Mild Imbalance
+27,Male,5.45,1.93,119.25,Morning,2025-06-14,Healthy,Normal
+42,Female,1.97,4.18,54.13,Evening,2025-05-26,Healthy,Normal
+22,Female,1.61,1.85,48.67,Evening,2025-12-06,Healthy,Normal
+28,Male,1.39,2.6,176.77,Evening,2025-09-27,Healthy,Normal
+43,Male,3.05,1.66,132.21,Evening,2025-04-16,Stressed,Mild Imbalance
+33,Female,3.34,2.49,50.38,Afternoon,2025-09-22,Healthy,Normal
+35,Female,6.52,4.67,21.77,Morning,2024-07-22,Low_T,Normal
+29,Male,1.47,2.5,170.21,Evening,2025-05-17,PCOS,Normal
+23,Female,3.32,2.3,21.18,Afternoon,2025-05-11,Healthy,Normal
+18,Male,10.31,1.08,112.4,Morning,2025-04-12,Stressed,Mild Imbalance
+34,Male,2.11,1.08,154.29,Afternoon,2025-05-04,Menopause,Normal
+33,Female,7.37,2.45,29.4,Morning,2024-06-11,Healthy,Normal
+25,Female,18.59,3.25,26.79,Morning,2025-10-27,Stressed,Mild Imbalance
+44,Male,1.37,0.55,111.85,Evening,2025-07-20,Menopause,Mild Imbalance
+38,Male,3.2,1.74,66.02,Afternoon,2026-01-19,Healthy,Normal
+54,Female,8.88,2.42,25.26,Morning,2025-03-31,Healthy,Normal
+45,Female,1.87,1.98,17.47,Evening,2025-12-25,Healthy,Normal
+44,Male,8.39,2.7,111.59,Morning,2025-08-10,Stressed,Normal
+38,Male,8.03,1.06,63.65,Morning,2024-07-30,Menopause,Mild Imbalance
+24,Female,1.89,3.2,31.6,Morning,2024-02-27,Adrenal,Mild Imbalance
+35,Female,6.16,3.87,42.27,Morning,2025-02-19,Healthy,Normal
+25,Male,1.16,1.42,141.7,Afternoon,2025-07-28,Healthy,Normal
+47,Male,3.37,3.28,47.9,Afternoon,2024-05-16,Healthy,Normal
+39,Male,3.59,3.21,94.69,Afternoon,2024-12-09,Stressed,Normal
+51,Female,1.95,2.29,49.91,Afternoon,2025-05-31,Healthy,Normal
+31,Male,3.16,1.24,161.44,Afternoon,2025-08-20,Healthy,Normal
+26,Male,3.28,1.69,142.79,Afternoon,2025-11-08,Healthy,Normal
+21,Female,0.7,1.51,28.29,Evening,2025-02-21,Healthy,Normal
+49,Female,1.4,2.63,39.97,Afternoon,2025-10-13,Healthy,Normal
+34,Female,5.49,1.11,21.81,Morning,2024-05-20,Menopause,Normal
+36,Male,4.44,3.06,171.5,Afternoon,2025-03-15,Stressed,Mild Imbalance
+18,Male,10.1,1.07,122.89,Morning,2024-05-24,Stressed,Mild Imbalance
+20,Male,2.96,2.65,105.5,Afternoon,2025-03-31,Healthy,Normal
+20,Male,2.87,3.0,118.17,Afternoon,2025-02-16,Healthy,Normal
+35,Male,6.96,2.99,118.51,Morning,2025-06-12,Stressed,Normal
+29,Male,0.48,2.33,138.79,Evening,2025-04-24,Healthy,Normal
+28,Female,3.51,2.25,19.89,Afternoon,2024-03-17,Healthy,Normal
+46,Female,0.5,4.04,10.41,Evening,2024-06-13,Low_T,Normal
+33,Female,2.53,5.03,19.7,Afternoon,2025-07-06,Healthy,Normal
+47,Female,2.31,3.37,37.91,Evening,2026-01-18,Stressed,Mild Imbalance
+30,Female,1.49,8.47,18.64,Afternoon,2024-08-29,Healthy,Normal
+24,Male,19.0,2.1,162.41,Morning,2025-01-18,Adrenal,Mild Imbalance
+33,Female,4.58,1.88,70.37,Morning,2024-05-29,PCOS,Mild Imbalance
+48,Female,9.51,2.09,29.13,Morning,2024-03-15,Healthy,Normal
+51,Male,1.12,1.72,62.56,Evening,2025-02-18,Thyroid,Normal
+30,Male,5.35,2.15,151.82,Morning,2025-06-25,Healthy,Normal
+35,Male,11.66,2.81,142.59,Morning,2025-01-16,Stressed,Mild Imbalance
+25,Male,10.98,2.05,63.84,Morning,2025-04-26,Stressed,Mild Imbalance
+41,Male,6.14,2.77,65.58,Morning,2025-09-29,Low_T,Normal
+35,Female,6.47,5.02,18.71,Morning,2025-02-07,Low_T,Normal
+45,Female,1.09,2.83,41.2,Evening,2025-11-20,Healthy,Normal
+38,Male,1.44,3.52,170.18,Afternoon,2025-05-02,Healthy,Normal
+50,Male,4.75,1.71,72.95,Morning,2024-06-27,Low_T,Normal
+49,Male,1.01,0.82,125.32,Evening,2024-02-23,PCOS,Mild Imbalance
+44,Female,3.91,5.05,40.37,Afternoon,2025-05-19,Healthy,Normal
+28,Male,8.38,3.21,73.52,Morning,2024-08-05,Thyroid,Normal
+43,Male,9.21,3.37,115.98,Morning,2024-12-27,Stressed,Normal
+26,Female,1.53,2.54,16.05,Evening,2025-09-19,Thyroid,Normal
+30,Male,4.56,3.08,125.19,Morning,2024-11-04,Healthy,Normal
+20,Female,1.82,3.9,46.43,Afternoon,2025-07-29,Stressed,Normal
+38,Male,0.54,2.67,116.76,Evening,2025-06-06,Healthy,Normal
+28,Male,0.52,0.39,186.31,Evening,2025-01-25,Menopause,Mild Imbalance
+18,Female,16.62,4.51,36.91,Morning,2025-11-14,Stressed,Mild Imbalance
+31,Female,5.88,4.27,31.77,Morning,2024-10-20,Healthy,Normal
+32,Female,0.81,4.47,11.94,Evening,2024-09-03,Low_T,Normal
+39,Female,7.67,1.9,48.4,Morning,2025-07-26,Stressed,Normal
+44,Female,10.7,3.24,20.82,Morning,2024-10-26,Stressed,Mild Imbalance
+41,Male,1.97,1.13,109.54,Evening,2026-01-03,PCOS,Normal
+29,Female,7.45,4.45,23.92,Morning,2024-06-29,Healthy,Normal
+43,Male,1.14,1.0,119.45,Evening,2025-09-13,Healthy,Normal
+32,Male,5.08,2.99,112.89,Morning,2025-11-19,Healthy,Normal
+51,Male,4.33,1.98,18.89,Morning,2025-04-26,Low_T,Mild Imbalance
+37,Male,7.9,1.7,115.85,Morning,2025-10-06,PCOS,Normal
+25,Male,1.57,1.9,142.75,Afternoon,2025-09-01,Healthy,Normal
+42,Male,2.49,1.9,74.49,Afternoon,2024-05-27,Low_T,Normal
+28,Male,6.58,2.69,167.27,Morning,2025-01-07,Healthy,Normal
+22,Female,1.94,2.55,7.68,Afternoon,2024-07-30,Low_T,Mild Imbalance
+41,Female,18.84,5.1,16.08,Morning,2025-11-01,Stressed,Mild Imbalance
+23,Male,1.73,1.81,75.56,Afternoon,2024-11-29,Low_T,Normal
+40,Male,1.71,2.98,102.27,Afternoon,2025-02-15,Healthy,Normal
+44,Male,3.65,0.67,114.01,Afternoon,2026-01-25,Menopause,Mild Imbalance
+23,Male,13.12,1.61,80.0,Morning,2025-05-15,Stressed,Mild Imbalance
+46,Male,0.62,3.19,82.24,Evening,2024-10-04,Stressed,Normal
+39,Female,7.53,5.06,33.04,Morning,2025-04-10,Thyroid,Normal
+41,Male,1.91,3.29,145.18,Evening,2025-06-17,Stressed,Normal
+40,Female,2.31,1.35,38.23,Morning,2025-10-08,Adrenal,Mild Imbalance
+22,Male,3.11,2.9,70.24,Afternoon,2024-06-30,Healthy,Normal
+40,Male,0.68,2.74,130.9,Evening,2025-08-25,Healthy,Normal
+22,Male,7.67,3.36,75.65,Morning,2025-06-21,Healthy,Normal
+18,Female,7.45,2.02,50.21,Morning,2025-06-24,Healthy,Normal
+35,Female,10.38,0.73,29.04,Morning,2024-07-16,Menopause,Mild Imbalance
+18,Male,1.06,1.88,148.85,Morning,2024-12-31,Adrenal,Mild Imbalance
+41,Male,5.41,3.45,101.58,Morning,2025-09-22,Healthy,Normal
+18,Female,9.58,1.37,56.71,Morning,2024-12-03,PCOS,Normal
+37,Female,0.34,3.69,32.25,Evening,2025-08-29,Healthy,Normal
+47,Female,1.77,2.09,32.13,Evening,2024-08-05,Healthy,Normal
+40,Female,2.48,7.29,47.25,Afternoon,2025-03-25,Healthy,Normal
+18,Male,9.05,2.21,166.8,Morning,2024-03-07,Healthy,Normal
+32,Female,3.74,3.83,13.23,Afternoon,2024-09-15,Low_T,Normal
+40,Male,7.48,2.74,137.19,Morning,2024-11-17,Healthy,Normal
+54,Female,1.24,6.23,17.17,Afternoon,2025-01-25,Healthy,Normal
+20,Female,2.06,3.19,46.66,Afternoon,2025-11-14,Healthy,Normal
+43,Female,1.46,2.08,17.52,Afternoon,2024-11-26,Healthy,Normal
+29,Female,4.94,2.83,27.08,Afternoon,2025-06-24,Stressed,Mild Imbalance
+48,Male,0.66,2.22,126.94,Evening,2024-06-07,Healthy,Normal
+21,Male,1.09,2.1,132.09,Afternoon,2024-11-27,Healthy,Normal
+35,Male,1.64,0.81,102.32,Afternoon,2025-03-13,Menopause,Mild Imbalance
+18,Female,5.05,4.46,47.0,Morning,2025-12-25,Healthy,Normal
+48,Female,8.33,4.61,18.39,Morning,2025-10-17,Low_T,Normal
+35,Male,3.48,2.66,166.49,Afternoon,2025-09-09,Stressed,Normal
+43,Male,18.96,3.18,74.95,Morning,2025-06-19,Stressed,Mild Imbalance
+18,Female,0.63,2.79,40.25,Evening,2025-08-24,Healthy,Normal
+18,Male,5.39,3.3,64.27,Afternoon,2025-09-23,Stressed,Mild Imbalance
+45,Female,1.04,0.82,31.45,Evening,2025-08-04,Menopause,Mild Imbalance
+49,Female,8.24,3.81,38.8,Morning,2024-12-29,Stressed,Normal
+28,Male,7.41,2.32,161.05,Morning,2025-05-02,Healthy,Normal
+45,Female,0.73,3.25,54.19,Evening,2024-07-07,PCOS,Normal
+33,Male,5.56,3.08,99.36,Morning,2024-12-21,Healthy,Normal
+30,Male,6.42,1.01,120.52,Morning,2024-07-28,Stressed,Normal
+36,Female,7.5,4.39,47.23,Morning,2024-07-08,Healthy,Normal
+19,Male,3.6,1.15,115.14,Morning,2025-05-22,Healthy,Mild Imbalance
+18,Male,3.71,2.62,108.27,Morning,2024-12-12,Healthy,Normal
+24,Female,7.31,3.12,19.39,Morning,2024-03-01,Healthy,Normal
+46,Female,0.97,4.23,28.25,Evening,2025-02-24,Stressed,Normal
+46,Female,6.25,3.25,33.15,Afternoon,2024-02-24,Stressed,Mild Imbalance
+53,Female,9.22,4.16,30.81,Morning,2024-05-21,Healthy,Normal
+31,Female,3.39,1.08,30.34,Afternoon,2024-08-24,Healthy,Normal
+26,Female,4.67,1.39,24.42,Morning,2025-12-11,Healthy,Normal
+32,Male,1.4,1.49,138.2,Afternoon,2024-11-08,Healthy,Normal
+46,Male,6.73,1.08,88.87,Morning,2024-11-13,PCOS,Mild Imbalance
+25,Male,0.47,2.96,62.16,Afternoon,2024-05-17,Adrenal,Mild Imbalance
+23,Male,0.96,1.02,129.68,Evening,2025-08-22,PCOS,Normal
+39,Female,6.99,4.77,21.8,Morning,2024-11-03,Stressed,Normal
+23,Male,3.09,2.33,124.28,Afternoon,2025-10-20,Healthy,Normal
+51,Female,7.59,0.43,17.49,Morning,2025-04-20,Menopause,Mild Imbalance
+34,Male,15.17,1.38,123.6,Morning,2025-09-30,Stressed,Mild Imbalance
+37,Female,4.19,4.86,17.24,Afternoon,2025-02-04,Healthy,Mild Imbalance
+53,Male,9.05,1.76,108.43,Morning,2024-07-13,Healthy,Normal
+26,Female,9.42,3.37,16.24,Morning,2024-03-03,Stressed,Normal
+21,Male,3.04,2.22,186.67,Afternoon,2025-02-28,Thyroid,Normal
+27,Female,5.07,4.15,28.81,Morning,2024-04-24,Healthy,Normal
+25,Male,4.26,1.79,72.4,Morning,2025-03-15,Healthy,Normal
+46,Male,17.16,1.65,140.02,Morning,2025-01-03,Stressed,Mild Imbalance
+38,Male,1.68,2.55,141.53,Evening,2025-01-04,Healthy,Normal
+38,Female,2.83,2.33,39.69,Evening,2024-09-08,Stressed,Mild Imbalance
+25,Male,1.44,1.07,147.55,Afternoon,2025-03-13,Menopause,Mild Imbalance
+27,Male,5.56,3.56,100.45,Morning,2024-07-01,Healthy,Normal
+19,Male,1.15,3.0,135.8,Afternoon,2025-05-26,Healthy,Normal
+29,Male,2.82,1.17,100.78,Evening,2025-03-19,Stressed,Mild Imbalance
+36,Female,1.76,0.27,24.77,Afternoon,2025-03-06,Menopause,Mild Imbalance
+36,Female,5.55,2.02,12.21,Morning,2025-02-16,Menopause,Normal
+42,Male,5.43,2.55,130.56,Afternoon,2025-11-11,Stressed,Mild Imbalance
+39,Female,1.61,2.33,38.91,Evening,2025-10-05,Healthy,Normal
+35,Female,10.06,2.41,33.96,Morning,2025-04-17,Stressed,Normal
+38,Male,1.24,2.5,94.01,Afternoon,2025-05-19,Adrenal,Normal
+41,Male,0.99,2.0,68.63,Evening,2024-07-27,Healthy,Normal
+33,Male,1.31,2.23,79.25,Afternoon,2025-04-03,PCOS,Normal
+42,Male,1.63,1.2,141.68,Evening,2025-08-26,Thyroid,Normal
+41,Female,13.45,1.88,47.87,Morning,2025-06-13,Stressed,Mild Imbalance
+29,Female,2.13,3.24,36.94,Afternoon,2024-03-09,Healthy,Normal
+55,Male,7.82,3.05,95.17,Morning,2025-04-10,Healthy,Normal
+18,Female,1.47,5.11,12.12,Evening,2025-08-26,Low_T,Normal
+44,Female,6.17,4.4,48.67,Morning,2025-02-23,Healthy,Normal
+23,Female,5.64,5.92,18.28,Morning,2024-03-19,Healthy,Normal
+47,Female,8.92,1.05,49.44,Morning,2024-12-10,Healthy,Mild Imbalance
+33,Male,11.23,1.78,109.01,Morning,2025-10-30,Stressed,Mild Imbalance
+32,Female,8.32,6.77,34.3,Morning,2024-08-11,Healthy,Normal
+31,Female,1.24,5.51,23.27,Afternoon,2025-02-23,Low_T,Normal
+65,Female,3.08,1.65,104.05,Afternoon,2025-04-28,PCOS,Mild Imbalance
+22,Female,1.1,3.5,35.74,Evening,2024-11-17,Healthy,Normal
+29,Male,2.31,3.11,154.31,Afternoon,2024-09-20,Stressed,Normal
+51,Male,2.43,0.85,130.17,Afternoon,2024-10-12,Menopause,Mild Imbalance
+37,Female,7.25,5.74,46.26,Morning,2025-11-08,Healthy,Normal
+42,Male,9.84,1.39,109.75,Morning,2025-03-16,Menopause,Normal
+18,Male,8.05,1.04,141.01,Morning,2024-10-09,Thyroid,Normal
+30,Female,6.39,5.59,41.25,Morning,2025-03-04,Healthy,Normal
+41,Male,3.21,1.64,85.78,Afternoon,2025-03-20,Healthy,Normal
+40,Male,2.62,1.94,77.35,Afternoon,2024-04-16,Thyroid,Normal
+38,Female,20.32,1.53,42.46,Morning,2024-03-05,Adrenal,Mild Imbalance
+18,Male,4.16,1.87,123.04,Afternoon,2025-10-12,Stressed,Mild Imbalance
+30,Female,2.07,5.43,16.75,Evening,2024-04-18,Stressed,Mild Imbalance
+27,Male,4.01,0.78,135.91,Afternoon,2025-12-22,Menopause,Mild Imbalance
+20,Female,1.5,1.68,26.89,Afternoon,2026-01-12,Healthy,Normal
+36,Male,4.56,3.59,158.05,Morning,2025-01-07,Healthy,Normal
+26,Female,8.13,0.38,11.92,Morning,2024-06-04,Menopause,Mild Imbalance
+53,Female,7.07,2.0,52.2,Morning,2025-12-09,PCOS,Normal
+55,Male,1.93,3.53,58.34,Afternoon,2025-04-20,Healthy,Normal
+36,Male,1.23,2.06,142.9,Afternoon,2025-11-28,Healthy,Normal
+38,Male,9.02,2.25,57.46,Morning,2025-12-17,Low_T,Normal
+20,Female,14.51,2.31,22.93,Morning,2024-08-07,Stressed,Mild Imbalance
+39,Male,6.49,1.54,56.46,Morning,2024-11-17,Healthy,Normal
+48,Male,2.95,2.56,71.35,Afternoon,2025-01-19,Healthy,Normal
+35,Female,10.74,3.3,40.08,Morning,2025-04-27,Thyroid,Mild Imbalance
+34,Female,8.04,1.65,28.72,Morning,2025-01-06,Healthy,Normal
+32,Male,7.71,2.76,123.63,Morning,2024-04-09,Healthy,Normal
+33,Female,5.71,3.53,21.11,Morning,2025-06-08,Healthy,Normal
+18,Female,12.08,2.73,44.02,Morning,2024-10-05,Stressed,Mild Imbalance
+37,Male,0.9,1.19,59.76,Afternoon,2026-01-05,Adrenal,Mild Imbalance
+32,Female,10.64,1.62,32.84,Morning,2024-03-09,Stressed,Mild Imbalance
+40,Female,8.79,4.09,46.6,Morning,2025-03-22,Healthy,Normal
+18,Male,7.55,0.89,174.76,Morning,2025-04-16,PCOS,Mild Imbalance
+32,Male,5.99,2.18,162.73,Morning,2024-04-22,Healthy,Normal
+18,Female,8.64,2.95,43.63,Morning,2024-02-26,Stressed,Normal
+37,Female,8.89,2.92,26.52,Morning,2025-01-05,Healthy,Normal
+18,Female,9.23,6.41,32.83,Morning,2024-03-16,Stressed,Normal
+29,Female,4.39,8.32,44.35,Morning,2024-07-15,Healthy,Normal
+40,Male,8.85,1.65,52.99,Morning,2024-02-25,Healthy,Normal
+36,Female,8.0,3.01,12.38,Morning,2025-09-21,Low_T,Normal
+47,Female,6.36,2.24,31.57,Morning,2025-03-17,Healthy,Normal
+47,Female,18.56,2.49,44.73,Morning,2025-06-08,Stressed,Mild Imbalance
+30,Male,6.45,1.34,152.56,Morning,2025-07-27,Healthy,Normal
+45,Female,1.21,3.67,44.51,Evening,2025-08-13,Healthy,Normal
+27,Male,3.97,1.79,127.82,Morning,2024-11-07,Healthy,Normal
+18,Male,0.44,0.69,117.63,Evening,2024-07-13,Menopause,Mild Imbalance
+51,Female,5.36,0.89,34.64,Morning,2025-05-06,Healthy,Mild Imbalance
+27,Male,10.13,2.96,122.32,Morning,2024-08-02,Thyroid,Normal
+47,Male,4.69,1.51,114.26,Morning,2025-05-04,Healthy,Normal
+32,Male,0.52,2.13,86.93,Evening,2025-08-05,Adrenal,Normal
+37,Male,5.43,2.08,76.87,Morning,2025-06-27,Stressed,Normal
+29,Male,16.49,2.83,86.4,Morning,2024-07-27,Stressed,Mild Imbalance
+43,Male,1.99,3.14,66.81,Evening,2024-05-29,Stressed,Mild Imbalance
+18,Female,5.34,3.77,26.38,Morning,2025-08-27,Healthy,Normal
+30,Female,3.54,3.64,18.33,Afternoon,2025-02-20,Thyroid,Normal
+57,Female,2.93,0.57,17.11,Afternoon,2024-02-04,Menopause,Mild Imbalance
+46,Male,11.22,1.87,108.93,Morning,2024-08-28,Healthy,Mild Imbalance
+19,Female,7.46,4.73,34.81,Morning,2025-08-31,Thyroid,Normal
+33,Male,6.52,1.88,88.38,Morning,2024-03-07,Healthy,Normal
+59,Male,15.36,1.69,63.27,Morning,2024-04-10,Stressed,Mild Imbalance
+25,Male,1.68,2.74,131.94,Evening,2024-07-23,Healthy,Normal
+54,Male,7.65,1.06,136.69,Morning,2024-09-12,Healthy,Normal
+52,Female,2.06,1.65,34.26,Evening,2024-09-30,Stressed,Normal
+36,Male,0.76,3.47,34.91,Evening,2024-07-10,Low_T,Mild Imbalance
+35,Male,6.7,3.03,158.52,Morning,2025-09-29,Healthy,Normal
+55,Female,15.85,2.69,40.04,Morning,2025-04-22,Stressed,Mild Imbalance
+33,Male,2.77,1.23,130.55,Afternoon,2025-10-08,Healthy,Normal
+35,Male,4.97,1.51,146.91,Afternoon,2024-09-06,Stressed,Mild Imbalance
+46,Female,2.33,1.31,85.42,Afternoon,2025-02-20,PCOS,Mild Imbalance
+28,Male,1.48,3.04,66.05,Morning,2025-01-22,Adrenal,Mild Imbalance
+39,Female,3.11,0.91,40.23,Afternoon,2024-05-07,PCOS,Normal
+49,Male,11.14,1.73,96.21,Morning,2024-11-22,PCOS,Mild Imbalance
+23,Male,5.64,2.56,132.0,Morning,2024-05-30,Healthy,Normal
+38,Female,3.53,1.4,22.94,Afternoon,2025-07-30,Menopause,Normal
+50,Male,2.27,3.67,139.76,Afternoon,2024-09-16,Healthy,Normal
+31,Male,1.89,1.96,104.38,Morning,2025-10-21,Adrenal,Mild Imbalance
+33,Male,1.59,2.41,100.05,Evening,2024-04-04,Healthy,Normal
+64,Female,4.14,0.52,12.22,Afternoon,2024-02-14,Menopause,Mild Imbalance
+18,Male,1.87,1.86,179.43,Afternoon,2024-09-30,Healthy,Normal
+34,Female,2.43,4.07,35.81,Afternoon,2025-09-01,Healthy,Normal
+49,Female,4.19,2.15,41.71,Morning,2025-03-04,Healthy,Normal
+49,Female,8.48,2.26,53.74,Morning,2025-07-19,Healthy,Normal
+33,Male,1.69,1.92,108.05,Evening,2025-08-08,Healthy,Normal
+55,Male,5.18,1.51,69.35,Morning,2025-09-06,Healthy,Normal
+18,Male,6.23,2.53,97.14,Morning,2024-05-31,Low_T,Normal
+24,Male,4.27,2.84,85.88,Morning,2025-08-22,Healthy,Normal
+58,Male,2.58,1.46,102.21,Afternoon,2025-11-18,Healthy,Normal
+23,Male,5.5,1.81,59.64,Morning,2025-09-14,Healthy,Normal
+28,Female,5.6,2.8,20.03,Morning,2024-02-07,Healthy,Normal
+39,Female,5.11,1.93,32.52,Morning,2024-05-28,Menopause,Normal
+40,Female,7.43,4.93,24.12,Morning,2025-06-07,Healthy,Normal
+37,Female,3.17,1.91,64.11,Afternoon,2025-11-22,PCOS,Mild Imbalance
+39,Female,2.03,0.9,13.43,Afternoon,2024-10-17,Menopause,Normal
+31,Female,3.81,4.37,40.15,Afternoon,2024-06-16,Healthy,Normal
+32,Female,2.25,3.64,34.03,Afternoon,2025-11-12,Healthy,Normal
+32,Male,0.61,0.94,95.43,Evening,2025-10-29,PCOS,Mild Imbalance
+29,Male,6.95,1.99,131.71,Morning,2025-10-06,Healthy,Normal
+55,Male,1.24,3.48,99.87,Afternoon,2024-06-03,Healthy,Normal
+60,Female,2.54,2.88,44.19,Morning,2024-10-12,Adrenal,Mild Imbalance
+43,Male,1.09,3.14,155.28,Evening,2025-01-02,Healthy,Normal
+45,Male,1.92,2.48,118.09,Evening,2025-08-23,Healthy,Normal
+33,Male,2.56,2.34,70.53,Evening,2024-05-31,Stressed,Mild Imbalance
+33,Male,6.56,2.06,84.29,Morning,2024-11-20,Healthy,Normal
+35,Female,11.56,4.23,46.22,Morning,2025-02-04,Stressed,Mild Imbalance
+22,Male,3.73,1.0,55.74,Afternoon,2025-01-16,Low_T,Normal
+31,Female,6.68,3.02,47.76,Morning,2024-03-31,PCOS,Normal
+37,Female,4.61,3.52,24.03,Morning,2025-11-11,Low_T,Normal
+24,Female,4.91,3.56,44.37,Morning,2025-04-14,Healthy,Normal
+49,Female,9.78,3.5,25.74,Morning,2024-09-08,Low_T,Mild Imbalance
+59,Male,4.55,1.96,85.72,Afternoon,2024-04-12,Stressed,Mild Imbalance
+55,Female,1.39,1.53,17.58,Afternoon,2025-06-05,Healthy,Normal
+21,Male,4.93,2.9,104.86,Afternoon,2025-10-21,Stressed,Mild Imbalance
+27,Female,6.12,1.18,36.8,Morning,2024-06-02,Thyroid,Normal
+28,Female,6.28,3.55,24.68,Morning,2025-10-30,Healthy,Normal
+23,Male,0.95,2.57,90.76,Evening,2025-03-20,Healthy,Normal
+43,Male,8.3,1.93,110.73,Morning,2024-03-24,Healthy,Normal
+40,Female,2.07,2.56,37.01,Afternoon,2024-03-11,Healthy,Normal
+46,Male,9.0,1.67,110.47,Morning,2024-03-29,Stressed,Normal
+47,Male,11.36,2.82,113.19,Morning,2025-02-15,Stressed,Mild Imbalance
+31,Male,1.92,2.07,90.93,Evening,2025-05-31,Healthy,Normal
+59,Male,9.54,2.5,69.65,Morning,2024-05-31,Thyroid,Normal
+32,Male,1.69,1.26,89.19,Afternoon,2025-02-22,Healthy,Normal
+29,Male,5.44,3.16,64.96,Morning,2024-12-11,Healthy,Normal
+21,Male,1.27,2.83,70.12,Afternoon,2024-09-29,Healthy,Normal
+44,Female,4.02,4.91,45.68,Afternoon,2025-04-15,Stressed,Mild Imbalance
+57,Female,1.53,0.95,54.31,Evening,2024-02-04,PCOS,Mild Imbalance
+33,Male,7.53,1.28,166.98,Morning,2025-04-11,Healthy,Normal
+43,Female,8.25,3.95,19.97,Morning,2025-10-14,Healthy,Normal
+18,Female,6.03,1.99,46.76,Morning,2024-09-03,Healthy,Normal
+25,Male,6.93,1.25,108.37,Morning,2024-02-27,Stressed,Normal
+30,Male,3.14,2.3,95.85,Evening,2024-12-08,Stressed,Mild Imbalance
+45,Female,2.77,5.51,16.46,Afternoon,2024-12-08,Healthy,Normal
+18,Female,1.73,4.31,32.15,Evening,2024-03-31,Thyroid,Normal
+46,Male,5.77,2.0,95.1,Morning,2025-05-14,Healthy,Normal
+27,Female,5.91,6.17,37.19,Morning,2025-05-31,Healthy,Normal
+56,Male,0.36,3.31,37.12,Evening,2025-02-23,Low_T,Mild Imbalance
+38,Male,3.89,1.99,145.99,Afternoon,2025-04-23,Thyroid,Mild Imbalance
+25,Female,6.82,4.62,33.34,Afternoon,2024-03-26,Stressed,Mild Imbalance
+46,Male,6.22,3.26,112.61,Morning,2024-04-27,Healthy,Normal
+18,Female,7.93,2.18,23.85,Morning,2024-02-26,Menopause,Normal
+41,Female,0.28,4.77,33.39,Evening,2024-02-14,Adrenal,Mild Imbalance
+31,Male,0.32,1.31,170.72,Evening,2024-06-16,Menopause,Normal
+37,Male,1.49,1.97,119.55,Evening,2026-01-21,Healthy,Normal
+27,Male,5.35,2.54,199.61,Morning,2025-12-30,PCOS,Normal
+56,Male,5.65,1.78,82.42,Morning,2024-12-12,Healthy,Normal
+35,Male,1.5,2.59,79.73,Afternoon,2024-05-12,Healthy,Normal
+28,Male,8.46,1.24,109.39,Morning,2025-03-04,Thyroid,Normal
+37,Male,3.58,1.97,84.04,Afternoon,2024-08-23,Healthy,Normal
+41,Female,0.89,3.55,27.77,Evening,2025-07-18,Healthy,Normal
+48,Female,3.2,3.95,33.74,Afternoon,2025-03-17,Healthy,Normal
+37,Male,4.52,2.46,87.47,Morning,2024-06-20,Healthy,Normal
+41,Female,1.37,4.56,46.98,Evening,2025-06-28,Healthy,Normal
+19,Male,1.43,1.97,92.97,Morning,2024-07-12,Adrenal,Mild Imbalance
+22,Female,4.38,2.32,72.68,Morning,2024-04-07,PCOS,Mild Imbalance
+32,Male,9.42,2.83,116.64,Morning,2024-10-03,Healthy,Normal
+51,Male,1.65,3.61,126.75,Evening,2025-05-05,Thyroid,Normal
+34,Male,1.52,2.56,137.52,Afternoon,2024-06-17,Healthy,Normal
+18,Male,1.36,2.44,138.01,Afternoon,2025-02-27,Healthy,Normal
+32,Female,8.28,6.83,25.14,Morning,2024-08-05,Stressed,Normal
+42,Male,3.48,3.08,136.87,Afternoon,2024-05-28,Stressed,Normal
+33,Male,2.35,1.89,130.07,Morning,2024-04-10,Adrenal,Mild Imbalance
+31,Male,12.64,2.54,137.98,Morning,2024-08-15,Stressed,Mild Imbalance
+35,Male,2.21,1.65,126.5,Afternoon,2025-09-12,Healthy,Normal
+38,Male,1.15,0.79,103.75,Afternoon,2025-06-20,PCOS,Mild Imbalance
+35,Male,9.23,1.73,106.94,Morning,2024-10-28,Stressed,Normal
+42,Female,7.96,4.39,23.82,Morning,2025-03-24,Stressed,Normal
+44,Male,5.94,1.85,107.55,Morning,2024-12-06,Healthy,Normal
+32,Female,2.72,1.63,21.35,Afternoon,2025-03-02,Healthy,Normal
+40,Female,7.82,2.31,44.59,Morning,2025-02-04,Healthy,Normal
+35,Female,2.49,1.44,33.29,Afternoon,2024-02-29,Menopause,Normal
+29,Female,8.82,1.97,20.43,Morning,2024-02-06,Stressed,Normal
+43,Female,25.16,5.19,24.88,Morning,2025-08-06,Adrenal,Mild Imbalance
+59,Female,11.04,1.89,17.21,Morning,2024-05-04,Healthy,Mild Imbalance
+22,Female,2.47,2.36,29.63,Morning,2025-02-13,Adrenal,Mild Imbalance
+18,Male,3.97,1.2,101.98,Morning,2024-06-15,Menopause,Mild Imbalance
+40,Male,5.39,1.07,104.77,Morning,2024-12-16,Healthy,Normal
+34,Male,5.43,2.61,115.84,Morning,2025-10-29,Healthy,Normal
+34,Female,1.67,4.91,14.94,Afternoon,2025-05-17,Healthy,Normal
+42,Female,5.99,4.72,38.15,Morning,2025-10-18,Thyroid,Normal
+39,Female,4.2,5.05,13.13,Morning,2024-07-17,Low_T,Normal
+23,Male,1.5,0.62,151.41,Evening,2025-10-10,Menopause,Mild Imbalance
+39,Female,2.15,5.37,23.5,Afternoon,2025-07-29,Healthy,Normal
+43,Male,1.12,3.29,110.98,Afternoon,2025-10-18,Healthy,Normal
+29,Female,7.55,2.42,14.97,Morning,2024-10-08,Menopause,Normal
+26,Male,6.19,1.46,53.63,Morning,2026-01-23,Low_T,Mild Imbalance
+18,Male,4.42,3.13,117.69,Morning,2025-09-23,Healthy,Normal
+31,Female,5.66,3.22,21.71,Morning,2024-08-29,Low_T,Normal
+61,Female,7.35,2.75,26.51,Morning,2025-11-21,Healthy,Normal
+38,Female,4.59,4.17,18.45,Morning,2024-04-03,Healthy,Normal
+49,Female,0.6,3.48,36.12,Evening,2025-04-22,Adrenal,Normal
+41,Male,5.9,2.47,148.15,Morning,2024-11-10,Healthy,Normal
+40,Male,0.63,1.06,97.25,Evening,2024-03-18,Healthy,Normal
+40,Male,1.78,1.96,47.37,Afternoon,2025-05-25,Low_T,Mild Imbalance
+32,Male,0.53,1.5,133.24,Evening,2024-05-29,Healthy,Normal
+18,Male,6.44,3.35,86.55,Morning,2024-10-21,Healthy,Normal
+47,Male,8.23,2.37,109.87,Morning,2024-12-03,PCOS,Normal
+59,Female,10.05,2.18,83.6,Morning,2024-10-18,PCOS,Moderate Imbalance
+34,Female,2.75,1.09,31.27,Afternoon,2024-11-06,Stressed,Normal
+27,Female,7.42,3.26,11.74,Morning,2024-09-16,Low_T,Normal
+23,Male,3.72,2.19,105.22,Morning,2024-04-17,Healthy,Mild Imbalance
+18,Male,0.41,3.13,83.81,Evening,2024-11-10,Healthy,Normal
+44,Male,10.04,1.38,105.54,Morning,2025-09-20,Healthy,Normal
+44,Male,5.87,2.81,98.69,Morning,2024-03-24,Healthy,Normal
+21,Female,5.93,5.13,48.69,Morning,2025-12-08,Healthy,Normal
+18,Male,1.1,1.63,76.86,Evening,2025-12-31,Healthy,Normal
+37,Male,8.53,2.91,35.78,Morning,2024-09-10,Low_T,Mild Imbalance
+30,Male,1.4,1.17,172.57,Evening,2025-08-19,Menopause,Normal
+35,Male,1.09,4.53,88.44,Afternoon,2024-04-14,Thyroid,Mild Imbalance
+25,Female,14.81,2.38,26.06,Morning,2025-05-25,Stressed,Mild Imbalance
+34,Female,7.78,4.38,15.65,Morning,2025-05-30,Stressed,Normal
+33,Female,5.27,8.2,23.15,Afternoon,2025-08-16,Stressed,Mild Imbalance
+25,Male,1.12,1.25,110.22,Afternoon,2024-11-08,Thyroid,Normal
+37,Female,7.95,3.16,45.56,Morning,2025-01-16,Stressed,Normal
+18,Male,6.76,3.4,162.93,Morning,2025-03-14,Stressed,Normal
+34,Female,0.68,2.32,47.95,Evening,2024-02-11,Healthy,Normal
+31,Female,1.22,1.93,12.12,Evening,2024-12-13,Low_T,Normal
+27,Female,0.98,4.73,31.13,Afternoon,2024-11-06,Healthy,Mild Imbalance
+34,Female,4.86,3.01,43.76,Morning,2025-12-10,Healthy,Normal
+37,Male,14.31,3.0,144.38,Morning,2025-09-03,Stressed,Mild Imbalance
+26,Female,7.77,3.29,39.23,Morning,2024-09-20,Healthy,Normal
+48,Male,6.52,1.97,64.2,Afternoon,2024-06-06,Stressed,Mild Imbalance
+27,Male,1.07,3.72,129.49,Evening,2025-09-25,Stressed,Normal
+36,Male,3.99,1.45,136.65,Afternoon,2024-04-16,PCOS,Normal
+18,Male,1.02,2.73,129.74,Afternoon,2025-07-12,Healthy,Normal
+46,Female,4.39,1.37,31.66,Morning,2024-06-02,Healthy,Normal
+25,Female,10.9,1.56,34.94,Morning,2024-07-06,Thyroid,Mild Imbalance
+34,Male,7.49,1.78,86.08,Morning,2025-08-30,Healthy,Normal
+18,Male,5.03,1.19,157.39,Afternoon,2024-11-10,Adrenal,Mild Imbalance
+25,Male,2.29,2.85,79.83,Afternoon,2025-06-25,Low_T,Normal
+36,Male,1.57,3.54,71.52,Evening,2024-12-14,Low_T,Normal
+31,Male,1.41,1.34,92.23,Evening,2025-05-05,Low_T,Normal
+41,Female,1.59,2.8,36.75,Evening,2025-08-14,Healthy,Normal
+44,Male,3.71,0.64,96.6,Afternoon,2024-10-23,Menopause,Mild Imbalance
+25,Female,5.04,4.54,6.01,Morning,2025-10-16,Low_T,Mild Imbalance
+25,Female,9.06,1.96,19.94,Morning,2024-11-25,Healthy,Normal
+27,Female,1.7,1.47,21.47,Evening,2025-08-24,Healthy,Normal
+26,Female,4.56,0.86,15.59,Morning,2025-08-14,Menopause,Mild Imbalance
+44,Female,0.92,1.31,25.31,Evening,2024-12-15,Menopause,Normal
+22,Male,2.75,1.92,134.76,Afternoon,2024-12-31,PCOS,Normal
+25,Female,1.9,3.38,29.3,Evening,2024-06-01,Stressed,Normal
+38,Male,5.75,2.99,53.08,Morning,2024-09-23,Low_T,Normal
+30,Male,2.32,3.59,142.43,Afternoon,2024-03-31,Healthy,Normal
+60,Male,0.54,2.36,113.46,Evening,2025-04-19,Healthy,Normal
+28,Female,0.98,3.25,44.05,Evening,2024-12-14,Healthy,Normal
+40,Female,3.14,3.15,22.56,Afternoon,2024-09-12,Thyroid,Normal
+41,Male,0.77,2.26,65.79,Evening,2024-05-10,Healthy,Normal
+30,Male,9.75,3.16,104.21,Morning,2025-10-19,Healthy,Normal
+43,Female,3.97,4.57,23.02,Morning,2024-09-24,Healthy,Normal
+48,Female,7.31,5.12,31.1,Morning,2025-09-28,Healthy,Normal
+23,Male,1.69,1.6,178.55,Afternoon,2024-11-23,Healthy,Normal
+44,Female,4.03,4.49,18.89,Afternoon,2024-11-24,Thyroid,Mild Imbalance
+18,Female,1.81,3.5,37.76,Evening,2024-06-03,PCOS,Normal
+35,Female,2.46,3.14,38.16,Morning,2025-02-11,Adrenal,Mild Imbalance
+55,Male,10.82,3.31,49.91,Morning,2025-06-23,Healthy,Mild Imbalance
+24,Male,1.86,1.39,98.55,Evening,2024-08-10,Adrenal,Normal
+42,Male,0.69,2.91,108.63,Evening,2025-06-03,Stressed,Normal
+40,Male,7.14,1.53,72.02,Morning,2025-12-23,Healthy,Normal
+46,Female,1.63,5.13,23.29,Evening,2024-10-14,Healthy,Normal
+23,Male,1.55,1.88,113.99,Evening,2024-03-13,Healthy,Normal
+36,Female,6.36,3.76,66.63,Morning,2024-05-29,PCOS,Mild Imbalance
+49,Female,2.9,4.5,21.48,Afternoon,2024-05-19,Healthy,Normal
+24,Male,1.59,1.59,116.06,Afternoon,2025-10-12,Healthy,Normal
+26,Female,6.78,2.86,18.91,Morning,2024-02-23,Healthy,Normal
+33,Female,9.7,4.94,40.13,Morning,2025-06-01,Stressed,Normal
+18,Female,4.91,3.86,31.7,Morning,2025-12-29,Healthy,Normal
+35,Female,6.45,4.8,17.22,Morning,2025-06-22,Healthy,Normal
+44,Female,2.72,4.38,43.88,Afternoon,2025-07-15,Healthy,Normal
+57,Male,13.24,2.83,127.74,Morning,2024-05-14,Stressed,Mild Imbalance
+31,Female,8.8,1.92,40.89,Morning,2026-01-22,Stressed,Normal
+44,Male,1.23,1.05,96.59,Afternoon,2024-08-29,Menopause,Normal
+34,Male,3.69,2.88,103.93,Afternoon,2024-05-30,Healthy,Normal
+52,Female,7.97,4.99,45.61,Morning,2026-01-03,Healthy,Normal
+18,Male,24.65,1.3,135.01,Morning,2025-04-24,Adrenal,Mild Imbalance
+28,Male,17.69,3.14,126.3,Morning,2025-10-26,Stressed,Mild Imbalance
+36,Female,8.25,2.79,22.58,Morning,2025-11-09,Healthy,Normal
+54,Male,5.28,1.82,76.67,Afternoon,2024-10-30,Stressed,Mild Imbalance
+29,Male,10.62,2.02,120.61,Morning,2024-11-16,Stressed,Mild Imbalance
+23,Female,8.83,7.53,41.51,Morning,2024-09-11,Healthy,Normal
+24,Female,10.75,4.21,40.73,Morning,2024-03-08,Stressed,Mild Imbalance
+22,Female,3.05,4.78,42.7,Afternoon,2025-01-19,Stressed,Normal
+31,Female,5.06,2.35,19.56,Morning,2025-12-23,Menopause,Normal
+45,Female,0.44,1.96,92.24,Evening,2024-11-16,PCOS,Mild Imbalance
+50,Male,2.39,2.34,80.56,Afternoon,2025-09-25,Healthy,Normal
+32,Male,3.39,1.34,131.96,Afternoon,2024-11-27,Healthy,Normal
+40,Female,7.37,3.43,6.62,Morning,2025-04-01,Low_T,Mild Imbalance
+18,Female,5.18,3.39,46.08,Morning,2025-05-29,Healthy,Normal
+38,Female,1.76,3.1,29.59,Evening,2025-03-07,Healthy,Normal
+18,Male,7.93,0.96,81.04,Morning,2024-07-14,PCOS,Mild Imbalance
+32,Male,2.09,1.18,148.2,Evening,2024-03-17,Menopause,Normal
+42,Female,3.46,4.26,33.38,Afternoon,2024-09-27,Healthy,Normal
+32,Female,9.14,4.27,18.6,Morning,2024-06-22,Stressed,Normal
+38,Male,1.61,0.41,163.22,Afternoon,2024-11-10,Menopause,Mild Imbalance
+31,Female,4.61,1.59,34.83,Afternoon,2026-01-29,Stressed,Mild Imbalance
+54,Female,2.04,3.57,17.19,Evening,2025-12-22,Low_T,Normal
+40,Female,2.18,1.47,14.19,Afternoon,2024-03-29,Low_T,Normal
+25,Female,4.06,1.33,41.75,Morning,2024-02-02,Healthy,Normal
+25,Male,5.25,1.54,35.42,Morning,2025-08-27,Low_T,Mild Imbalance
+60,Female,7.93,3.06,15.19,Morning,2024-10-03,Healthy,Normal
+32,Female,1.09,4.29,17.91,Evening,2024-07-05,Healthy,Normal
+31,Female,16.89,6.95,17.76,Morning,2024-09-04,Adrenal,Mild Imbalance
+20,Male,0.3,2.32,85.9,Evening,2025-06-02,Healthy,Mild Imbalance
+23,Male,1.0,1.14,147.32,Afternoon,2024-06-05,Healthy,Normal
+37,Male,1.45,3.21,75.14,Afternoon,2024-10-28,Healthy,Normal
+48,Male,3.91,1.39,133.07,Morning,2024-10-26,Healthy,Normal
+49,Male,10.0,0.98,123.97,Morning,2025-11-21,PCOS,Mild Imbalance
+36,Female,9.19,4.72,44.78,Morning,2024-02-10,Healthy,Normal
+31,Female,2.4,2.95,43.06,Afternoon,2025-08-27,Stressed,Normal
+54,Female,8.66,4.41,18.12,Morning,2024-04-13,Thyroid,Normal
+33,Male,1.71,1.89,81.18,Afternoon,2024-05-01,Healthy,Normal
+28,Female,7.59,1.01,28.06,Morning,2025-12-21,Menopause,Normal
+56,Male,1.17,2.25,107.86,Evening,2024-06-20,PCOS,Normal
+32,Female,4.38,4.59,23.89,Morning,2025-07-09,Healthy,Normal
+49,Female,9.46,3.6,21.86,Morning,2025-08-04,Stressed,Normal
+18,Male,4.99,1.2,71.59,Afternoon,2024-08-27,Stressed,Mild Imbalance
+37,Male,2.21,2.34,90.01,Evening,2025-01-06,Stressed,Mild Imbalance
+25,Male,8.88,1.06,140.52,Morning,2024-07-13,PCOS,Normal
+21,Male,10.21,2.87,141.18,Morning,2024-09-07,Stressed,Mild Imbalance
+18,Male,1.57,2.35,84.91,Evening,2024-07-29,Healthy,Normal
+38,Female,1.05,5.36,30.16,Evening,2025-08-08,Healthy,Normal
+55,Female,3.88,2.39,27.71,Afternoon,2024-10-28,Healthy,Mild Imbalance
+34,Female,10.85,8.56,23.58,Morning,2025-11-09,Thyroid,Mild Imbalance
+41,Female,4.57,4.85,18.52,Morning,2024-11-15,Healthy,Normal
+42,Female,15.32,1.17,34.02,Morning,2024-12-05,Stressed,Mild Imbalance
+24,Male,1.17,3.55,178.21,Afternoon,2024-07-28,Healthy,Normal
+59,Male,2.15,2.19,109.71,Afternoon,2025-12-08,Healthy,Normal
+32,Female,9.45,4.23,82.12,Morning,2025-12-20,PCOS,Mild Imbalance
+23,Male,7.37,2.03,169.46,Morning,2024-11-10,Healthy,Normal
+34,Male,7.01,1.05,138.47,Morning,2025-12-09,Healthy,Normal
+38,Female,3.96,1.82,36.03,Afternoon,2024-10-04,Healthy,Normal
+35,Male,8.69,0.98,75.59,Morning,2024-03-27,Healthy,Normal
+37,Male,6.56,3.37,116.08,Morning,2025-10-27,Healthy,Normal
+43,Male,8.42,1.65,113.08,Morning,2025-09-19,Healthy,Normal
+38,Female,1.08,5.99,30.4,Evening,2024-02-08,Stressed,Normal

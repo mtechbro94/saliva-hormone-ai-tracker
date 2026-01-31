@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Hormone Sample - HormoneTracker AI{% endblock %}
+
+{% block content %}
+<div class="add-data-page">
+    <div class="page-header">
+        <a href="{{ url_for('dashboard') }}" class="back-link">← Back to Dashboard</a>
+        <h1>➕ Add Hormone Sample</h1>
+        <p class="page-subtitle">Enter your saliva-based hormone values for AI-powered analysis</p>
+    </div>
+
+    <div class="form-card">
+        <form method="POST" action="{{ url_for('add_data') }}">
+            <!-- Patient Context -->
+            <div class="form-section context-section">
+                <h3>👤 Your Profile</h3>
+                <div class="profile-info">
+                    <span class="profile-badge">{{ user.name }}</span>
+                    <span class="profile-badge">{{ user.age }} years</span>
+                    <span class="profile-badge">{{ user.gender }}</span>
+                </div>
+                <p class="section-note">Your age and gender are used for accurate hormone analysis</p>
+            </div>
+
+            <!-- Sample Timing -->
+            <div class="form-section">
+                <h3>📅 Sample Details</h3>
+                <div class="form-row form-row-3">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" value="{{ today }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" value="{{ current_time }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time_of_day">Time of Day</label>
+                        <select id="time_of_day" name="time_of_day" required>
+                            <option value="Morning" {% if default_time_of_day=='Morning' %}selected{% endif %}>🌅
+                                Morning (6 AM - 12 PM)</option>
+                            <option value="Afternoon" {% if default_time_of_day=='Afternoon' %}selected{% endif %}>☀️
+                                Afternoon (12 PM - 5 PM)</option>
+                            <option value="Evening" {% if default_time_of_day=='Evening' %}selected{% endif %}>🌙
+                                Evening (5 PM onwards)</option>
+                        </select>
+                        <span class="input-hint">Cortisol levels vary throughout the day</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hormone Values -->
+            <div class="form-section">
+                <h3>🧪 Hormone Measurements</h3>
+                <p class="section-info">Enter saliva hormone concentrations from your lab results</p>
+
+                <div class="hormone-inputs">
+                    <!-- Cortisol -->
+                    <div class="hormone-input-card cortisol-card">
+                        <div class="hormone-header">
+                            <div class="hormone-icon">🧠</div>
+                            <h4>Cortisol</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="cortisol">Value (ng/mL)</label>
+                            <input type="number" id="cortisol" name="cortisol" step="0.01" min="0" max="50"
+                                placeholder="e.g., 5.5" required>
+                            <span class="input-hint">Normal: Morning 3-10 | Afternoon 0.5-4 | Evening 0.3-2</span>
+                        </div>
+                        <p class="hormone-info">Primary stress hormone. Follows a diurnal rhythm - highest in morning,
+                            lowest at night.</p>
+                    </div>
+
+                    <!-- Estrogen -->
+                    <div class="hormone-input-card estrogen-card">
+                        <div class="hormone-header">
+                            <div class="hormone-icon">💜</div>
+                            <h4>Estrogen</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="estrogen">Value (pg/mL)</label>
+                            <input type="number" id="estrogen" name="estrogen" step="0.01" min="0" max="20"
+                                placeholder="e.g., 3.5" required>
+                            <span class="input-hint">Normal: {% if user.gender == 'Male' %}Male 1-3.5{% else %}Female
+                                1-8 (varies by cycle){% endif %}</span>
+                        </div>
+                        <p class="hormone-info">Affects mood, bone density, and reproductive health. Levels vary by
+                            gender and menstrual phase.</p>
+                    </div>
+
+                    <!-- Testosterone -->
+                    <div class="hormone-input-card testosterone-card">
+                        <div class="hormone-header">
+                            <div class="hormone-icon">💪</div>
+                            <h4>Testosterone</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="testosterone">Value (pg/mL)</label>
+                            <input type="number" id="testosterone" name="testosterone" step="0.01" min="0" max="300"
+                                placeholder="e.g., 100" required>
+                            <span class="input-hint">Normal: {% if user.gender == 'Male' %}Male 50-200{% else %}Female
+                                10-55{% endif %}</span>
+                        </div>
+                        <p class="hormone-info">Affects energy levels, muscle mass, mood, and libido in all genders.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Analysis Preview -->
+            <div class="form-section ai-section">
+                <h3>🤖 AI Analysis</h3>
+                <p>Our machine learning model analyzes your hormones considering:</p>
+                <ul class="ai-features">
+                    <li>✅ Your age and gender for personalized ranges</li>
+                    <li>✅ Time of day for accurate cortisol evaluation</li>
+                    <li>📊 Pattern recognition from 2,000+ training samples</li>
+                    <li>💡 Health insights and personalized recommendations</li>
+                </ul>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-large btn-full">
+                    🔬 Analyze & Save
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Reference Card -->
+    <div class="reference-card" style="margin-top: 2rem;">
+        <h3>📚 Saliva Hormone Reference Ranges</h3>
+        <div class="reference-tabs">
+            <div class="reference-tab">
+                <h4>🧠 Cortisol (ng/mL)</h4>
+                <table class="reference-table">
+                    <tr>
+                        <td>Morning (6-8 AM)</td>
+                        <td>3.0 - 10.0</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon (12-4 PM)</td>
+                        <td>0.5 - 4.0</td>
+                    </tr>
+                    <tr>
+                        <td>Evening (6-10 PM)</td>
+                        <td>0.3 - 2.0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="reference-tab">
+                <h4>💜 Estrogen (pg/mL)</h4>
+                <table class="reference-table">
+                    <tr>
+                        <td>Male</td>
+                        <td>1.0 - 3.5</td>
+                    </tr>
+                    <tr>
+                        <td>Female (Follicular)</td>
+                        <td>1.0 - 5.0</td>
+                    </tr>
+                    <tr>
+                        <td>Female (Ovulation)</td>
+                        <td>3.0 - 8.0</td>
+                    </tr>
+                    <tr>
+                        <td>Female (Luteal)</td>
+                        <td>2.0 - 6.0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="reference-tab">
+                <h4>💪 Testosterone (pg/mL)</h4>
+                <table class="reference-table">
+                    <tr>
+                        <td>Male (20-40 yrs)</td>
+                        <td>60 - 180</td>
+                    </tr>
+                    <tr>
+                        <td>Male (40+ yrs)</td>
+                        <td>50 - 150</td>
+                    </tr>
+                    <tr>
+                        <td>Female</td>
+                        <td>10 - 55</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <p class="reference-note"><em>Note: These are saliva hormone reference ranges. Blood serum ranges differ
+                significantly.</em></p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saliva-Based Hormonal Tracking System - AI-powered hormone analysis for personalized health insights">
+    <title>Home - Saliva Hormone Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Hero Section with Background Image */
+        .hero-section {
+            position: relative;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #06b6d4 100%);
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('{{ url_for("static", filename="images/home.jpg") }}');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.75;
+            z-index: 1;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(30, 58, 138, 0.5) 0%, rgba(59, 130, 246, 0.4) 100%);
+            z-index: 2;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            color: white;
+            max-width: 900px;
+            padding: 2rem;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2rem, 5vw, 4.5rem);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-content p {
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+            line-height: 1.6;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-hero {
+            padding: 0.875rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 0.75rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-hero-primary {
+            background: white;
+            color: #1e3a8a;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-hero-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-hero-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-hero-secondary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Project Overview Section */
+        .overview-section {
+            padding: 4rem 2rem;
+            background: white;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-header p {
+            font-size: 1.125rem;
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .overview-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .overview-image {
+            position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            min-height: 400px;
+        }
+
+        .overview-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overview-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .overview-content p {
+            font-size: 1rem;
+            color: #475569;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .overview-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .feature-item {
+            padding: 1.5rem;
+            background: #f8fafc;
+            border-radius: 0.75rem;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .feature-item strong {
+            display: block;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-item span {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .overview-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .overview-image {
+                min-height: 300px;
+                order: -1;
+            }
+
+            .overview-features {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .btn-hero {
+                width: 100%;
+            }
+        }
+
+        /* AI/ML Analysis Section */
+        .ai-analysis-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+        }
+
+        .ai-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .ai-content {
+            order: 2;
+        }
+
+        .ai-image {
+            position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            min-height: 400px;
+        }
+
+        .ai-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ai-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .capability-list {
+            display: grid;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .capability-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .capability-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            margin-top: 0.25rem;
+        }
+
+        .capability-text {
+            flex: 1;
+        }
+
+        .capability-text strong {
+            display: block;
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+
+        .capability-text p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .ai-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .ai-content {
+                order: 2;
+            }
+
+            .ai-image {
+                order: 1;
+                min-height: 300px;
+            }
+        }
+
+        /* Monitoring Section */
+        .monitoring-section {
+            padding: 4rem 2rem;
+            background: white;
+        }
+
+        .monitoring-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .monitoring-image {
+            position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            min-height: 400px;
+        }
+
+        .monitoring-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .monitoring-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .monitoring-features {
+            display: grid;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .monitoring-feature {
+            padding: 1.25rem;
+            background: #f8fafc;
+            border-radius: 0.75rem;
+            border-left: 4px solid #22c55e;
+        }
+
+        .monitoring-feature strong {
+            color: #1e293b;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .monitoring-feature p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        /* Healthcare Section */
+        .healthcare-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #fef9c3 0%, #dcfce7 100%);
+        }
+
+        .healthcare-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .healthcare-image {
+            position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            min-height: 400px;
+        }
+
+        .healthcare-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .healthcare-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .healthcare-content p {
+            color: #475569;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .trust-points {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .trust-point {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .trust-point-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .trust-point-text {
+            flex: 1;
+        }
+
+        .trust-point-text strong {
+            display: block;
+            color: #1e293b;
+            margin-bottom: 0.25rem;
+        }
+
+        /* Future Scope Section */
+        .future-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #e0f2fe 0%, #fce7f3 100%);
+        }
+
+        .future-content {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .future-content h3 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .future-image {
+            position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            max-height: 400px;
+            margin-bottom: 3rem;
+        }
+
+        .future-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .future-enhancements {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .enhancement-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .enhancement-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .enhancement-card h4 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 0.75rem;
+        }
+
+        .enhancement-card p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            text-align: center;
+            color: white;
+        }
+
+        .cta-content h3 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .cta-content p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        .site-footer {
+            padding: 3rem 2rem;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        .site-footer p {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .site-footer a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        .site-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section with Background Image -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>🧬 Saliva-Based Hormonal Tracking System</h1>
+            <p>AI-powered hormone analysis for personalized health insights. Track cortisol, estrogen, and testosterone with precision.</p>
+            <div class="hero-buttons">
+                <a href="{{ url_for('login') }}" class="btn-hero btn-hero-primary">Sign In</a>
+                <a href="{{ url_for('register') }}" class="btn-hero btn-hero-secondary">Create Account</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview Section -->
+    <section class="overview-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>📋 What This System Does</h2>
+                <p>Comprehensive hormone tracking and analysis powered by machine learning</p>
+            </div>
+            <div class="overview-grid">
+                <div class="overview-image">
+                    <img src="{{ url_for('static', filename='images/img1.jpg') }}" alt="Project Overview - Hormonal Tracking System">
+                </div>
+                <div class="overview-content">
+                    <h3>Project Overview</h3>
+                    <p>Our system provides a comprehensive platform for tracking and analyzing hormonal health. By combining saliva-based testing with advanced AI/ML algorithms, we deliver actionable insights tailored to your unique biochemistry.</p>
+                    <div class="overview-features">
+                        <div class="feature-item">
+                            <strong>🔬 Precise Testing</strong>
+                            <span>Non-invasive saliva sampling</span>
+                        </div>
+                        <div class="feature-item">
+                            <strong>🤖 AI Analysis</strong>
+                            <span>92%+ prediction accuracy</span>
+                        </div>
+                        <div class="feature-item">
+                            <strong>📊 Visual Insights</strong>
+                            <span>Interactive dashboards</span>
+                        </div>
+                        <div class="feature-item">
+                            <strong>💡 Recommendations</strong>
+                            <span>Personalized guidance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI/ML Analysis Section -->
+    <section class="ai-analysis-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>🤖 How AI Works</h2>
+                <p>Advanced machine learning algorithms for hormone classification</p>
+            </div>
+            <div class="ai-grid">
+                <div class="ai-content">
+                    <h3>AI-Powered Analysis</h3>
+                    <p>Our machine learning models analyze your hormone levels against demographic and historical data to provide accurate classifications and health recommendations.</p>
+                    <div class="capability-list">
+                        <div class="capability-item">
+                            <div class="capability-icon">🔍</div>
+                            <div class="capability-text">
+                                <strong>Pattern Recognition</strong>
+                                <p>Identifies hormonal patterns and anomalies in your data</p>
+                            </div>
+                        </div>
+                        <div class="capability-item">
+                            <div class="capability-icon">📈</div>
+                            <div class="capability-text">
+                                <strong>Trend Analysis</strong>
+                                <p>Tracks changes over time for better health insights</p>
+                            </div>
+                        </div>
+                        <div class="capability-item">
+                            <div class="capability-icon">🎯</div>
+                            <div class="capability-text">
+                                <strong>Personalized Classification</strong>
+                                <p>Context-aware predictions based on your profile</p>
+                            </div>
+                        </div>
+                        <div class="capability-item">
+                            <div class="capability-icon">💬</div>
+                            <div class="capability-text">
+                                <strong>Smart Recommendations</strong>
+                                <p>Actionable suggestions for optimal health</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-image">
+                    <img src="{{ url_for('static', filename='images/analysis.jpg') }}" alt="AI/ML Analysis - Machine Learning Technology">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hormone Monitoring Section -->
+    <section class="monitoring-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>📊 Patient Monitoring & Tracking</h2>
+                <p>Real-time hormone level monitoring with interactive charts</p>
+            </div>
+            <div class="monitoring-grid">
+                <div class="monitoring-image">
+                    <img src="{{ url_for('static', filename='images/monitoring.jpg') }}" alt="Hormone Monitoring - Patient Tracking">
+                </div>
+                <div class="monitoring-content">
+                    <h3>Continuous Monitoring</h3>
+                    <p>Track your hormone levels in real-time with our intuitive dashboard. Record samples, view historical trends, and receive insights on your hormonal health.</p>
+                    <div class="monitoring-features">
+                        <div class="monitoring-feature">
+                            <strong>📅 Sample Recording</strong>
+                            <p>Easy-to-use interface for logging hormone samples with timestamps</p>
+                        </div>
+                        <div class="monitoring-feature">
+                            <strong>📈 Interactive Charts</strong>
+                            <p>Visualize your hormone trends over days, weeks, and months</p>
+                        </div>
+                        <div class="monitoring-feature">
+                            <strong>📋 Complete Records</strong>
+                            <p>Access detailed history with predictions and confidence scores</p>
+                        </div>
+                        <div class="monitoring-feature">
+                            <strong>🔔 Health Alerts</strong>
+                            <p>Get notified of significant hormonal imbalances</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Healthcare & Trust Section -->
+    <section class="healthcare-section">
+        <div class="section-container">
+            <div class="healthcare-grid">
+                <div class="healthcare-image">
+                    <img src="{{ url_for('static', filename='images/health.jpg') }}" alt="Healthcare - Medical Context and Trust">
+                </div>
+                <div class="healthcare-content">
+                    <h3>Healthcare Relevance</h3>
+                    <p>Hormonal health is fundamental to overall wellness. Our system addresses the critical need for accessible, affordable hormone monitoring that empowers individuals to take control of their health.</p>
+                    <div class="trust-points">
+                        <div class="trust-point">
+                            <div class="trust-point-icon">✅</div>
+                            <div class="trust-point-text">
+                                <strong>Evidence-Based</strong>
+                                Grounded in endocrinology research
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-point-icon">🔒</div>
+                            <div class="trust-point-text">
+                                <strong>Privacy First</strong>
+                                Your data is secure and confidential
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-point-icon">👨‍⚕️</div>
+                            <div class="trust-point-text">
+                                <strong>Professional Grade</strong>
+                                Built with healthcare standards in mind
+                            </div>
+                        </div>
+                        <div class="trust-point">
+                            <div class="trust-point-icon">📚</div>
+                            <div class="trust-point-text">
+                                <strong>Educational</strong>
+                                Learn about your hormonal health
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Scope Section -->
+    <section class="future-section">
+        <div class="section-container">
+            <div class="future-content">
+                <h2>🚀 Future Enhancements</h2>
+                <p>Roadmap for next-generation hormone tracking capabilities</p>
+                <div class="future-image">
+                    <img src="{{ url_for('static', filename='images/futurescope.jpg') }}" alt="Future Scope - Next Generation Healthcare Technology">
+                </div>
+            </div>
+            <div class="future-enhancements">
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">📱</div>
+                    <h4>Mobile App</h4>
+                    <p>Native iOS and Android applications for on-the-go tracking</p>
+                </div>
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">⌚</div>
+                    <h4>Wearable Integration</h4>
+                    <p>Connect with smartwatches for continuous health monitoring</p>
+                </div>
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">🤝</div>
+                    <h4>Provider Collaboration</h4>
+                    <p>Share insights with healthcare providers securely</p>
+                </div>
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">🌍</div>
+                    <h4>Global Scale</h4>
+                    <p>Multi-language support and international deployment</p>
+                </div>
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">🧠</div>
+                    <h4>Advanced AI</h4>
+                    <p>Deep learning models for predictive analytics</p>
+                </div>
+                <div class="enhancement-card">
+                    <div class="enhancement-icon">🏥</div>
+                    <h4>Clinical Validation</h4>
+                    <p>FDA approval and clinical trial data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <div class="section-container">
+            <div class="cta-content">
+                <h3>Ready to Take Control of Your Health?</h3>
+                <p>Start tracking your hormones with AI-powered insights today</p>
+                <div class="hero-buttons">
+                    <a href="{{ url_for('register') }}" class="btn-hero btn-hero-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>🧬 Empowering Hormonal Health Through AI-Driven Insights | Next-Gen Medical Technology</p>
+        <p>Advanced ML Analysis • Evidence-Based Recommendations • Privacy-First Design • <a href="{{ url_for('login') }}">Access Your Dashboard</a></p>
+        <p style="font-size: 0.85rem; margin-top: 1rem; opacity: 0.8;">For educational and research purposes. Consult healthcare providers for medical decisions.</p>
+    </footer>
+</body>
+
+</html>
