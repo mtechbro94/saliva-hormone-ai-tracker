@@ -45,6 +45,24 @@ jobs:
         path: dist/
         retention-days: 30
     
+    - name: Deploy to Render (Free Tier)
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        if [ ! -z "${{ secrets.RENDER_DEPLOY_HOOK }}" ]; then
+          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+          echo "✓ Deployment triggered on Render"
+        else
+          echo "⚠ RENDER_DEPLOY_HOOK not set. Set it in GitHub Secrets."
+        fi
+      continue-on-error: true
+    
+    - name: Deploy to Railway (Alternative Free Option)
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        echo "✓ Railway auto-deploys from GitHub. No additional setup needed."
+        echo "  Visit: https://railway.app and connect your GitHub repository"
+      continue-on-error: true
+
     - name: Create Release
       if: startsWith(github.ref, 'refs/tags/')
       uses: actions/create-release@v1
@@ -59,16 +77,29 @@ jobs:
           - Build: ${{ github.sha }}
           - Branch: ${{ github.ref_name }}
           
-          ### Changes
+          ### Deployment Info
           - Healthcare app v${{ github.ref_name }}
           - All tests passed
           - Security checks completed
+          - Docker image ready
         draft: false
         prerelease: false
     
-    - name: Deployment Notification
+    - name: Deployment Summary
       run: |
-        echo "📦 Deployment Package Ready"
+        echo "════════════════════════════════════════"
+        echo "  DEPLOYMENT PIPELINE COMPLETED"
+        echo "════════════════════════════════════════"
+        echo "✓ Code tested and built successfully"
+        echo "✓ Docker image ready"
+        echo "✓ Ready for free hosting deployment"
+        echo ""
+        echo "📋 Supported Free Hosting Platforms:"
+        echo "  1. Render.com - Auto-deploy via webhook"
+        echo "  2. Railway.app - Auto-deploy from GitHub"
+        echo "  3. Google Cloud Run - Docker deployment"
+        echo "  4. Fly.io - Container deployment"
+        echo ""
         echo "SHA: ${{ github.sha }}"
-        echo "Ref: ${{ github.ref }}"
-        echo "Build completed and ready for deployment"
+        echo "════════════════════════════════════════"
+
